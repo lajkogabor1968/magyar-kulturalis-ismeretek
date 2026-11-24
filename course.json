@@ -1,0 +1,941 @@
+{
+ "version": 1,
+ "reviewed": "2026-11-24",
+ "chapters": [
+  {
+   "id": 1,
+   "slug": "jelkepek",
+   "hu": "Jelképek és ünnepek",
+   "ru": "Символы и праздники",
+   "pages": "2–10",
+   "units": [
+    {
+     "hu": "A zászló és a címer",
+     "ru": "Флаг и герб",
+     "page": 3,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A zászlón három szín van. Felül piros, középen fehér, alul zöld.",
+       "ru": "На флаге три цвета. Сверху красный, посередине белый, снизу зелёный."
+      },
+      {
+       "level": "A2",
+       "hu": "A piros az erőt, a fehér a hűséget, a zöld a reményt jelképezi. A zászló másik neve lobogó.",
+       "ru": "Красный означает силу, белый — верность, зелёный — надежду. Другое венгерское название флага — lobogó."
+      },
+      {
+       "level": "A2",
+       "hu": "A címer tetején a Szent Korona van. Ha a képet nézed, balra vörös és ezüst sávokat látsz. Jobbra zöld hármas halom, aranykorona és ezüst kettős kereszt van.",
+       "ru": "Наверху герба — Святая корона. Слева от зрителя — красные и серебряные полосы. Справа — три зелёных холма, золотая корона и серебряный двойной крест."
+      }
+     ]
+    },
+    {
+     "hu": "A király jelvényei",
+     "ru": "Королевские регалии",
+     "page": 6,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A Szent Koronát Budapesten, az Országházban őrzik.",
+       "ru": "Святую корону хранят в Будапеште, в здании парламента."
+      },
+      {
+       "level": "A2",
+       "hu": "A koronázási jelvények közé tartozik a korona, a jogar, az országalma, a kard és a palást. Régi koronázóváros például Székesfehérvár, Esztergom, Buda, Sopron és Pozsony. Pozsony ma Bratislava, Szlovákia fővárosa.",
+       "ru": "К коронационным регалиям относятся корона, скипетр, держава, меч и мантия. Среди городов коронации — Секешфехервар, Эстергом, Буда, Шопрон и Пожонь. Пожонь — нынешняя Братислава, столица Словакии."
+      }
+     ]
+    },
+    {
+     "hu": "Himnusz és Szózat",
+     "ru": "Два торжественных произведения",
+     "page": 8,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A Himnusz szövegét Kölcsey Ferenc írta 1823-ban. A zenét Erkel Ferenc szerezte.",
+       "ru": "Текст гимна Венгрии написал Ференц Кёльчеи в 1823 году. Музыку сочинил Ференц Эркель."
+      },
+      {
+       "level": "A2",
+       "hu": "A Szózat egy másik híres vers. Vörösmarty Mihály írta 1836-ban. Egressy Béni zenésítette meg. Ünnepeken gyakran mindkét művet éneklik.",
+       "ru": "«Воззвание» — другое известное стихотворение. Его написал Михай Вёрёшмарти в 1836 году, а музыку сочинил Бени Эгрешши. В праздники часто исполняют оба произведения."
+      }
+     ]
+    },
+    {
+     "hu": "Három nemzeti ünnep",
+     "ru": "Три национальных праздника",
+     "page": 10,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Március 15-én az 1848-as forradalomra emlékezünk. Augusztus 20-án Szent Istvánt és az államalapítást ünnepeljük. Október 23-án az 1956-os forradalomra emlékezünk.",
+       "ru": "15 марта вспоминают революцию 1848 года. 20 августа отмечают день Святого Иштвана и основание государства. 23 октября вспоминают революцию 1956 года."
+      },
+      {
+       "level": "A2",
+       "hu": "Nemzeti ünnepeken az Országház előtt ünnepélyesen felvonják a magyar zászlót. Március 15-én sokan piros-fehér-zöld kokárdát viselnek.",
+       "ru": "В национальные праздники перед парламентом торжественно поднимают флаг. 15 марта многие носят красно-бело-зелёную кокарду."
+      }
+     ]
+    },
+    {
+     "hu": "Így kezdődik a két vers",
+     "ru": "Как начинаются два стихотворения",
+     "page": 8,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A Himnusz első sora: „Isten, áldd meg a magyart”.",
+       "ru": "Первая строка гимна означает: «Боже, благослови венгра». Слово áldd — просьба благословить."
+      },
+      {
+       "level": "A2",
+       "hu": "A Szózat kezdete: „Hazádnak rendületlenül légy híve, ó magyar”. A hazád azt jelenti: a te hazád. A rendületlenül jelentése: kitartóan, hűségesen.",
+       "ru": "Смысл начала «Воззвания»: «Будь непоколебимо верен своей родине, венгр». Hazád — «твоя родина», rendületlenül — «непоколебимо»."
+      }
+     ]
+    }
+   ],
+   "words": [
+    [
+     "zászló",
+     "флаг"
+    ],
+    [
+     "címer",
+     "герб"
+    ],
+    [
+     "korona",
+     "корона"
+    ],
+    [
+     "ünnep",
+     "праздник"
+    ],
+    [
+     "erő",
+     "сила"
+    ],
+    [
+     "hűség",
+     "верность"
+    ],
+    [
+     "remény",
+     "надежда"
+    ],
+    [
+     "felülről lefelé",
+     "сверху вниз"
+    ],
+    [
+     "zenét szerez",
+     "сочинять музыку"
+    ],
+    [
+     "jogar",
+     "скипетр"
+    ],
+    [
+     "országalma",
+     "держава (регалия)"
+    ],
+    [
+     "palást",
+     "мантия"
+    ],
+    [
+     "államalapítás",
+     "основание государства"
+    ],
+    [
+     "jelkép",
+     "символ"
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "slug": "tortenelem",
+   "hu": "Magyar történelem",
+   "ru": "История Венгрии",
+   "pages": "11–28",
+   "units": [
+    {
+     "hu": "Árpád és István",
+     "ru": "Арпад и Иштван",
+     "page": 12,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "895–896-ban a magyar törzsek megérkeztek a Kárpát-medencébe. Vezetőjük Árpád volt. Ezt az eseményt honfoglalásnak nevezzük.",
+       "ru": "В 895–896 годах венгерские племена пришли в Карпатский бассейн. Их предводителем был Арпад. Это событие называют обретением родины."
+      },
+      {
+       "level": "A2",
+       "hu": "Szent István volt az első keresztény magyar király. A vizsgaanyag a koronázás napjaként 1001. január 1-jét adja meg. István vármegyéket szervezett és tíz egyházmegyét alapított. Az ország a nyugati kereszténységhez csatlakozott.",
+       "ru": "Святой Иштван был первым христианским королём Венгрии. В экзаменационном пособии датой коронации указано 1 января 1001 года. Он организовал комитаты и основал десять епархий. Страна приняла западное христианство."
+      }
+     ]
+    },
+    {
+     "hu": "Királyok és csaták",
+     "ru": "Короли и сражения",
+     "page": 13,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "István után Szent László és Könyves Kálmán is fontos király volt. II. András 1222-ben kiadta az Aranybullát.",
+       "ru": "После Иштвана важными правителями были Святой Ласло и Кальман Книжник. В 1222 году Андраш II издал Золотую буллу."
+      },
+      {
+       "level": "A2",
+       "hu": "1241–1242-ben a tatárjárás sok falut elpusztított. IV. Béla újjáépítette az országot. Az Árpád-ház férfiága 1301-ben kihalt. Hunyadi János 1456-ban Nándorfehérvárnál győzött. Fia, Mátyás király idején virágzott a reneszánsz.",
+       "ru": "В 1241–1242 годах монгольское нашествие разорило многие селения. Бела IV восстанавливал страну. В 1301 году пресеклась мужская линия Арпадов. В 1456 году Янош Хуньяди одержал победу у Белграда. При его сыне, короле Матьяше, расцвела культура Возрождения."
+      }
+     ]
+    },
+    {
+     "hu": "Buda és a reformkor",
+     "ru": "Буда и эпоха реформ",
+     "page": 15,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "1526-ban a magyar sereg vereséget szenvedett Mohácsnál. 1541-ben a törökök elfoglalták Budát. 1686-ban Buda felszabadult a török uralom alól.",
+       "ru": "В 1526 году венгерская армия потерпела поражение при Мохаче. В 1541 году османы заняли Буду. В 1686 году Буду освободили от османского владычества."
+      },
+      {
+       "level": "A2",
+       "hu": "1552-ben Eger védői megvédték a várat. Később a Habsburgok uralkodtak. II. Rákóczi Ferenc 1703 és 1711 között szabadságharcot vezetett. A reformkorban (1825–1848) Széchenyi István támogatta az Akadémiát és a Lánchíd építését.",
+       "ru": "В 1552 году защитники Эгера отстояли крепость. Позже правили Габсбурги. В 1703–1711 годах Ференц II Ракоци возглавлял освободительную борьбу. В эпоху реформ (1825–1848) Иштван Сечени поддержал создание Академии и строительство Цепного моста."
+      }
+     ]
+    },
+    {
+     "hu": "1848, 1849 és a kiegyezés",
+     "ru": "Революция и соглашение с Австрией",
+     "page": 18,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "1848. március 15-én Pesten kitört a forradalom. A márciusi ifjak 12 pontban írták le, mit akarnak. Petőfi Sándor is velük volt. Az első felelős magyar kormányt Batthyány Lajos vezette.",
+       "ru": "15 марта 1848 года в Пеште началась революция. Участники мартовского движения изложили свои требования в 12 пунктах. Среди них был Шандор Петёфи. Первое венгерское правительство, ответственное перед парламентом, возглавил Лайош Баттьяни."
+      },
+      {
+       "level": "A2",
+       "hu": "1849. augusztus 13-án Görgei Artúr Világosnál letette a fegyvert. Október 6-án Aradon tizenhárom honvédtisztet, Pesten Batthyányt végezték ki. Deák Ferenc fontos szerepet játszott az 1867-es kiegyezésben. Létrejött az Osztrák–Magyar Monarchia.",
+       "ru": "13 августа 1849 года Артур Гёргеи сложил оружие у Вилагоша. 6 октября в Араде казнили тринадцать офицеров, в Пеште — Баттьяни. Ференц Деак сыграл важную роль в соглашении 1867 года. Возникла Австро-Венгрия."
+      }
+     ]
+    },
+    {
+     "hu": "Két világháború és Trianon",
+     "ru": "Две мировые войны и Трианон",
+     "page": 22,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Az első világháború 1914-től 1918-ig tartott. A trianoni békeszerződést 1920. június 4-én írták alá. Sok magyar az új határokon kívül élt tovább.",
+       "ru": "Первая мировая война продолжалась с 1914 по 1918 год. Трианонский мирный договор подписали 4 июня 1920 года. Многие венгры оказались за пределами новых границ страны."
+      },
+      {
+       "level": "A2",
+       "hu": "A második világháború 1939-ben kezdődött és 1945-ben ért véget. Magyarország 1941-ben lépett háborúba a tengelyhatalmak oldalán. 1943-ban a Donnál súlyos veszteség érte a magyar hadsereget. 1944. március 19-én Németország megszállta Magyarországot. A holokausztban több százezer magyarországi zsidót meggyilkoltak.",
+       "ru": "Вторая мировая война началась в 1939 году и закончилась в 1945 году. В 1941 году Венгрия вступила в войну на стороне держав оси. В 1943 году венгерская армия понесла тяжёлые потери на Дону. 19 марта 1944 года Германия оккупировала Венгрию. Во время Холокоста были убиты сотни тысяч венгерских евреев."
+      }
+     ]
+    },
+    {
+     "hu": "1956 és a rendszerváltás",
+     "ru": "1956 год и смена политического строя",
+     "page": 26,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "1956. október 23-án Budapesten diákok tüntettek. Elkezdődött a forradalom. A kormányt Nagy Imre vezette. November 4-én a szovjet hadsereg megtámadta Budapestet.",
+       "ru": "23 октября 1956 года в Будапеште студенты вышли на демонстрацию. Началась революция. Правительство возглавил Имре Надь. 4 ноября советская армия начала наступление на Будапешт."
+      },
+      {
+       "level": "A2",
+       "hu": "A forradalmat leverték. 1989–1990-ben békés rendszerváltás történt. Az egypártrendszer helyét többpártrendszer vette át. 1990-ben szabad országgyűlési választást tartottak. Antall József miniszterelnök, Göncz Árpád köztársasági elnök lett. Az utolsó szovjet katonák 1991-ben távoztak.",
+       "ru": "Революция была подавлена. В 1989–1990 годах произошла мирная смена политического строя. Однопартийную систему сменила многопартийная. В 1990 году прошли свободные парламентские выборы. Йожеф Анталл стал премьер-министром, Арпад Гёнц — президентом. Последние советские военные ушли в 1991 году."
+      }
+     ]
+    },
+    {
+     "hu": "Miért, és mi történt utána?",
+     "ru": "Причина и следствие",
+     "page": 20,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "1849-ben a Habsburgok az orosz cár hadseregétől is segítséget kaptak. A magyar szabadságharc vereséggel végződött.",
+       "ru": "В 1849 году Габсбурги получили помощь от армии российского императора. Венгерская освободительная борьба закончилась поражением."
+      },
+      {
+       "level": "A2",
+       "hu": "A második világháború nagy részében Horthy Miklós volt a kormányzó. Az 1950-es évek elején Rákosi Mátyás vezette a kommunista diktatúrát. Az 1956-os forradalom leverése után Nagy Imrét 1958-ban kivégezték. 1989-ben ünnepélyesen újratemették.",
+       "ru": "На протяжении большей части Второй мировой войны регентом был Миклош Хорти. В начале 1950-х годов коммунистическую диктатуру возглавлял Матьяш Ракоши. После подавления революции 1956 года Имре Надя казнили в 1958 году. В 1989 году состоялось его торжественное перезахоронение."
+      }
+     ]
+    }
+   ],
+   "words": [
+    [
+     "honfoglalás",
+     "обретение родины венграми"
+    ],
+    [
+     "törzs",
+     "племя"
+    ],
+    [
+     "király",
+     "король"
+    ],
+    [
+     "vármegye",
+     "комитат (область)"
+    ],
+    [
+     "egyházmegye",
+     "епархия"
+    ],
+    [
+     "csata",
+     "битва"
+    ],
+    [
+     "vereség",
+     "поражение"
+    ],
+    [
+     "forradalom",
+     "революция"
+    ],
+    [
+     "szabadságharc",
+     "освободительная борьба"
+    ],
+    [
+     "kiegyezés",
+     "австро-венгерское соглашение"
+    ],
+    [
+     "békeszerződés",
+     "мирный договор"
+    ],
+    [
+     "rendszerváltás",
+     "смена политического строя"
+    ],
+    [
+     "megszállás",
+     "оккупация"
+    ],
+    [
+     "letette a fegyvert",
+     "сложил оружие"
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "slug": "muveszet",
+   "hu": "Irodalom és zene",
+   "ru": "Литература и музыка",
+   "pages": "29–34",
+   "units": [
+    {
+     "hu": "Ki írt, ki zenélt?",
+     "ru": "Писатель или композитор?",
+     "page": 30,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Bartók Béla és Kodály Zoltán falvakban népdalokat gyűjtöttek. Liszt Ferenc zeneszerző volt. Ő írta a Magyar rapszódiákat.",
+       "ru": "Бела Барток и Золтан Кодай собирали в деревнях народные песни. Ференц Лист был композитором. Он написал «Венгерские рапсодии»."
+      },
+      {
+       "level": "A2",
+       "hu": "A Bánk bán című drámát Katona József írta. Az azonos című opera zenéjét Erkel Ferenc szerezte. Bartók operája A kékszakállú herceg vára. Kodály daljátéka a Háry János.",
+       "ru": "Драму «Банк бан» написал Йожеф Катона, а музыку одноимённой оперы — Ференц Эркель. «Замок герцога Синяя Борода» — опера Бартока. «Хари Янош» — музыкально-сценическое произведение Кодая."
+      }
+     ]
+    },
+    {
+     "hu": "Magyar írók és költők",
+     "ru": "Венгерские писатели и поэты",
+     "page": 31,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Petőfi Sándor költő volt. Ő írta a Nemzeti dalt. Arany János műve A walesi bárdok. Jókai Mór regényeket írt.",
+       "ru": "Шандор Петёфи был поэтом. Он написал «Национальную песню». «Уэльские барды» — произведение Яноша Араня. Мор Йокаи писал романы."
+      },
+      {
+       "level": "A2",
+       "hu": "Janus Pannonius és Balassi Bálint a reneszánsz költői. Zrínyi Miklós műve a Szigeti veszedelem. Kazinczy Ferenc a nyelvújítás vezéralakja. Madách Imre írta Az ember tragédiáját. Jókai egyik regénye A kőszívű ember fiai.",
+       "ru": "Янус Паннониус и Балинт Балашши — поэты Возрождения. Миклош Зриньи написал поэму о Сигетваре. Ференц Казинци возглавлял движение за обновление венгерского языка. Имре Мадач написал «Трагедию человека». Один из романов Йокаи — «Сыновья человека с каменным сердцем»."
+      }
+     ]
+    },
+    {
+     "hu": "A huszadik század",
+     "ru": "Двадцатый век",
+     "page": 33,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Ady Endre verset írt. Egy híres verse az Elbocsátó, szép üzenet. Kosztolányi Dezső regényének címe Édes Anna.",
+       "ru": "Эндре Ади писал стихи. Одно из них — «Elbocsátó, szép üzenet». «Анна Эдеш» — роман Дежё Костолани."
+      },
+      {
+       "level": "A2",
+       "hu": "József Attila verse a Tiszta szívvel. Radnóti Miklós verse a Nem tudhatom… Móricz Zsigmond regénye a Rokonok. A magyar könyvekben a családnév áll elöl: Petőfi a családnév, Sándor a keresztnév.",
+       "ru": "Аттила Йожеф написал стихотворение «Tiszta szívvel», Миклош Радноти — «Nem tudhatom…». Жигмонд Мориц написал роман «Родственники». В венгерских именах сначала идёт фамилия: Петёфи — фамилия, Шандор — имя."
+      }
+     ]
+    },
+    {
+     "hu": "Európa művei",
+     "ru": "Произведения европейских авторов",
+     "page": 34,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Shakespeare angol író volt. Ő írta a Rómeó és Júliát. Mozart operája A varázsfuvola. Csajkovszkij balettje A hattyúk tava.",
+       "ru": "Шекспир был английским писателем. Он написал «Ромео и Джульетту». «Волшебная флейта» — опера Моцарта. «Лебединое озеро» — балет Чайковского."
+      },
+      {
+       "level": "A2",
+       "hu": "Goethe műve a Faust. Voltaire írta a Candide-ot. Az Európai Unió himnuszának dallama Beethoven IX. szimfóniájából származik. A dallamot Örömódának hívjuk.",
+       "ru": "«Фауст» — произведение Гёте. «Кандид» написал Вольтер. Мелодия гимна Европейского союза взята из Девятой симфонии Бетховена. Она известна как «Ода к радости»."
+      }
+     ]
+    },
+    {
+     "hu": "Kihez tartozik a cím?",
+     "ru": "Кто автор произведения?",
+     "page": 31,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Janus Pannonius verse a Pannónia dicsérete. Zrínyi Miklós műve a Szigeti veszedelem.",
+       "ru": "Янус Паннониус написал стихотворение о Паннонии. Автор поэмы об осаде Сигетвара — Миклош Зрини."
+      },
+      {
+       "level": "A2",
+       "hu": "Balassi Bálint versének címe Hogy Júliára talála, így köszöne néki. Csokonai Vitéz Mihály írta A reményhez című verset. Batsányi János műve A franciaországi változásokra. Berzsenyi Dániel verse Az első szerelem. Kazinczy Ferenc a magyar nyelvújítás egyik vezetője volt.",
+       "ru": "Стихотворение о встрече с Юлией написал Балинт Балашши. Автор стихотворения «К надежде» — Михай Чоконаи Витез. Янош Бачаньи писал о переменах во Франции, Даниэль Бержени — о первой любви. Ференц Казинци был одним из главных деятелей обновления венгерского языка."
+      }
+     ]
+    },
+    {
+     "hu": "Egy cím, két alkotó: Bánk bán",
+     "ru": "Одно название, два автора",
+     "page": 32,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Katona József drámát írt. Erkel Ferenc operát írt. A cím mindkét esetben Bánk bán.",
+       "ru": "Йожеф Катона написал драму, а Ференц Эркель — оперу. У них одно название: «Банк-бан»."
+      },
+      {
+       "level": "A2",
+       "hu": "Petőfi Sándor verse a Nemzeti dal. Arany János balladája A walesi bárdok. Jókai Mór regénye A kőszívű ember fiai. Madách Imre műve Az ember tragédiája.",
+       "ru": "«Национальная песня» — стихотворение Шандора Петёфи. «Валлийские барды» — баллада Яноша Араня. «Сыновья человека с каменным сердцем» — роман Мора Йокаи. «Трагедия человека» — произведение Имре Мадача."
+      }
+     ]
+    }
+   ],
+   "words": [
+    [
+     "költő",
+     "поэт"
+    ],
+    [
+     "író",
+     "писатель"
+    ],
+    [
+     "zeneszerző",
+     "композитор"
+    ],
+    [
+     "népdal",
+     "народная песня"
+    ],
+    [
+     "gyűjt",
+     "собирать"
+    ],
+    [
+     "vers",
+     "стихотворение"
+    ],
+    [
+     "regény",
+     "роман"
+    ],
+    [
+     "dráma",
+     "драма"
+    ],
+    [
+     "mű",
+     "произведение"
+    ],
+    [
+     "dallam",
+     "мелодия"
+    ],
+    [
+     "szöveg",
+     "текст"
+    ],
+    [
+     "megzenésít",
+     "положить на музыку"
+    ],
+    [
+     "nyelvújítás",
+     "обновление языка"
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "slug": "allam",
+   "hu": "Az állam és az Alaptörvény",
+   "ru": "Государство и Основной закон",
+   "pages": "35–40",
+   "units": [
+    {
+     "hu": "Mi az Alaptörvény?",
+     "ru": "Что такое Основной закон?",
+     "page": 36,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Magyarország köztársaság. Az ország alkotmánya az Alaptörvény. Ez az ország legmagasabb szintű jogi szabálya.",
+       "ru": "Венгрия — республика. Её конституция называется Основным законом. Это закон высшей юридической силы."
+      },
+      {
+       "level": "A2",
+       "hu": "Az Országgyűlés 2011. április 18-án elfogadta az Alaptörvényt. Az Alaptörvény 2012. január 1-jén lépett hatályba. Az elfogadás és a hatálybalépés két külön dátum.",
+       "ru": "Парламент принял Основной закон 18 апреля 2011 года. Он вступил в силу 1 января 2012 года. Принятие закона и вступление в силу — два разных события."
+      }
+     ]
+    },
+    {
+     "hu": "A választók és a parlament",
+     "ru": "Избиратели и парламент",
+     "page": 37,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A választópolgárok választják az országgyűlési képviselőket. Az Országgyűlésben 199 képviselő dolgozik. A képviselőket négy évre választják.",
+       "ru": "Избиратели выбирают депутатов парламента. В венгерском парламенте 199 депутатов. Их избирают на четыре года."
+      },
+      {
+       "level": "A2",
+       "hu": "Az Országgyűlés törvényeket alkot. Elfogadja az ország költségvetését. A miniszterelnököt a köztársasági elnök javaslatára az Országgyűlés választja meg.",
+       "ru": "Парламент принимает законы и государственный бюджет. Премьер-министра избирает парламент по предложению президента."
+      }
+     ]
+    },
+    {
+     "hu": "A Kormány",
+     "ru": "Правительство",
+     "page": 38,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A Kormány tagjai a miniszterelnök és a miniszterek. A miniszterelnök vezeti a Kormányt. Ő képviseli Magyarországot az Európai Tanácsban.",
+       "ru": "В правительство входят премьер-министр и министры. Премьер-министр возглавляет правительство и представляет Венгрию в Европейском совете."
+      },
+      {
+       "level": "A2",
+       "hu": "A Kormány a végrehajtó hatalmat gyakorolja. Irányítja a közigazgatást, és gondoskodik például az állami egészségügy működéséről. A 2026. őszi vizsgaanyagban a miniszterelnök Magyar Péter. A kulturális ügyekért a Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium felel.",
+       "ru": "Правительство осуществляет исполнительную власть. Оно руководит государственным управлением и обеспечивает, например, работу системы здравоохранения. В пособии осени 2026 года премьер-министр — Петер Мадьяр. За сферу культуры отвечает министерство общественных связей и культуры."
+      }
+     ]
+    },
+    {
+     "hu": "A köztársasági elnök",
+     "ru": "Президент республики",
+     "page": 40,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A köztársasági elnök az államfő. Az Országgyűlés titkos szavazással választja meg öt évre. Egyszer újra lehet választani.",
+       "ru": "Президент — глава государства. Его избирает парламент тайным голосованием на пять лет. Допускается одно переизбрание."
+      },
+      {
+       "level": "A2",
+       "hu": "Az elnök a nemzet egységét fejezi ki. Ő a Magyar Honvédség főparancsnoka. Összehívja az új Országgyűlés első ülését. A 2026. őszi vizsgaanyagban az államfő Baka András.",
+       "ru": "Президент олицетворяет единство нации. Он верховный главнокомандующий вооружёнными силами Венгрии и созывает первое заседание нового парламента. В пособии осени 2026 года глава государства — Андраш Бака."
+      }
+     ]
+    }
+   ],
+   "words": [
+    [
+     "állam",
+     "государство"
+    ],
+    [
+     "államfő",
+     "глава государства"
+    ],
+    [
+     "alkotmány",
+     "конституция"
+    ],
+    [
+     "Országgyűlés",
+     "Государственное собрание (парламент)"
+    ],
+    [
+     "Kormány",
+     "правительство"
+    ],
+    [
+     "képviselő",
+     "депутат"
+    ],
+    [
+     "választópolgár",
+     "избиратель"
+    ],
+    [
+     "miniszterelnök",
+     "премьер-министр"
+    ],
+    [
+     "köztársasági elnök",
+     "президент республики"
+    ],
+    [
+     "költségvetés",
+     "бюджет"
+    ],
+    [
+     "titkos szavazás",
+     "тайное голосование"
+    ],
+    [
+     "hatályba lép",
+     "вступать в силу"
+    ],
+    [
+     "végrehajtó hatalom",
+     "исполнительная власть"
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "slug": "jogok",
+   "hu": "Jogok és kötelességek",
+   "ru": "Права и обязанности",
+   "pages": "41–43",
+   "units": [
+    {
+     "hu": "Mindenki egyenlő",
+     "ru": "Все равны перед законом",
+     "page": 42,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Minden ember egyenlő a törvény előtt. Mindenkinek joga van az élethez és az emberi méltósághoz.",
+       "ru": "Все люди равны перед законом. Каждый имеет право на жизнь и человеческое достоинство."
+      },
+      {
+       "level": "A2",
+       "hu": "Az angol Magna Carta 1215-ben született. A magyar Aranybullát 1222-ben adták ki. Franciaországban 1789-ben fogadták el az Emberi és polgári jogok nyilatkozatát. Az Emberi Jogok Európai Egyezménye 1950-ből származik.",
+       "ru": "Английская Великая хартия вольностей появилась в 1215 году, венгерская Золотая булла — в 1222 году. Во Франции в 1789 году приняли Декларацию прав человека и гражданина. Европейская конвенция о правах человека датируется 1950 годом."
+      }
+     ]
+    },
+    {
+     "hu": "Három csoport",
+     "ru": "Три поколения прав",
+     "page": 42,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Szabadon elmondhatom a véleményemet. Szabadon választhatok vallást. Jogom van a tanuláshoz.",
+       "ru": "Я могу свободно высказывать своё мнение и выбирать религию. У меня есть право на образование."
+      },
+      {
+       "level": "A2",
+       "hu": "A vizsgaanyag az élethez való jogot és a vallásszabadságot az első csoportba sorolja. A munkához, az oktatáshoz és a szociális biztonsághoz való jog a második csoportban van. Az egészséges környezethez való jog a harmadikban van.",
+       "ru": "В пособии право на жизнь и свобода вероисповедания относятся к первому поколению прав. Права на труд, образование и социальное обеспечение — ко второму. Право на здоровую окружающую среду — к третьему."
+      }
+     ]
+    },
+    {
+     "hu": "Védelem és kötelességek",
+     "ru": "Защита прав и обязанности",
+     "page": 43,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A törvény védi a személyes adataimat. Jogom van békésen gyülekezni. A törvényeket be kell tartani.",
+       "ru": "Закон защищает мои персональные данные. Я имею право на мирные собрания. Законы нужно соблюдать."
+      },
+      {
+       "level": "A2",
+       "hu": "A tisztességes eljárás alapvető jog. Az Alkotmánybíróság 1990-ben alkotmányellenesnek nyilvánította a halálbüntetést. A közös kiadásokhoz teherbíró képességünk szerint járulunk hozzá, például adót fizetünk. A szülők kötelesek gondoskodni kiskorú gyermekükről.",
+       "ru": "Справедливое разбирательство — основное право. В 1990 году Конституционный суд признал смертную казнь неконституционной. Мы участвуем в общих расходах соразмерно нашим возможностям, например платим налоги. Родители обязаны заботиться о своём несовершеннолетнем ребёнке."
+      }
+     ]
+    },
+    {
+     "hu": "Mit véd a törvény?",
+     "ru": "Что защищает закон?",
+     "page": 43,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Jogom van az élethez. Jogom van a saját véleményemhez. Az állam védi a személyes adataimat.",
+       "ru": "Я имею право на жизнь и на собственное мнение. Государство защищает мои персональные данные."
+      },
+      {
+       "level": "A2",
+       "hu": "Vallásszabadság: megválaszthatom a vallásomat. Gyülekezési szabadság: békés gyűlésen vehetek részt. Az Alaptörvény védi a tulajdont és az örökléshez való jogot is. Magyarországon 1990-ben törölték el a halálbüntetést.",
+       "ru": "Свобода вероисповедания означает, что я могу выбирать религию. Свобода собраний позволяет мне участвовать в мирном собрании. Основной закон защищает собственность и право наследования. В 1990 году в Венгрии отменили смертную казнь."
+      }
+     ]
+    }
+   ],
+   "words": [
+    [
+     "jog",
+     "право"
+    ],
+    [
+     "kötelesség",
+     "обязанность"
+    ],
+    [
+     "törvény előtt",
+     "перед законом"
+    ],
+    [
+     "méltóság",
+     "достоинство"
+    ],
+    [
+     "vallásszabadság",
+     "свобода вероисповедания"
+    ],
+    [
+     "vélemény",
+     "мнение"
+    ],
+    [
+     "gyülekezés",
+     "собрание"
+    ],
+    [
+     "személyes adat",
+     "персональные данные"
+    ],
+    [
+     "környezet",
+     "окружающая среда"
+    ],
+    [
+     "adót fizet",
+     "платить налоги"
+    ],
+    [
+     "Alkotmánybíróság",
+     "Конституционный суд"
+    ],
+    [
+     "tisztességes eljárás",
+     "справедливое разбирательство"
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "slug": "europa",
+   "hu": "Magyarország és Európa",
+   "ru": "Венгрия и Европа",
+   "pages": "44–51",
+   "units": [
+    {
+     "hu": "Ország, víz, határ",
+     "ru": "Страна, реки и границы",
+     "page": 45,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Magyarország fővárosa Budapest. A hivatalos nyelv a magyar. A pénznem a forint. A legnagyobb tó a Balaton. Két nagy folyó a Duna és a Tisza.",
+       "ru": "Столица Венгрии — Будапешт. Официальный язык — венгерский, валюта — форинт. Самое большое озеро — Балатон. Две крупные реки — Дунай и Тиса."
+      },
+      {
+       "level": "A2",
+       "hu": "Az ország területe körülbelül 93 000 négyzetkilométer. Hét szomszédja van: Ausztria, Szlovákia, Ukrajna, Románia, Szerbia, Horvátország és Szlovénia. Tizenkilenc vármegye van. Tájegység például az Alföld, a Kisalföld és az Alpokalja.",
+       "ru": "Площадь страны — около 93 000 км². Семь соседей Венгрии — Австрия, Словакия, Украина, Румыния, Сербия, Хорватия и Словения. В стране 19 комитатов. Альфёльд, Кишальфёльд и предгорья Альп — примеры географических областей."
+      }
+     ]
+    },
+    {
+     "hu": "Egy séta Budapesten",
+     "ru": "Прогулка по Будапешту",
+     "page": 47,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Budapest a Duna két partján fekszik. A jobb parton van Buda, a bal parton Pest. Az Országház Pesten áll. A magyar fővárosnak 23 kerülete van.",
+       "ru": "Будапешт лежит по обоим берегам Дуная. На правом берегу — Буда, на левом — Пешт. Здание парламента находится в Пеште. В столице 23 района."
+      },
+      {
+       "level": "A2",
+       "hu": "1873. november 17-én Pest, Buda és Óbuda egyesült. A Lánchíd Budát és Pestet köti össze. A Budai Vár a Várhegyen van. A Magyar Állami Operaházat az Andrássy úton találjuk.",
+       "ru": "17 ноября 1873 года Пешт, Буда и Обуда объединились. Цепной мост соединяет Буду и Пешт. Будайская крепость находится на Крепостной горе, а Венгерская государственная опера — на проспекте Андраши."
+      }
+     ]
+    },
+    {
+     "hu": "Ételtől az ünnepig",
+     "ru": "Еда и традиции",
+     "page": 48,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A gulyásleves magyar étel. Kalocsa és Szeged a fűszerpaprikáról híres. A tokaji aszú bor. A busójárás mohácsi népszokás.",
+       "ru": "Гуляш — венгерский суп. Калоча и Сегед славятся паприкой. Токайское асу — вино. Бушояраш — народный обычай города Мохач."
+      },
+      {
+       "level": "A2",
+       "hu": "A hungarikum kiemelkedő magyar érték, amely bekerült a Hungarikumok Gyűjteményébe. A magyar történelmi keresztény egyházak közé tartozik a katolikus, a református és az evangélikus egyház. Karácsonykor Jézus születését, húsvétkor a feltámadását ünneplik.",
+       "ru": "Хунгарикум — выдающаяся венгерская ценность, внесённая в специальный официальный перечень. К историческим христианским церквям Венгрии относятся католическая, реформатская и лютеранская. На Рождество празднуют рождение Иисуса, на Пасху — его воскресение."
+      }
+     ]
+    },
+    {
+     "hu": "Magyarország az EU-ban",
+     "ru": "Венгрия в Европейском союзе",
+     "page": 50,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Magyarország 2004. május 1-jén lett az Európai Unió tagja. Az EU-nak 27 tagállama van. A magyar pénznem ma is a forint.",
+       "ru": "Венгрия стала членом Европейского союза 1 мая 2004 года. В ЕС 27 государств-членов. Венгерская валюта по-прежнему форинт."
+      },
+      {
+       "level": "A2",
+       "hu": "Magyarország 2007-ben csatlakozott a schengeni övezethez. Az Európai Parlament képviselőit ötévente választják. Magyarországnak 21 helye van az Európai Parlamentben. Az Európai Tanácsban a tagállamok állam- vagy kormányfői találkoznak.",
+       "ru": "Венгрия вошла в Шенгенскую зону в 2007 году. Депутатов Европарламента выбирают раз в пять лет. У Венгрии в Европарламенте 21 место. В Европейском совете встречаются главы государств или правительств стран ЕС."
+      }
+     ]
+    },
+    {
+     "hu": "Melyik vármegyében?",
+     "ru": "В каком медье?",
+     "page": 46,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "A vármegye az ország egyik területi egysége. Magyarországon 19 vármegye van. Budapest a főváros.",
+       "ru": "Медье — административная единица страны. В Венгрии 19 медье. Будапешт — столица."
+      },
+      {
+       "level": "A2",
+       "hu": "A 19 név: Bács-Kiskun, Baranya, Békés, Borsod-Abaúj-Zemplén, Csongrád-Csanád, Fejér, Győr-Moson-Sopron, Hajdú-Bihar, Heves, Jász-Nagykun-Szolnok, Komárom-Esztergom, Nógrád, Pest, Somogy, Szabolcs-Szatmár-Bereg, Tolna, Vas, Veszprém és Zala.",
+       "ru": "Названия 19 медье приведены по-венгерски. Bács-Kiskun, Baranya, Békés, Borsod-Abaúj-Zemplén, Csongrád-Csanád, Fejér, Győr-Moson-Sopron, Hajdú-Bihar, Heves, Jász-Nagykun-Szolnok, Komárom-Esztergom, Nógrád, Pest, Somogy, Szabolcs-Szatmár-Bereg, Tolna, Vas, Veszprém és Zala. Найдите своё медье на карте пособия."
+      }
+     ]
+    },
+    {
+     "hu": "Az EU országai",
+     "ru": "Страны Европейского союза",
+     "page": 51,
+     "lines": [
+      {
+       "level": "A1",
+       "hu": "Magyarország az Európai Unió tagja. Ausztria és Szlovákia is tag. Mindkét ország Magyarország szomszédja.",
+       "ru": "Венгрия входит в Европейский союз. Австрия и Словакия тоже входят в него. Обе страны граничат с Венгрией."
+      },
+      {
+       "level": "A2",
+       "hu": "A 27 tag: Ausztria, Belgium, Bulgária, Ciprus, Csehország, Dánia, Észtország, Finnország, Franciaország, Görögország, Hollandia, Horvátország, Írország, Lengyelország, Lettország, Litvánia, Luxemburg, Magyarország, Málta, Németország, Olaszország, Portugália, Románia, Spanyolország, Svédország, Szlovákia, Szlovénia.",
+       "ru": "По порядку: Австрия, Бельгия, Болгария, Кипр, Чехия, Дания, Эстония, Финляндия, Франция, Греция, Нидерланды, Хорватия, Ирландия, Польша, Латвия, Литва, Люксембург, Венгрия, Мальта, Германия, Италия, Португалия, Румыния, Испания, Швеция, Словакия, Словения."
+      }
+     ]
+    }
+   ],
+   "words": [
+    [
+     "főváros",
+     "столица"
+    ],
+    [
+     "pénznem",
+     "валюта"
+    ],
+    [
+     "tó",
+     "озеро"
+    ],
+    [
+     "folyó",
+     "река"
+    ],
+    [
+     "part",
+     "берег"
+    ],
+    [
+     "szomszédos ország",
+     "соседняя страна"
+    ],
+    [
+     "kerület",
+     "городской район"
+    ],
+    [
+     "egyesül",
+     "объединяться"
+    ],
+    [
+     "népszokás",
+     "народный обычай"
+    ],
+    [
+     "felekezet",
+     "вероисповедание"
+    ],
+    [
+     "tagállam",
+     "государство-член"
+    ],
+    [
+     "csatlakozik",
+     "присоединяться"
+    ],
+    [
+     "feltámadás",
+     "воскресение"
+    ],
+    [
+     "hivatalos nyelv",
+     "официальный язык"
+    ]
+   ]
+  }
+ ]
+}
