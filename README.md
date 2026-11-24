@@ -18,3 +18,7 @@ A fejezetek közvetlenül címezhetők, például `#/tema/allam/read`, `#/tema/j
 A 2026. november 24-i változat a BFKH 2026 őszén közzétett segédanyagához igazodik. A közhivatalok, tisztségviselők és minisztériumok változásakor ellenőrizni kell az államszervezeti leckét és a kapcsolódó kártyákat. A források és a fénykép licence a felületen a Források nézetben érhetők el.
 
 A fejezetteszt 8 kérdést sorsol, az összesítő mindegyik témából kettőt. Ezek gyakorlópontok. A hivatalos vizsga saját pontozását a vizsgatájékoztató határozza meg.
+
+## Írásbeli gyakorlás
+
+A fejezetek írásbeli útvonala például `#/tema/allam/written`, kézírásos feladatlapjuk a `#/tema/allam/paper`. Az összesítő változatok a `#/final/written` és a `#/final/paper` címen érhetők el. A gépelt válaszok és a feladatlap sorszámozott kérdései ezen a készüléken tárolódnak. A program a mintaválaszt és a szerkesztett magyar válaszváltozatokat (writtenAliases) fogadja el. A kis- és nagybetű, az írásjelek és a többletszóköz nem befolyásolják az értékelést. Az eltérő helyes megfogalmazást a tanuló önellenőrzéssel számíthatja be, az eredmény megkülönbözteti a kétféle pontot. A nyomtatott lapon a megoldókulcs akkor sem látszik, ha a képernyőn nyitva van.

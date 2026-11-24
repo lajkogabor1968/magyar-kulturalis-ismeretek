@@ -1,8 +1,9 @@
+import {writingPractice} from './written.js';
 const app = document.querySelector('#app');
 const PDF = 'https://kormanyhivatalok.hu/sites/default/files/2026-09/kiv_segedanyag_bfkh_honlapra_aug.pdf';
 const INFO = 'https://kormanyhivatalok.hu/sites/default/files/2025-01/magyar-kulturalis-ismereti-vizsga-tajekoztato.pdf';
 const storageKey = 'magyar-kulturalis-ismeretek.v1';
-const tabs = {read:'Урок', words:'Словарь', cards:'Карточки', test:'Тест по теме'};
+const tabs = {read:'Урок', words:'Словарь', cards:'Карточки', test:'Тест по теме', written:'Письменный тест', paper:'Письмо от руки'};
 let course, cards, save = {}, storageOK = true;
 try { save = JSON.parse(localStorage.getItem(storageKey)) || {}; } catch { save = {}; }
 if (typeof save !== 'object' || Array.isArray(save)) save = {};
@@ -31,8 +32,11 @@ function home() {
   const start = get('start');
   start.href = base(c)+'read';
   start.textContent = save.last ? 'Продолжить тему →' : 'Начать первую тему →';
-  const total = course.chapters.filter(c=>Number.isFinite(save.best?.[c.slug])).length;
-  app.insertAdjacentHTML('beforeend','<div class="section-head"><h2>Темы курса</h2><span class="muted">Пройдено тестов: '+total+' из 6</span></div><div class="grid">'+course.chapters.map(c=>link(base(c)+'read','<span class="num">0'+c.id+'</span><span><strong>'+hu(c.hu)+'</strong><small>'+escape(c.ru)+'</small></span><span class="next" aria-hidden="true">›</span>','topic')).join('')+'</div><section class="pane final-panel"><h2>Итоговый тест</h2><p>12 вопросов на венгерском: по два из каждой темы.</p>'+link('#/final','Перейти к тесту →','button')+'</section>');
+  const total = course.chapters.filter(c=>{
+    const typed=save.sessions['typed-'+c.slug];
+    return Number.isFinite(save.best[c.slug]) || (typed?.at===6 && typed.ids?.length===6);
+  }).length;
+  app.insertAdjacentHTML('beforeend','<div class="section-head"><h2>Темы курса</h2><span class="muted">Темы с завершённым тестом: '+total+' из 6</span></div><div class="grid">'+course.chapters.map(c=>link(base(c)+'read','<span class="num">0'+c.id+'</span><span><strong>'+hu(c.hu)+'</strong><small>'+escape(c.ru)+'</small></span><span class="next" aria-hidden="true">›</span>','topic')).join('')+'</div><section class="pane final-panel"><h2>Итоговый тест</h2><p>12 вопросов на венгерском: по два из каждой темы.</p>'+link('#/final','Тест с выбором ответа →','button')+formats(null)+'</section>');
 }
 function topic(c,tab) {
   save.last=c.slug; persist();
@@ -46,6 +50,7 @@ function topic(c,tab) {
   } else if(tab==='words'){
     panel.innerHTML='<div class="pane"><h2>Словарь темы</h2><table class="lex"><thead><tr><th lang="hu">Magyar</th><th>Русский</th></tr></thead><tbody>'+c.words.map(([h,r])=>'<tr><td>'+hu(h)+'</td><td>'+escape(r)+'</td></tr>').join('')+'</tbody></table></div>'+link(base(c)+'cards','К карточкам →','button primary');
   } else if(tab==='cards') flash(c);
+  else if(tab==='written'||tab==='paper') written(c,tab==='paper');
   else quiz(c);
 }
 function flash(c) {
@@ -64,6 +69,13 @@ function flash(c) {
 }
 function shuffled(values){
   const out=values.slice(); for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];} return out;
+}
+function written(c,paper=false){
+  writingPractice({holder:c?get('panel'):app,c,chapters:course.chapters,cards,save,persist,esc:escape,hu,link,shuffle:shuffled,paper});
+}
+function formats(c){
+  const path=c?base(c):'#/final/';
+  return '<div class="actions">'+link(path+'written','Написать ответы по-венгерски','button primary')+link(path+'paper','Бланк для письма от руки','button')+'</div>';
 }
 function quiz(c){
   const final=!c, id=c?.slug||'final', holder=c?get('panel'):app;
@@ -85,7 +97,7 @@ function quiz(c){
     state={ids:set.map(x=>x.id),orders:set.map(()=>shuffled([0,1,2])),picks:[],at:0};save.sessions[id]=state;persist();draw();
   }
   function intro(){
-    holder.innerHTML=(final?back():'')+'<section class="pane quizbox"><h2>'+(final?'Итоговый тест':'Тест по теме')+'</h2><p>'+(final?'12 вопросов на венгерском, по два из каждой темы. Выберите один ответ. Разбор появится в конце.':'Восемь вопросов. После каждого ответа вы увидите правильный вариант и его перевод.')+'</p><p class="muted">Тренировочная оценка: один балл за ответ. Лучший результат: '+best(id)+'.</p>'+button('begin','Начать тест →','primary')+'</section>';
+    holder.innerHTML=(final?back():'')+'<section class="pane quizbox"><h2>'+(final?'Итоговый тест':'Тест по теме')+'</h2><p>'+(final?'12 вопросов на венгерском, по два из каждой темы. Выберите один ответ. Разбор появится в конце.':'Восемь вопросов. После каждого ответа вы увидите правильный вариант и его перевод.')+'</p><p class="muted">Тренировочная оценка: один балл за ответ. Лучший результат: '+best(id)+'.</p>'+button('begin','Начать тест с выбором ответа →','primary')+formats(c)+'</section>';
     get('begin').onclick=begin;
   }
   function review(){
@@ -105,13 +117,13 @@ function quiz(c){
   draw();
 }
 function sources(){
-  layout(back()+'<h1 class="page-title">Материалы курса</h1><section class="pane"><h2>Как готовиться</h2><p>Сначала прочитайте короткие фразы A1. Затем включите A2, разберите подробности и закройте русский перевод. В карточках напишите ответ по-венгерски. В конце каждой темы пройдите тест.</p><p>По официальной памятке письменный экзамен проходит на венгерском языке: 12 вопросов за 60 минут, по два из каждой темы. Максимум — 30 баллов, проходной результат — 16. Здесь итоговый тест тренировочный: 12 вопросов с выбором ответа, без таймера, по одному баллу за верный ответ.</p></section><section class="pane"><h2>Первоисточники</h2><p>Сверено 24 ноября 2026 г. Использованы учебные материалы Лайко Габора, его венгерско-русский банк из 107 вопросов и официальный учебный материал осени 2026 года. Вопросы курса служат для практики. Точные задания конкретного экзамена заранее неизвестны.</p><ul>'+[[PDF,'Официальное пособие, PDF'],[INFO,'Официальная памятка об экзамене'],['https://kormanyhivatalok.hu/kormanyhivatalok/budapest/megye/szervezet/jogi-es-koordinacios-foosztaly','Актуальные материалы организатора'],['https://njt.hu/jogszabaly/2011-4301-02-00','Основной закон Венгрии'],['https://kormany.hu/kormanyzat','Правительство и министерства'],['https://www.sandorpalota.hu/hu/baka-andras-magyarorszag-uj-koztarsasagi-elnoke','Сведения о главе государства']].map(([u,l])=>'<li>'+link(u,l)+'</li>').join('')+'</ul><p class="minor">Фото: '+link('https://commons.wikimedia.org/wiki/File:Hungarian_State_Opera_House(PDXdj).jpg','Hungarian State Opera House, PDXdj')+', '+link('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Версия из официального пособия, с. 47.</p></section>');
+  layout(back()+'<h1 class="page-title">Материалы курса</h1><section class="pane"><h2>Как готовиться</h2><p>Сначала прочитайте короткие фразы A1. Затем включите A2, разберите подробности и закройте русский перевод. В карточках напишите ответ по-венгерски. В конце каждой темы пройдите тест. В письменном тесте ответ нужно ввести самостоятельно. Для письма от руки распечатайте чистый бланк или отвечайте в тетради. Ключ открывается отдельно.</p><p>По официальной памятке письменный экзамен проходит на венгерском языке: 12 вопросов за 60 минут, по два из каждой темы. Максимум — 30 баллов, проходной результат — 16. Здесь три тренировочных формата: выбор ответа, ввод ответа и бланк для письма от руки. В каждом итоговом варианте 12 вопросов без таймера. Электронные работы дают по одному тренировочному баллу за ответ.</p></section><section class="pane"><h2>Первоисточники</h2><p>Сверено 24 ноября 2026 г. Использованы учебные материалы Лайко Габора, его венгерско-русский банк из 107 вопросов и официальный учебный материал осени 2026 года. Вопросы курса служат для практики. Точные задания конкретного экзамена заранее неизвестны.</p><ul>'+[[PDF,'Официальное пособие, PDF'],[INFO,'Официальная памятка об экзамене'],['https://kormanyhivatalok.hu/kormanyhivatalok/budapest/megye/szervezet/jogi-es-koordinacios-foosztaly','Актуальные материалы организатора'],['https://njt.hu/jogszabaly/2011-4301-02-00','Основной закон Венгрии'],['https://kormany.hu/kormanyzat','Правительство и министерства'],['https://www.sandorpalota.hu/hu/baka-andras-magyarorszag-uj-koztarsasagi-elnoke','Сведения о главе государства']].map(([u,l])=>'<li>'+link(u,l)+'</li>').join('')+'</ul><p class="minor">Фото: '+link('https://commons.wikimedia.org/wiki/File:Hungarian_State_Opera_House(PDXdj).jpg','Hungarian State Opera House, PDXdj')+', '+link('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Версия из официального пособия, с. 47.</p></section>');
 }
 function render(){
   const [,route,slug,tab]=location.hash.replace(/^#/,'').split('/');
   const c=course.chapters.find(x=>x.slug===slug);
   if(route==='tema'&&c)topic(c,Object.hasOwn(tabs,tab)?tab:'read');
-  else if(route==='final'){layout('');quiz(null);}
+  else if(route==='final'){layout('');if(slug==='written'||slug==='paper')written(null,slug==='paper');else quiz(null);}
   else if(route==='sources')sources();
   else home();
   window.scrollTo(0,0);app.focus({preventScroll:true});

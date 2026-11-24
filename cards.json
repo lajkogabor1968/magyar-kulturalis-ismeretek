@@ -21,6 +21,11 @@
   "wrong": [
    "A hűséget.",
    "A reményt."
+  ],
+  "writtenAliases": [
+   "erő",
+   "erőt",
+   "az erő"
   ]
  },
  {
@@ -33,6 +38,11 @@
   "wrong": [
    "Az erőt.",
    "A reményt."
+  ],
+  "writtenAliases": [
+   "hűség",
+   "hűséget",
+   "a hűség"
   ]
  },
  {
@@ -45,6 +55,11 @@
   "wrong": [
    "Az erőt.",
    "A hűséget."
+  ],
+  "writtenAliases": [
+   "remény",
+   "reményt",
+   "a remény"
   ]
  },
  {
@@ -73,6 +88,15 @@
   "wrong": [
    "A Magyar Állami Operaházban.",
    "A Nemzeti Színházban."
+  ],
+  "writtenAliases": [
+   "Országház",
+   "Országházban",
+   "az Országházban",
+   "Parlamentben",
+   "a Parlamentben",
+   "a magyar Parlamentben",
+   "Budapesten az Országházban"
   ]
  },
  {
@@ -101,6 +125,13 @@
   "wrong": [
    "IV. Béla.",
    "Hunyadi Mátyás."
+  ],
+  "writtenAliases": [
+   "Szent István",
+   "I. István",
+   "István király",
+   "Első István",
+   "Szent István király"
   ]
  },
  {
@@ -117,7 +148,14 @@
   "hu": "Hány egyházmegyét alapított Szent István?",
   "ru": "Сколько епархий основал Святой Иштван?",
   "answer": "Tízet.",
-  "translation": "Десять."
+  "translation": "Десять.",
+  "writtenAliases": [
+   "10",
+   "tíz",
+   "10-et",
+   "10 egyházmegyét",
+   "tíz egyházmegyét"
+  ]
  },
  {
   "id": 13,
@@ -149,6 +187,12 @@
   "wrong": [
    "IV. Béla 1242-ben.",
    "Hunyadi Mátyás 1458-ban."
+  ],
+  "writtenAliases": [
+   "II. András",
+   "II. András király",
+   "Második András",
+   "II. Endre"
   ]
  },
  {
@@ -217,6 +261,11 @@
   "wrong": [
    "Batthyány Lajos.",
    "Deák Ferenc."
+  ],
+  "writtenAliases": [
+   "Görgey Artúr",
+   "Görgei",
+   "Görgey"
   ]
  },
  {
@@ -249,7 +298,11 @@
   "hu": "Kit választott köztársasági elnökké az Országgyűlés 1990-ben?",
   "ru": "Кого парламент избрал президентом в 1990 году?",
   "answer": "Göncz Árpád.",
-  "translation": "Арпад Гёнц."
+  "translation": "Арпад Гёнц.",
+  "writtenAliases": [
+   "Göncz Árpádot",
+   "Göncz"
+  ]
  },
  {
   "id": 27,
@@ -285,6 +338,10 @@
   "wrong": [
    "Petőfi Sándor.",
    "Vörösmarty Mihály."
+  ],
+  "writtenAliases": [
+   "Kölcsey",
+   "Ferenc Kölcsey"
   ]
  },
  {
@@ -297,6 +354,10 @@
   "wrong": [
    "Liszt Ferenc.",
    "Egressy Béni."
+  ],
+  "writtenAliases": [
+   "Erkel",
+   "Ferenc Erkel"
   ]
  },
  {
@@ -309,6 +370,10 @@
   "wrong": [
    "Kölcsey Ferenc.",
    "Arany János."
+  ],
+  "writtenAliases": [
+   "Vörösmarty",
+   "Mihály Vörösmarty"
   ]
  },
  {
@@ -321,6 +386,10 @@
   "wrong": [
    "Erkel Ferenc.",
    "Kodály Zoltán."
+  ],
+  "writtenAliases": [
+   "Egressy",
+   "Béni Egressy"
   ]
  },
  {
@@ -329,7 +398,10 @@
   "hu": "Mikor írta Vörösmarty a Szózatot?",
   "ru": "Когда Вёрёшмарти написал «Szózat»?",
   "answer": "1836-ban.",
-  "translation": "В 1836 году."
+  "translation": "В 1836 году.",
+  "writtenAliases": [
+   "1836"
+  ]
  },
  {
   "id": 35,
@@ -341,6 +413,10 @@
   "wrong": [
    "Petőfi Sándor.",
    "Madách Imre."
+  ],
+  "writtenAliases": [
+   "Kazinczy",
+   "Ferenc Kazinczy"
   ]
  },
  {
@@ -361,6 +437,10 @@
   "wrong": [
    "Jókai Mór.",
    "Arany János."
+  ],
+  "writtenAliases": [
+   "Madách",
+   "Imre Madách"
   ]
  },
  {
@@ -369,7 +449,11 @@
   "hu": "Milyen nemzetiségű volt Shakespeare?",
   "ru": "Какой национальности был Шекспир?",
   "answer": "Angol.",
-  "translation": "Англичанин."
+  "translation": "Англичанин.",
+  "writtenAliases": [
+   "angol volt",
+   "angol nemzetiségű"
+  ]
  },
  {
   "id": 39,
@@ -381,6 +465,10 @@
   "wrong": [
    "József Attila.",
    "Radnóti Miklós."
+  ],
+  "writtenAliases": [
+   "Ady",
+   "Endre Ady"
   ]
  },
  {
@@ -393,6 +481,10 @@
   "wrong": [
    "Katona József.",
    "Bartók Béla."
+  ],
+  "writtenAliases": [
+   "Erkel",
+   "Ferenc Erkel"
   ]
  },
  {
@@ -405,6 +497,10 @@
   "wrong": [
    "Kodály Zoltán.",
    "Erkel Ferenc."
+  ],
+  "writtenAliases": [
+   "Bartók",
+   "Béla Bartók"
   ]
  },
  {
@@ -417,6 +513,10 @@
   "wrong": [
    "Bartók Béla.",
    "Liszt Ferenc."
+  ],
+  "writtenAliases": [
+   "Kodály",
+   "Zoltán Kodály"
   ]
  },
  {
@@ -429,6 +529,11 @@
   "wrong": [
    "Erkel Ferenc.",
    "Kodály Zoltán."
+  ],
+  "writtenAliases": [
+   "Liszt",
+   "Ferenc Liszt",
+   "Franz Liszt"
   ]
  },
  {
@@ -449,6 +554,10 @@
   "wrong": [
    "Wolfgang Amadeus Mozart.",
    "Pjotr Iljics Csajkovszkij."
+  ],
+  "writtenAliases": [
+   "Beethoven",
+   "L. van Beethoven"
   ]
  },
  {
@@ -457,7 +566,10 @@
   "hu": "Mi Magyarország államformája?",
   "ru": "Какова форма правления Венгрии?",
   "answer": "Köztársaság.",
-  "translation": "Республика."
+  "translation": "Республика.",
+  "writtenAliases": [
+   "A köztársaság"
+  ]
  },
  {
   "id": 47,
@@ -469,6 +581,11 @@
   "wrong": [
    "Aranybulla.",
    "Költségvetési törvény."
+  ],
+  "writtenAliases": [
+   "Magyarország Alaptörvénye",
+   "Alaptörvénynek",
+   "Alaptörvénynek nevezik"
   ]
  },
  {
@@ -493,6 +610,12 @@
   "wrong": [
    "99 képviselő.",
    "299 képviselő."
+  ],
+  "writtenAliases": [
+   "199",
+   "199 fő",
+   "199 képviselője van",
+   "százkilencvenkilenc"
   ]
  },
  {
@@ -505,6 +628,13 @@
   "wrong": [
    "Öt évre.",
    "Hat évre."
+  ],
+  "writtenAliases": [
+   "4",
+   "négy",
+   "4 év",
+   "4 évre",
+   "négy év"
   ]
  },
  {
@@ -517,6 +647,11 @@
   "wrong": [
    "A köztársasági elnök egyedül.",
    "Az Európai Parlament."
+  ],
+  "writtenAliases": [
+   "Országgyűlés",
+   "a parlament",
+   "parlament"
   ]
  },
  {
@@ -541,6 +676,11 @@
   "wrong": [
    "Az Európai Tanács.",
    "A Kormány."
+  ],
+  "writtenAliases": [
+   "Országgyűlés",
+   "a parlament",
+   "parlament"
   ]
  },
  {
@@ -553,6 +693,13 @@
   "wrong": [
    "Négy évre.",
    "Hét évre."
+  ],
+  "writtenAliases": [
+   "5",
+   "öt",
+   "öt év",
+   "5 év",
+   "5 évre"
   ]
  },
  {
@@ -561,7 +708,13 @@
   "hu": "Hányszor választható újra a köztársasági elnök?",
   "ru": "Сколько раз можно переизбрать президента?",
   "answer": "Legfeljebb egyszer.",
-  "translation": "Не более одного раза."
+  "translation": "Не более одного раза.",
+  "writtenAliases": [
+   "egyszer",
+   "egy alkalommal",
+   "legfeljebb egy alkalommal",
+   "1 alkalommal"
+  ]
  },
  {
   "id": 56,
@@ -581,6 +734,11 @@
   "wrong": [
    "A házelnök.",
    "Az igazságügyi miniszter."
+  ],
+  "writtenAliases": [
+   "köztársasági elnök",
+   "az államfő",
+   "államfő"
   ]
  },
  {
@@ -613,6 +771,16 @@
   "wrong": [
    "A másodikba.",
    "A harmadikba."
+  ],
+  "writtenAliases": [
+   "első",
+   "első generáció",
+   "az első generációhoz",
+   "első generációhoz",
+   "az elsőhöz",
+   "1",
+   "1. generáció",
+   "elsőbe"
   ]
  },
  {
@@ -625,6 +793,16 @@
   "wrong": [
    "Az elsőbe.",
    "A harmadikba."
+  ],
+  "writtenAliases": [
+   "második",
+   "második generáció",
+   "a második generációhoz",
+   "második generációhoz",
+   "a másodikhoz",
+   "2",
+   "2. generáció",
+   "másodikba"
   ]
  },
  {
@@ -637,6 +815,16 @@
   "wrong": [
    "Az elsőbe.",
    "A másodikba."
+  ],
+  "writtenAliases": [
+   "harmadik",
+   "harmadik generáció",
+   "a harmadik generációhoz",
+   "harmadik generációhoz",
+   "a harmadikhoz",
+   "3",
+   "3. generáció",
+   "harmadikba"
   ]
  },
  {
@@ -649,6 +837,16 @@
   "wrong": [
    "A másodikba.",
    "A harmadikba."
+  ],
+  "writtenAliases": [
+   "első",
+   "első generáció",
+   "az első generációhoz",
+   "első generációhoz",
+   "az elsőhöz",
+   "1",
+   "1. generáció",
+   "elsőbe"
   ]
  },
  {
@@ -697,6 +895,9 @@
   "wrong": [
    "Debrecen.",
    "Szeged."
+  ],
+  "writtenAliases": [
+   "Budapest a főváros"
   ]
  },
  {
@@ -717,6 +918,11 @@
   "wrong": [
    "Az euró.",
    "A korona."
+  ],
+  "writtenAliases": [
+   "forint",
+   "magyar forint",
+   "a magyar forint"
   ]
  },
  {
@@ -729,6 +935,10 @@
   "wrong": [
    "A Fertő tó.",
    "A Velencei-tó."
+  ],
+  "writtenAliases": [
+   "Balaton",
+   "a Balaton-tó"
   ]
  },
  {
@@ -765,6 +975,12 @@
   "wrong": [
    "19.",
    "21."
+  ],
+  "writtenAliases": [
+   "23 kerület",
+   "huszonhárom",
+   "huszonhárom kerület",
+   "23 kerülete van"
   ]
  },
  {
@@ -801,6 +1017,11 @@
   "wrong": [
    "19.",
    "21."
+  ],
+  "writtenAliases": [
+   "huszonhét",
+   "27 tagállam",
+   "27 tagállama van"
   ]
  },
  {
@@ -813,6 +1034,9 @@
   "wrong": [
    "2004-ben.",
    "1995-ben."
+  ],
+  "writtenAliases": [
+   "2007"
   ]
  },
  {
@@ -825,6 +1049,11 @@
   "wrong": [
    "A főpolgármester.",
    "A házelnök."
+  ],
+  "writtenAliases": [
+   "miniszterelnök",
+   "a magyar miniszterelnök",
+   "Magyarország miniszterelnöke"
   ]
  },
  {
@@ -997,7 +1226,8 @@
   "hu": "Melyik szó hiányzik? Minden embernek joga van az élethez és az … méltósághoz.",
   "ru": "Какое венгерское слово пропущено? Речь идёт о праве на жизнь и человеческое достоинство.",
   "answer": "emberi",
-  "translation": "человеческий (в сочетании «человеческое достоинство»)"
+  "translation": "человеческий (в сочетании «человеческое достоинство»)",
+  "writtenAliases": []
  },
  {
   "id": 102,
@@ -1009,6 +1239,10 @@
   "wrong": [
    "Az Európai Parlament.",
    "A Magyar Tudományos Akadémia."
+  ],
+  "writtenAliases": [
+   "Alkotmánybíróság",
+   "a magyar Alkotmánybíróság"
   ]
  },
  {
@@ -1061,6 +1295,9 @@
   "wrong": [
    "1836-ban.",
    "1848-ban."
+  ],
+  "writtenAliases": [
+   "1823"
   ]
  },
  {
@@ -1073,6 +1310,9 @@
   "wrong": [
    "A koronázási kard.",
    "A jogar."
+  ],
+  "writtenAliases": [
+   "Szent Korona"
   ]
  },
  {
@@ -1097,6 +1337,10 @@
   "wrong": [
    "Kádár János.",
    "Antall József."
+  ],
+  "writtenAliases": [
+   "Nagy Imrét",
+   "Imre Nagy"
   ]
  },
  {
@@ -1109,6 +1353,9 @@
   "wrong": [
    "1456-ban.",
    "1686-ban."
+  ],
+  "writtenAliases": [
+   "1526"
   ]
  },
  {
@@ -1121,6 +1368,9 @@
   "wrong": [
    "1848-ban.",
    "1920-ban."
+  ],
+  "writtenAliases": [
+   "1867"
   ]
  },
  {
@@ -1145,6 +1395,10 @@
   "wrong": [
    "Szent István.",
    "Hunyadi János."
+  ],
+  "writtenAliases": [
+   "Árpád fejedelem",
+   "Árpád vezér"
   ]
  },
  {
@@ -1157,6 +1411,10 @@
   "wrong": [
    "Erkel Ferenc.",
    "Vörösmarty Mihály."
+  ],
+  "writtenAliases": [
+   "Katona",
+   "József Katona"
   ]
  },
  {
@@ -1169,6 +1427,10 @@
   "wrong": [
    "Ludwig van Beethoven.",
    "Liszt Ferenc."
+  ],
+  "writtenAliases": [
+   "Mozart",
+   "W. A. Mozart"
   ]
  },
  {
@@ -1181,6 +1443,10 @@
   "wrong": [
    "Kölcsey Ferenc.",
    "Arany János."
+  ],
+  "writtenAliases": [
+   "Petőfi",
+   "Sándor Petőfi"
   ]
  },
  {
@@ -1193,6 +1459,10 @@
   "wrong": [
    "A miniszterek.",
    "A bírák."
+  ],
+  "writtenAliases": [
+   "választópolgárok",
+   "a választójoggal rendelkező polgárok"
   ]
  },
  {
@@ -1205,6 +1475,11 @@
   "wrong": [
    "Az Alkotmánybíróság.",
    "Az Európai Tanács."
+  ],
+  "writtenAliases": [
+   "Országgyűlés",
+   "a parlament",
+   "parlament"
   ]
  },
  {
@@ -1217,6 +1492,9 @@
   "wrong": [
    "Nagy Imre.",
    "Antall József."
+  ],
+  "writtenAliases": [
+   "Péter Magyar"
   ]
  },
  {
@@ -1229,6 +1507,9 @@
   "wrong": [
    "Göncz Árpád.",
    "Antall József."
+  ],
+  "writtenAliases": [
+   "András Baka"
   ]
  },
  {
@@ -1241,6 +1522,11 @@
   "wrong": [
    "A szabad vallásválasztás.",
    "A véleménynyilvánítás."
+  ],
+  "writtenAliases": [
+   "adófizetés",
+   "az adófizetési kötelezettség",
+   "adófizetési kötelezettség"
   ]
  },
  {
@@ -1253,6 +1539,13 @@
   "wrong": [
    "A szomszédnak.",
    "A munkaadónak."
+  ],
+  "writtenAliases": [
+   "a szülőknek",
+   "szülőknek",
+   "szülőnek",
+   "a szülők kötelessége",
+   "a szülő kötelessége"
   ]
  },
  {
@@ -1265,6 +1558,9 @@
   "wrong": [
    "1215-ben.",
    "1950-ben."
+  ],
+  "writtenAliases": [
+   "1789"
   ]
  },
  {
@@ -1277,6 +1573,11 @@
   "wrong": [
    "A gyülekezési szabadság.",
    "A sajtószabadság."
+  ],
+  "writtenAliases": [
+   "vallásszabadság",
+   "vallás szabadsága",
+   "a vallás szabadsága"
   ]
  },
  {
@@ -1301,6 +1602,10 @@
   "wrong": [
    "Hollókőn.",
    "Esztergomban."
+  ],
+  "writtenAliases": [
+   "Mohács",
+   "Mohács városában"
   ]
  },
  {
@@ -1313,6 +1618,11 @@
   "wrong": [
    "23.",
    "27."
+  ],
+  "writtenAliases": [
+   "19 vármegye",
+   "tizenkilenc",
+   "tizenkilenc vármegye"
   ]
  },
  {
@@ -1325,6 +1635,9 @@
   "wrong": [
    "A Szózat.",
    "A Nemzeti dal."
+  ],
+  "writtenAliases": [
+   "Himnusz"
   ]
  },
  {
@@ -1349,6 +1662,10 @@
   "wrong": [
    "Miniszterelnök lett.",
    "Újratemették."
+  ],
+  "writtenAliases": [
+   "Kivégezték Nagy Imrét",
+   "Halálra ítélték és kivégezték"
   ]
  },
  {
@@ -1361,6 +1678,10 @@
   "wrong": [
    "1848–1849 között.",
    "1825–1848 között."
+  ],
+  "writtenAliases": [
+   "1703–1711",
+   "1703-tól 1711-ig"
   ]
  },
  {
@@ -1373,6 +1694,10 @@
   "wrong": [
    "Wolfgang Amadeus Mozart.",
    "Ludwig van Beethoven."
+  ],
+  "writtenAliases": [
+   "Csajkovszkij",
+   "P. I. Csajkovszkij"
   ]
  }
 ]
