@@ -36,7 +36,7 @@ function home() {
     const typed=save.sessions['typed-'+c.slug];
     return Number.isFinite(save.best[c.slug]) || (typed?.at===6 && typed.ids?.length===6);
   }).length;
-  app.insertAdjacentHTML('beforeend','<div class="section-head"><h2>Темы курса</h2><span class="muted">Темы с завершённым тестом: '+total+' из 6</span></div><div class="grid">'+course.chapters.map(c=>link(base(c)+'read','<span class="num">0'+c.id+'</span><span><strong>'+hu(c.hu)+'</strong><small>'+escape(c.ru)+'</small></span><span class="next" aria-hidden="true">›</span>','topic')).join('')+'</div><section class="pane final-panel"><h2>Итоговый тест</h2><p>12 вопросов на венгерском: по два из каждой темы.</p>'+link('#/final','Тест с выбором ответа →','button')+formats(null)+'</section>');
+  app.insertAdjacentHTML('beforeend','<div class="section-head"><h2>Темы курса</h2><span class="muted">Темы с завершённым тестом: '+total+' из 6</span></div><div class="grid">'+course.chapters.map(c=>link(base(c)+'read','<span class="num">0'+c.id+'</span><span><strong>'+hu(c.hu)+'</strong><small>'+escape(c.ru)+'</small></span><span class="next" aria-hidden="true">›</span>','topic')).join('')+'</div><section class="pane final-panel"><h2>Итоговый тест</h2><p>12 вопросов на венгерском: по два из каждой темы.</p>'+link('#/final','Тест с выбором ответа →','button')+formats(null)+link('#/all','Все '+cards.length+' вопросов →','button primary')+'</section>');
 }
 function topic(c,tab) {
   save.last=c.slug; persist();
@@ -119,11 +119,29 @@ function quiz(c){
 function sources(){
   layout(back()+'<h1 class="page-title">Материалы курса</h1><section class="pane"><h2>Как готовиться</h2><p>Сначала прочитайте короткие фразы A1. Затем включите A2, разберите подробности и закройте русский перевод. В карточках напишите ответ по-венгерски. В конце каждой темы пройдите тест. В письменном тесте ответ нужно ввести самостоятельно. В письменной работе на экране введите ответы под всеми вопросами и затем проверьте результат.</p><p>По официальной памятке письменный экзамен проходит на венгерском языке: 12 вопросов за 60 минут, по два из каждой темы. Максимум — 30 баллов, проходной результат — 16. Здесь три тренировочных формата: выбор ответа, ввод ответа и ввод ответов на одном экране. В каждом итоговом варианте 12 вопросов без таймера. Электронные работы дают по одному тренировочному баллу за ответ.</p></section><section class="pane"><h2>Первоисточники</h2><p>Сверено 24 ноября 2026 г. Использованы учебные материалы Лайко Габора, его венгерско-русские банки вопросов и экзаменационные материалы Yana (184 учебных вопроса) и официальный учебный материал осени 2026 года. Вопросы курса служат для практики. Точные задания конкретного экзамена заранее неизвестны.</p><ul>'+[[PDF,'Официальное пособие, PDF'],[INFO,'Официальная памятка об экзамене'],['https://kormanyhivatalok.hu/kormanyhivatalok/budapest/megye/szervezet/jogi-es-koordinacios-foosztaly','Актуальные материалы организатора'],['https://njt.hu/jogszabaly/2011-4301-02-00','Основной закон Венгрии'],['https://kormany.hu/kormanyzat','Правительство и министерства'],['https://www.sandorpalota.hu/hu/baka-andras-magyarorszag-uj-koztarsasagi-elnoke','Сведения о главе государства']].map(([u,l])=>'<li>'+link(u,l)+'</li>').join('')+'</ul><p class="minor">Фото: '+link('https://commons.wikimedia.org/wiki/File:Hungarian_State_Opera_House(PDXdj).jpg','Hungarian State Opera House, PDXdj')+', '+link('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Версия из официального пособия, с. 47.</p></section>');
 }
+
+function allQuestions(){
+  const list=course.chapters.flatMap(ch=>cards.filter(q=>q.chapter===ch.id));
+  if(!save.allAnswers||typeof save.allAnswers!=='object'||Array.isArray(save.allAnswers))save.allAnswers={};
+  const answers=save.allAnswers;
+  const norm=v=>String(v).normalize('NFC').toLocaleLowerCase('hu').replace(/[.,!?;:()„”"]/g,' ').replace(/[‐‑–—-]/g,' ').trim().replace(/\s+/g,' ');
+  const count=()=>list.filter(q=>String(answers[q.id]||'').trim()).length;
+  layout(back()+'<h1 class="page-title">Все вопросы · '+list.length+'</h1><p>Введите ответы по-венгерски. Можно возвращаться к заданию: ответы сохраняются на этом устройстве.</p><div class="pane"><p id="all-count" role="status"></p><div class="actions">'+button('all-check','Проверить ответы','primary')+button('all-reset','Очистить ответы')+'</div><p id="all-result" aria-live="polite"></p><nav aria-label="Темы">'+course.chapters.map(ch=>'<button type="button" data-jump="'+ch.id+'">'+escape(ch.ru)+'</button>').join(' ')+'</nav></div>'+course.chapters.map(ch=>'<section class="pane" id="all-ch-'+ch.id+'"><h2>'+hu(ch.hu)+'</h2><p>'+escape(ch.ru)+'</p>'+list.filter(q=>q.chapter===ch.id).map(q=>'<div class="passage"><h3><label for="all-entry-'+q.id+'">'+hu((list.indexOf(q)+1)+'. '+q.hu)+'</label></h3><details><summary>Перевод вопроса</summary><p>'+escape(q.ru)+'</p></details><textarea id="all-entry-'+q.id+'" data-all-entry="'+q.id+'" lang="hu" rows="2" maxlength="1000" placeholder="Írd ide a válaszodat!">'+escape(answers[q.id]||'')+'</textarea><div id="all-feedback-'+q.id+'" hidden></div></div>').join('')+'</section>').join('')+'<div class="actions">'+button('all-check-bottom','Проверить ответы','primary')+'</div>');
+  function progress(){get('all-count').textContent='Заполнено: '+count()+' / '+list.length;}
+  progress();
+  app.querySelectorAll('[data-jump]').forEach(b=>b.onclick=()=>get('all-ch-'+b.dataset.jump).scrollIntoView({block:'start'}));
+  app.querySelectorAll('[data-all-entry]').forEach(input=>input.oninput=()=>{answers[input.dataset.allEntry]=input.value;persist();progress();get('all-feedback-'+input.dataset.allEntry).hidden=true;get('all-result').textContent='';});
+  function check(){let matched=0;for(const q of list){const val=String(answers[q.id]||'');const ok=!!val.trim()&&[q.answer,...(q.writtenAliases||[])].some(x=>norm(x)===norm(val));if(ok)matched++;const f=get('all-feedback-'+q.id);f.hidden=false;f.className='feedback';f.innerHTML='<strong>'+(ok?'✓ Совпало с образцом':val.trim()?'Сравните ответ по смыслу':'Нет ответа')+'</strong><p>'+hu(q.answer)+'</p><p>'+escape(q.translation)+'</p>';}get('all-result').textContent='Совпало с образцом: '+matched+' / '+list.length+'. Заполнено: '+count()+'. Другие правильные формулировки сравните по смыслу.';get('all-result').scrollIntoView({block:'center'});}
+  get('all-check').onclick=check;get('all-check-bottom').onclick=check;
+  get('all-reset').onclick=()=>{if(window.confirm('Удалить все введённые ответы?')){save.allAnswers={};persist();allQuestions();}};
+}
+
 function render(){
   const [,route,slug,tab]=location.hash.replace(/^#/,'').split('/');
   const c=course.chapters.find(x=>x.slug===slug);
   if(route==='tema'&&c)topic(c,Object.hasOwn(tabs,tab)?tab:'read');
   else if(route==='final'){layout('');if(slug==='written'||slug==='paper')written(null,slug==='paper');else quiz(null);}
+  else if(route==='all')allQuestions();
   else if(route==='sources')sources();
   else home();
   window.scrollTo(0,0);app.focus({preventScroll:true});
