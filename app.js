@@ -1,9 +1,9 @@
-import {writingPractice} from './written.js?v=20261124-2';
+import {writingPractice} from './written.js?v=20261124-4';
 const app = document.querySelector('#app');
 const PDF = 'https://kormanyhivatalok.hu/sites/default/files/2026-09/kiv_segedanyag_bfkh_honlapra_aug.pdf';
 const INFO = 'https://kormanyhivatalok.hu/sites/default/files/2025-01/magyar-kulturalis-ismereti-vizsga-tajekoztato.pdf';
 const storageKey = 'magyar-kulturalis-ismeretek.v1';
-const tabs = {read:'Урок', words:'Словарь', cards:'Карточки', test:'Тест по теме', written:'Письменный тест', paper:'Письмо от руки'};
+const tabs = {read:'Урок', words:'Словарь', cards:'Карточки', test:'Тест по теме', written:'Письменный тест', paper:'Письменная работа на экране'};
 let course, cards, save = {}, storageOK = true;
 try { save = JSON.parse(localStorage.getItem(storageKey)) || {}; } catch { save = {}; }
 if (typeof save !== 'object' || Array.isArray(save)) save = {};
@@ -75,7 +75,7 @@ function written(c,paper=false){
 }
 function formats(c){
   const path=c?base(c):'#/final/';
-  return '<div class="actions">'+link(path+'written','Написать ответы по-венгерски','button primary')+link(path+'paper','Бланк для письма от руки','button')+'</div>';
+  return '<div class="actions">'+link(path+'written','Написать ответы по-венгерски','button primary')+link(path+'paper','Все вопросы на одном экране','button')+'</div>';
 }
 function quiz(c){
   const final=!c, id=c?.slug||'final', holder=c?get('panel'):app;
@@ -117,7 +117,7 @@ function quiz(c){
   draw();
 }
 function sources(){
-  layout(back()+'<h1 class="page-title">Материалы курса</h1><section class="pane"><h2>Как готовиться</h2><p>Сначала прочитайте короткие фразы A1. Затем включите A2, разберите подробности и закройте русский перевод. В карточках напишите ответ по-венгерски. В конце каждой темы пройдите тест. В письменном тесте ответ нужно ввести самостоятельно. Для письма от руки распечатайте чистый бланк или отвечайте в тетради. Ключ открывается отдельно.</p><p>По официальной памятке письменный экзамен проходит на венгерском языке: 12 вопросов за 60 минут, по два из каждой темы. Максимум — 30 баллов, проходной результат — 16. Здесь три тренировочных формата: выбор ответа, ввод ответа и бланк для письма от руки. В каждом итоговом варианте 12 вопросов без таймера. Электронные работы дают по одному тренировочному баллу за ответ.</p></section><section class="pane"><h2>Первоисточники</h2><p>Сверено 24 ноября 2026 г. Использованы учебные материалы Лайко Габора, его венгерско-русские банки вопросов и экзаменационные материалы Yana (184 учебных вопроса) и официальный учебный материал осени 2026 года. Вопросы курса служат для практики. Точные задания конкретного экзамена заранее неизвестны.</p><ul>'+[[PDF,'Официальное пособие, PDF'],[INFO,'Официальная памятка об экзамене'],['https://kormanyhivatalok.hu/kormanyhivatalok/budapest/megye/szervezet/jogi-es-koordinacios-foosztaly','Актуальные материалы организатора'],['https://njt.hu/jogszabaly/2011-4301-02-00','Основной закон Венгрии'],['https://kormany.hu/kormanyzat','Правительство и министерства'],['https://www.sandorpalota.hu/hu/baka-andras-magyarorszag-uj-koztarsasagi-elnoke','Сведения о главе государства']].map(([u,l])=>'<li>'+link(u,l)+'</li>').join('')+'</ul><p class="minor">Фото: '+link('https://commons.wikimedia.org/wiki/File:Hungarian_State_Opera_House(PDXdj).jpg','Hungarian State Opera House, PDXdj')+', '+link('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Версия из официального пособия, с. 47.</p></section>');
+  layout(back()+'<h1 class="page-title">Материалы курса</h1><section class="pane"><h2>Как готовиться</h2><p>Сначала прочитайте короткие фразы A1. Затем включите A2, разберите подробности и закройте русский перевод. В карточках напишите ответ по-венгерски. В конце каждой темы пройдите тест. В письменном тесте ответ нужно ввести самостоятельно. В письменной работе на экране введите ответы под всеми вопросами и затем проверьте результат.</p><p>По официальной памятке письменный экзамен проходит на венгерском языке: 12 вопросов за 60 минут, по два из каждой темы. Максимум — 30 баллов, проходной результат — 16. Здесь три тренировочных формата: выбор ответа, ввод ответа и ввод ответов на одном экране. В каждом итоговом варианте 12 вопросов без таймера. Электронные работы дают по одному тренировочному баллу за ответ.</p></section><section class="pane"><h2>Первоисточники</h2><p>Сверено 24 ноября 2026 г. Использованы учебные материалы Лайко Габора, его венгерско-русские банки вопросов и экзаменационные материалы Yana (184 учебных вопроса) и официальный учебный материал осени 2026 года. Вопросы курса служат для практики. Точные задания конкретного экзамена заранее неизвестны.</p><ul>'+[[PDF,'Официальное пособие, PDF'],[INFO,'Официальная памятка об экзамене'],['https://kormanyhivatalok.hu/kormanyhivatalok/budapest/megye/szervezet/jogi-es-koordinacios-foosztaly','Актуальные материалы организатора'],['https://njt.hu/jogszabaly/2011-4301-02-00','Основной закон Венгрии'],['https://kormany.hu/kormanyzat','Правительство и министерства'],['https://www.sandorpalota.hu/hu/baka-andras-magyarorszag-uj-koztarsasagi-elnoke','Сведения о главе государства']].map(([u,l])=>'<li>'+link(u,l)+'</li>').join('')+'</ul><p class="minor">Фото: '+link('https://commons.wikimedia.org/wiki/File:Hungarian_State_Opera_House(PDXdj).jpg','Hungarian State Opera House, PDXdj')+', '+link('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Версия из официального пособия, с. 47.</p></section>');
 }
 function render(){
   const [,route,slug,tab]=location.hash.replace(/^#/,'').split('/');
