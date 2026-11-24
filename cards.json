@@ -1,1703 +1,2259 @@
 [
- {
-  "id": 1,
-  "chapter": 1,
-  "hu": "Milyen színekből áll a magyar zászló felülről lefelé?",
-  "ru": "Какие цвета у венгерского флага сверху вниз?",
-  "answer": "Piros, fehér, zöld.",
-  "translation": "Красный, белый, зелёный.",
-  "wrong": [
-   "Zöld, fehér, piros.",
-   "Fehér, piros, zöld."
-  ]
- },
- {
-  "id": 2,
-  "chapter": 1,
-  "hu": "Mit jelképez a piros szín a zászlón?",
-  "ru": "Что символизирует красный цвет флага?",
-  "answer": "Az erőt.",
-  "translation": "Силу.",
-  "wrong": [
-   "A hűséget.",
-   "A reményt."
-  ],
-  "writtenAliases": [
-   "erő",
-   "erőt",
-   "az erő"
-  ]
- },
- {
-  "id": 3,
-  "chapter": 1,
-  "hu": "Mit jelképez a fehér szín?",
-  "ru": "Что символизирует белый цвет?",
-  "answer": "A hűséget.",
-  "translation": "Верность.",
-  "wrong": [
-   "Az erőt.",
-   "A reményt."
-  ],
-  "writtenAliases": [
-   "hűség",
-   "hűséget",
-   "a hűség"
-  ]
- },
- {
-  "id": 4,
-  "chapter": 1,
-  "hu": "Mit jelképez a zöld szín?",
-  "ru": "Что символизирует зелёный цвет?",
-  "answer": "A reményt.",
-  "translation": "Надежду.",
-  "wrong": [
-   "Az erőt.",
-   "A hűséget."
-  ],
-  "writtenAliases": [
-   "remény",
-   "reményt",
-   "a remény"
-  ]
- },
- {
-  "id": 5,
-  "chapter": 1,
-  "hu": "A címert nézve melyik oldalon vannak a vörös és ezüst sávok?",
-  "ru": "С какой стороны зритель видит красные и серебряные полосы на гербе?",
-  "answer": "A néző bal oldalán.",
-  "translation": "Слева от зрителя."
- },
- {
-  "id": 6,
-  "chapter": 1,
-  "hu": "Mit látsz a címer jobb oldalán, ha szemből nézed?",
-  "ru": "Что видно справа на гербе, если смотреть на него прямо?",
-  "answer": "Zöld hármas halmot, aranykoronát és ezüst kettős keresztet.",
-  "translation": "Три зелёных холма, золотую корону и серебряный двойной крест."
- },
- {
-  "id": 7,
-  "chapter": 1,
-  "hu": "Hol látható a Szent Korona?",
-  "ru": "Где можно увидеть Святую корону?",
-  "answer": "A budapesti Országházban.",
-  "translation": "В здании венгерского парламента в Будапеште.",
-  "wrong": [
-   "A Magyar Állami Operaházban.",
-   "A Nemzeti Színházban."
-  ],
-  "writtenAliases": [
-   "Országház",
-   "Országházban",
-   "az Országházban",
-   "Parlamentben",
-   "a Parlamentben",
-   "a magyar Parlamentben",
-   "Budapesten az Országházban"
-  ]
- },
- {
-  "id": 8,
-  "chapter": 1,
-  "hu": "Nevezzen meg három koronázási jelvényt a koronán kívül!",
-  "ru": "Назовите три коронационные регалии кроме короны!",
-  "answer": "Jogar, országalma, koronázási kard.",
-  "translation": "Скипетр, держава, коронационный меч."
- },
- {
-  "id": 9,
-  "chapter": 1,
-  "hu": "Mikor vonják fel a nemzeti lobogót ünnepélyesen az Országház előtt?",
-  "ru": "Когда торжественно поднимают флаг перед парламентом?",
-  "answer": "A nemzeti ünnepeken.",
-  "translation": "В дни национальных праздников."
- },
- {
-  "id": 10,
-  "chapter": 2,
-  "hu": "Ki volt az első keresztény magyar király?",
-  "ru": "Кто был первым христианским королём Венгрии?",
-  "answer": "I. (Szent) István.",
-  "translation": "Иштван I (Святой Иштван).",
-  "wrong": [
-   "IV. Béla.",
-   "Hunyadi Mátyás."
-  ],
-  "writtenAliases": [
-   "Szent István",
-   "I. István",
-   "István király",
-   "Első István",
-   "Szent István király"
-  ]
- },
- {
-  "id": 11,
-  "chapter": 2,
-  "hu": "A vizsga segédanyaga szerint mikor koronázták meg Szent Istvánt?",
-  "ru": "Когда, согласно экзаменационному пособию, короновали Иштвана Святого?",
-  "answer": "1001. január 1-jén.",
-  "translation": "1 января 1001 года."
- },
- {
-  "id": 12,
-  "chapter": 2,
-  "hu": "Hány egyházmegyét alapított Szent István?",
-  "ru": "Сколько епархий основал Святой Иштван?",
-  "answer": "Tízet.",
-  "translation": "Десять.",
-  "writtenAliases": [
-   "10",
-   "tíz",
-   "10-et",
-   "10 egyházmegyét",
-   "tíz egyházmegyét"
-  ]
- },
- {
-  "id": 13,
-  "chapter": 2,
-  "hu": "Melyik vallást vette fel az ország Szent István idején?",
-  "ru": "Какую религию приняла страна при Святом Иштване?",
-  "answer": "A nyugati kereszténységet.",
-  "translation": "Западное христианство."
- },
- {
-  "id": 14,
-  "chapter": 2,
-  "hu": "Hová érkeztek a magyarok 895–896-ban?",
-  "ru": "Куда пришли венгры в 895–896 годах?",
-  "answer": "A Kárpát-medencébe.",
-  "translation": "В Карпатский бассейн.",
-  "wrong": [
-   "A Pireneusi-félszigetre.",
-   "A Skandináv-félszigetre."
-  ]
- },
- {
-  "id": 15,
-  "chapter": 2,
-  "hu": "Ki adta ki az Aranybullát?",
-  "ru": "Кто издал Золотую буллу?",
-  "answer": "II. András király 1222-ben.",
-  "translation": "Король Андраш II в 1222 году.",
-  "wrong": [
-   "IV. Béla 1242-ben.",
-   "Hunyadi Mátyás 1458-ban."
-  ],
-  "writtenAliases": [
-   "II. András",
-   "II. András király",
-   "Második András",
-   "II. Endre"
-  ]
- },
- {
-  "id": 16,
-  "chapter": 2,
-  "hu": "Kiknek a jogait foglalta össze az Aranybulla?",
-  "ru": "Чьи права закрепляла Золотая булла?",
-  "answer": "Elsősorban a királyi szerviensek jogait.",
-  "translation": "Прежде всего права королевских служилых людей."
- },
- {
-  "id": 17,
-  "chapter": 1,
-  "hu": "Mit ünneplünk március 15-én?",
-  "ru": "Что празднуют 15 марта?",
-  "answer": "Az 1848-as forradalom kezdetét.",
-  "translation": "Начало революции 1848 года."
- },
- {
-  "id": 18,
-  "chapter": 1,
-  "hu": "Mit ünneplünk augusztus 20-án?",
-  "ru": "Что празднуют 20 августа?",
-  "answer": "Az államalapítást és Szent Istvánt.",
-  "translation": "Основание государства и день Святого Иштвана.",
-  "wrong": [
-   "Az 1956-os forradalom kezdetét.",
-   "Az 1848-as forradalom kezdetét."
-  ]
- },
- {
-  "id": 19,
-  "chapter": 1,
-  "hu": "Mit ünneplünk október 23-án?",
-  "ru": "Что празднуют 23 октября?",
-  "answer": "Az 1956-os forradalom kezdetét.",
-  "translation": "Начало революции 1956 года."
- },
- {
-  "id": 20,
-  "chapter": 2,
-  "hu": "Melyik uralkodó alatt virágzott a reneszánsz Magyarországon?",
-  "ru": "При каком правителе расцвёл Ренессанс в Венгрии?",
-  "answer": "Hunyadi Mátyás alatt.",
-  "translation": "При Матьяше Хуньяди.",
-  "wrong": [
-   "Szent László alatt.",
-   "II. András alatt."
-  ]
- },
- {
-  "id": 21,
-  "chapter": 2,
-  "hu": "Melyik uralkodóház ellen lázadtak fel 1848-ban?",
-  "ru": "Против какой династии восстали в 1848 году?",
-  "answer": "A Habsburg-ház ellen.",
-  "translation": "Против Габсбургов."
- },
- {
-  "id": 22,
-  "chapter": 2,
-  "hu": "Ki tette le a fegyvert Világosnál 1849. augusztus 13-án?",
-  "ru": "Кто сложил оружие у Вилагоша 13 августа 1849 года?",
-  "answer": "Görgei Artúr.",
-  "translation": "Артур Гёргеи.",
-  "wrong": [
-   "Batthyány Lajos.",
-   "Deák Ferenc."
-  ],
-  "writtenAliases": [
-   "Görgey Artúr",
-   "Görgei",
-   "Görgey"
-  ]
- },
- {
-  "id": 23,
-  "chapter": 2,
-  "hu": "Ki volt Batthyány Lajos?",
-  "ru": "Кем был Лайош Баттьяни?",
-  "answer": "Az első felelős magyar kormány miniszterelnöke.",
-  "translation": "Глава первого венгерского правительства, ответственного перед парламентом."
- },
- {
-  "id": 24,
-  "chapter": 2,
-  "hu": "Mi történt 1849. október 6-án?",
-  "ru": "Что произошло 6 октября 1849 года?",
-  "answer": "Kivégezték az aradi tizenhármakat és Batthyány Lajost.",
-  "translation": "Казнили тринадцать офицеров в Араде и Лайоша Баттьяни."
- },
- {
-  "id": 25,
-  "chapter": 2,
-  "hu": "Ki volt Antall József?",
-  "ru": "Кем был Йожеф Анталл?",
-  "answer": "Az 1990-es szabad választások után ő lett a miniszterelnök.",
-  "translation": "После свободных выборов 1990 года он стал премьер-министром."
- },
- {
-  "id": 26,
-  "chapter": 2,
-  "hu": "Kit választott köztársasági elnökké az Országgyűlés 1990-ben?",
-  "ru": "Кого парламент избрал президентом в 1990 году?",
-  "answer": "Göncz Árpád.",
-  "translation": "Арпад Гёнц.",
-  "writtenAliases": [
-   "Göncz Árpádot",
-   "Göncz"
-  ]
- },
- {
-  "id": 27,
-  "chapter": 2,
-  "hu": "Mi miatt néptelenedtek el nagy területek a középkorban?",
-  "ru": "Почему опустели большие территории в Средние века?",
-  "answer": "A tatárjárás miatt.",
-  "translation": "Из-за монгольского нашествия."
- },
- {
-  "id": 28,
-  "chapter": 2,
-  "hu": "Nevezzen meg két jelentős Árpád-házi királyt Szent István után!",
-  "ru": "Назовите двух выдающихся королей династии Арпадов после Иштвана!",
-  "answer": "Szent László és Könyves Kálmán.",
-  "translation": "Святой Ласло и Кальман Книжник."
- },
- {
-  "id": 29,
-  "chapter": 2,
-  "hu": "Mi kapcsolódik Széchenyi István nevéhez?",
-  "ru": "Что связано с именем Иштвана Сечени?",
-  "answer": "A Lánchíd építésének kezdeményezése.",
-  "translation": "Инициатива строительства Цепного моста."
- },
- {
-  "id": 30,
-  "chapter": 1,
-  "hu": "Ki írta a Himnusz szövegét?",
-  "ru": "Кто написал текст гимна Венгрии?",
-  "answer": "Kölcsey Ferenc.",
-  "translation": "Ференц Кёльчеи.",
-  "wrong": [
-   "Petőfi Sándor.",
-   "Vörösmarty Mihály."
-  ],
-  "writtenAliases": [
-   "Kölcsey",
-   "Ferenc Kölcsey"
-  ]
- },
- {
-  "id": 31,
-  "chapter": 1,
-  "hu": "Ki szerezte a Himnusz zenéjét?",
-  "ru": "Кто написал музыку гимна Венгрии?",
-  "answer": "Erkel Ferenc.",
-  "translation": "Ференц Эркель.",
-  "wrong": [
-   "Liszt Ferenc.",
-   "Egressy Béni."
-  ],
-  "writtenAliases": [
-   "Erkel",
-   "Ferenc Erkel"
-  ]
- },
- {
-  "id": 32,
-  "chapter": 1,
-  "hu": "Ki írta a Szózat szövegét?",
-  "ru": "Кто написал текст «Szózat»?",
-  "answer": "Vörösmarty Mihály.",
-  "translation": "Михай Вёрёшмарти.",
-  "wrong": [
-   "Kölcsey Ferenc.",
-   "Arany János."
-  ],
-  "writtenAliases": [
-   "Vörösmarty",
-   "Mihály Vörösmarty"
-  ]
- },
- {
-  "id": 33,
-  "chapter": 1,
-  "hu": "Ki szerezte a Szózat zenéjét?",
-  "ru": "Кто написал музыку «Szózat»?",
-  "answer": "Egressy Béni.",
-  "translation": "Бени Эгрешши.",
-  "wrong": [
-   "Erkel Ferenc.",
-   "Kodály Zoltán."
-  ],
-  "writtenAliases": [
-   "Egressy",
-   "Béni Egressy"
-  ]
- },
- {
-  "id": 34,
-  "chapter": 1,
-  "hu": "Mikor írta Vörösmarty a Szózatot?",
-  "ru": "Когда Вёрёшмарти написал «Szózat»?",
-  "answer": "1836-ban.",
-  "translation": "В 1836 году.",
-  "writtenAliases": [
-   "1836"
-  ]
- },
- {
-  "id": 35,
-  "chapter": 3,
-  "hu": "Ki volt a nyelvújítás vezéralakja?",
-  "ru": "Кто возглавлял обновление венгерского языка?",
-  "answer": "Kazinczy Ferenc.",
-  "translation": "Ференц Казинци.",
-  "wrong": [
-   "Petőfi Sándor.",
-   "Madách Imre."
-  ],
-  "writtenAliases": [
-   "Kazinczy",
-   "Ferenc Kazinczy"
-  ]
- },
- {
-  "id": 36,
-  "chapter": 3,
-  "hu": "Melyik században élt Petőfi Sándor?",
-  "ru": "В каком веке жил Шандор Петефи?",
-  "answer": "A XIX. században.",
-  "translation": "В XIX веке."
- },
- {
-  "id": 37,
-  "chapter": 3,
-  "hu": "Ki írta Az ember tragédiáját?",
-  "ru": "Кто написал «Трагедию человека»?",
-  "answer": "Madách Imre.",
-  "translation": "Имре Мадач.",
-  "wrong": [
-   "Jókai Mór.",
-   "Arany János."
-  ],
-  "writtenAliases": [
-   "Madách",
-   "Imre Madách"
-  ]
- },
- {
-  "id": 38,
-  "chapter": 3,
-  "hu": "Milyen nemzetiségű volt Shakespeare?",
-  "ru": "Какой национальности был Шекспир?",
-  "answer": "Angol.",
-  "translation": "Англичанин.",
-  "writtenAliases": [
-   "angol volt",
-   "angol nemzetiségű"
-  ]
- },
- {
-  "id": 39,
-  "chapter": 3,
-  "hu": "Ki írta az Elbocsátó, szép üzenet című verset?",
-  "ru": "Кто написал «Elbocsátó, szép üzenet»?",
-  "answer": "Ady Endre.",
-  "translation": "Эндре Ади.",
-  "wrong": [
-   "József Attila.",
-   "Radnóti Miklós."
-  ],
-  "writtenAliases": [
-   "Ady",
-   "Endre Ady"
-  ]
- },
- {
-  "id": 40,
-  "chapter": 3,
-  "hu": "Ki szerezte a Bánk bán operát?",
-  "ru": "Кто написал оперу «Банк бан»?",
-  "answer": "Erkel Ferenc.",
-  "translation": "Ференц Эркель.",
-  "wrong": [
-   "Katona József.",
-   "Bartók Béla."
-  ],
-  "writtenAliases": [
-   "Erkel",
-   "Ferenc Erkel"
-  ]
- },
- {
-  "id": 41,
-  "chapter": 3,
-  "hu": "Ki szerezte A kékszakállú herceg vára operát?",
-  "ru": "Кто написал оперу «Замок герцога Синяя Борода»?",
-  "answer": "Bartók Béla.",
-  "translation": "Бела Барток.",
-  "wrong": [
-   "Kodály Zoltán.",
-   "Erkel Ferenc."
-  ],
-  "writtenAliases": [
-   "Bartók",
-   "Béla Bartók"
-  ]
- },
- {
-  "id": 42,
-  "chapter": 3,
-  "hu": "Ki szerezte a Háry János című daljátékot?",
-  "ru": "Кто написал «Хари Янош»?",
-  "answer": "Kodály Zoltán.",
-  "translation": "Золтан Кодай.",
-  "wrong": [
-   "Bartók Béla.",
-   "Liszt Ferenc."
-  ],
-  "writtenAliases": [
-   "Kodály",
-   "Zoltán Kodály"
-  ]
- },
- {
-  "id": 43,
-  "chapter": 3,
-  "hu": "Ki szerezte a Magyar rapszódiákat?",
-  "ru": "Кто написал «Венгерские рапсодии»?",
-  "answer": "Liszt Ferenc.",
-  "translation": "Ференц Лист.",
-  "wrong": [
-   "Erkel Ferenc.",
-   "Kodály Zoltán."
-  ],
-  "writtenAliases": [
-   "Liszt",
-   "Ferenc Liszt",
-   "Franz Liszt"
-  ]
- },
- {
-  "id": 44,
-  "chapter": 3,
-  "hu": "Ki a magyar népzenekutatás két híres képviselője?",
-  "ru": "Назовите двух известных исследователей венгерской народной музыки.",
-  "answer": "Bartók Béla és Kodály Zoltán.",
-  "translation": "Бела Барток и Золтан Кодай."
- },
- {
-  "id": 45,
-  "chapter": 3,
-  "hu": "Ki szerezte az EU-himnuszként használt dallamot?",
-  "ru": "Кто сочинил мелодию гимна ЕС?",
-  "answer": "Ludwig van Beethoven.",
-  "translation": "Людвиг ван Бетховен.",
-  "wrong": [
-   "Wolfgang Amadeus Mozart.",
-   "Pjotr Iljics Csajkovszkij."
-  ],
-  "writtenAliases": [
-   "Beethoven",
-   "L. van Beethoven"
-  ]
- },
- {
-  "id": 46,
-  "chapter": 4,
-  "hu": "Mi Magyarország államformája?",
-  "ru": "Какова форма правления Венгрии?",
-  "answer": "Köztársaság.",
-  "translation": "Республика.",
-  "writtenAliases": [
-   "A köztársaság"
-  ]
- },
- {
-  "id": 47,
-  "chapter": 4,
-  "hu": "Hogy nevezik Magyarország alkotmányát?",
-  "ru": "Как называется конституция Венгрии?",
-  "answer": "Alaptörvény.",
-  "translation": "Основной закон.",
-  "wrong": [
-   "Aranybulla.",
-   "Költségvetési törvény."
-  ],
-  "writtenAliases": [
-   "Magyarország Alaptörvénye",
-   "Alaptörvénynek",
-   "Alaptörvénynek nevezik"
-  ]
- },
- {
-  "id": 48,
-  "chapter": 4,
-  "hu": "Mikor lépett hatályba az Alaptörvény?",
-  "ru": "Когда вступил в силу Основной закон?",
-  "answer": "2012. január 1-jén.",
-  "translation": "1 января 2012 года.",
-  "wrong": [
-   "2011. április 18-án.",
-   "1990. január 1-jén."
-  ]
- },
- {
-  "id": 49,
-  "chapter": 4,
-  "hu": "Hány képviselője van az Országgyűlésnek?",
-  "ru": "Сколько депутатов в венгерском парламенте?",
-  "answer": "199 képviselő.",
-  "translation": "199 депутатов.",
-  "wrong": [
-   "99 képviselő.",
-   "299 képviselő."
-  ],
-  "writtenAliases": [
-   "199",
-   "199 fő",
-   "199 képviselője van",
-   "százkilencvenkilenc"
-  ]
- },
- {
-  "id": 50,
-  "chapter": 4,
-  "hu": "Hány évre választják az országgyűlési képviselőket?",
-  "ru": "На какой срок избирают депутатов парламента?",
-  "answer": "Négy évre.",
-  "translation": "На четыре года.",
-  "wrong": [
-   "Öt évre.",
-   "Hat évre."
-  ],
-  "writtenAliases": [
-   "4",
-   "négy",
-   "4 év",
-   "4 évre",
-   "négy év"
-  ]
- },
- {
-  "id": 51,
-  "chapter": 4,
-  "hu": "Ki választja a miniszterelnököt?",
-  "ru": "Кто избирает премьер-министра?",
-  "answer": "Az Országgyűlés.",
-  "translation": "Парламент.",
-  "wrong": [
-   "A köztársasági elnök egyedül.",
-   "Az Európai Parlament."
-  ],
-  "writtenAliases": [
-   "Országgyűlés",
-   "a parlament",
-   "parlament"
-  ]
- },
- {
-  "id": 52,
-  "chapter": 4,
-  "hu": "Kik a Kormány tagjai?",
-  "ru": "Кто входит в правительство?",
-  "answer": "A miniszterelnök és a miniszterek.",
-  "translation": "Премьер-министр и министры.",
-  "wrong": [
-   "A polgármesterek és a bírák.",
-   "Az államfő és a képviselők."
-  ]
- },
- {
-  "id": 53,
-  "chapter": 4,
-  "hu": "Ki választja a köztársasági elnököt?",
-  "ru": "Кто избирает президента?",
-  "answer": "Az Országgyűlés.",
-  "translation": "Парламент.",
-  "wrong": [
-   "Az Európai Tanács.",
-   "A Kormány."
-  ],
-  "writtenAliases": [
-   "Országgyűlés",
-   "a parlament",
-   "parlament"
-  ]
- },
- {
-  "id": 54,
-  "chapter": 4,
-  "hu": "Hány évre választják a köztársasági elnököt?",
-  "ru": "На сколько лет избирают президента?",
-  "answer": "Öt évre.",
-  "translation": "На пять лет.",
-  "wrong": [
-   "Négy évre.",
-   "Hét évre."
-  ],
-  "writtenAliases": [
-   "5",
-   "öt",
-   "öt év",
-   "5 év",
-   "5 évre"
-  ]
- },
- {
-  "id": 55,
-  "chapter": 4,
-  "hu": "Hányszor választható újra a köztársasági elnök?",
-  "ru": "Сколько раз можно переизбрать президента?",
-  "answer": "Legfeljebb egyszer.",
-  "translation": "Не более одного раза.",
-  "writtenAliases": [
-   "egyszer",
-   "egy alkalommal",
-   "legfeljebb egy alkalommal",
-   "1 alkalommal"
-  ]
- },
- {
-  "id": 56,
-  "chapter": 4,
-  "hu": "Mit fejez ki a köztársasági elnök?",
-  "ru": "Что олицетворяет президент?",
-  "answer": "A nemzet egységét.",
-  "translation": "Единство нации."
- },
- {
-  "id": 57,
-  "chapter": 4,
-  "hu": "Ki a Magyar Honvédség főparancsnoka?",
-  "ru": "Кто главнокомандующий Вооружёнными силами Венгрии?",
-  "answer": "A köztársasági elnök.",
-  "translation": "Президент республики.",
-  "wrong": [
-   "A házelnök.",
-   "Az igazságügyi miniszter."
-  ],
-  "writtenAliases": [
-   "köztársasági elnök",
-   "az államfő",
-   "államfő"
-  ]
- },
- {
-  "id": 58,
-  "chapter": 4,
-  "hu": "Minisztérium-e az Alkotmánybíróság, a Kúria vagy az ügyészség?",
-  "ru": "Являются ли Конституционный суд, Курия или прокуратура министерствами?",
-  "answer": "Nem.",
-  "translation": "Нет."
- },
- {
-  "id": 59,
-  "chapter": 5,
-  "hu": "Mit jelent a jogegyenlőség?",
-  "ru": "Что означает равенство прав?",
-  "answer": "Minden ember egyenlő a törvény előtt.",
-  "translation": "Все люди равны перед законом.",
-  "wrong": [
-   "Mindenkinek ugyanaz a munkája.",
-   "Mindenki ugyanannyi adót fizet."
-  ]
- },
- {
-  "id": 60,
-  "chapter": 5,
-  "hu": "A segédanyag szerint melyik generációhoz tartozik az élethez való jog?",
-  "ru": "К какому поколению относится право на жизнь?",
-  "answer": "Az elsőbe.",
-  "translation": "К первому.",
-  "wrong": [
-   "A másodikba.",
-   "A harmadikba."
-  ],
-  "writtenAliases": [
-   "első",
-   "első generáció",
-   "az első generációhoz",
-   "első generációhoz",
-   "az elsőhöz",
-   "1",
-   "1. generáció",
-   "elsőbe"
-  ]
- },
- {
-  "id": 61,
-  "chapter": 5,
-  "hu": "A segédanyag szerint melyik generációhoz tartozik a munkához való jog?",
-  "ru": "К какому поколению относится право на труд?",
-  "answer": "A másodikba.",
-  "translation": "Ко второму.",
-  "wrong": [
-   "Az elsőbe.",
-   "A harmadikba."
-  ],
-  "writtenAliases": [
-   "második",
-   "második generáció",
-   "a második generációhoz",
-   "második generációhoz",
-   "a másodikhoz",
-   "2",
-   "2. generáció",
-   "másodikba"
-  ]
- },
- {
-  "id": 62,
-  "chapter": 5,
-  "hu": "A segédanyag szerint melyik generációhoz tartozik az egészséges környezethez való jog?",
-  "ru": "К какому поколению относится право на здоровую среду?",
-  "answer": "A harmadikba.",
-  "translation": "К третьему.",
-  "wrong": [
-   "Az elsőbe.",
-   "A másodikba."
-  ],
-  "writtenAliases": [
-   "harmadik",
-   "harmadik generáció",
-   "a harmadik generációhoz",
-   "harmadik generációhoz",
-   "a harmadikhoz",
-   "3",
-   "3. generáció",
-   "harmadikba"
-  ]
- },
- {
-  "id": 63,
-  "chapter": 5,
-  "hu": "A segédanyag szerint melyik generációhoz tartozik a vallásszabadság?",
-  "ru": "К какому поколению относится свобода вероисповедания?",
-  "answer": "Az elsőbe.",
-  "translation": "К первому.",
-  "wrong": [
-   "A másodikba.",
-   "A harmadikba."
-  ],
-  "writtenAliases": [
-   "első",
-   "első generáció",
-   "az első generációhoz",
-   "első generációhoz",
-   "az elsőhöz",
-   "1",
-   "1. generáció",
-   "elsőbe"
-  ]
- },
- {
-  "id": 64,
-  "chapter": 5,
-  "hu": "Alapjog-e a személyes adatok védelme?",
-  "ru": "Является ли защита персональных данных основным правом?",
-  "answer": "Igen.",
-  "translation": "Да."
- },
- {
-  "id": 65,
-  "chapter": 5,
-  "hu": "Alapjog-e a tisztességes eljáráshoz való jog?",
-  "ru": "Является ли право на справедливое разбирательство основным правом?",
-  "answer": "Igen.",
-  "translation": "Да."
- },
- {
-  "id": 66,
-  "chapter": 5,
-  "hu": "Alkotmányellenes-e a halálbüntetés?",
-  "ru": "Противоречит ли смертная казнь Конституции?",
-  "answer": "Igen, 1990-ben alkotmányellenesnek nyilvánították.",
-  "translation": "Да, в 1990 году признана неконституционной."
- },
- {
-  "id": 67,
-  "chapter": 5,
-  "hu": "Melyik emberi jogi dokumentumot fogadták el Franciaországban 1789-ben?",
-  "ru": "Какой документ о правах человека был принят во Франции в 1789 году?",
-  "answer": "Az Emberi és Polgári Jogok Nyilatkozatát.",
-  "translation": "Декларацию прав человека и гражданина.",
-  "wrong": [
-   "Az angol Magna Cartát.",
-   "A magyar Aranybullát."
-  ]
- },
- {
-  "id": 68,
-  "chapter": 6,
-  "hu": "Mi Magyarország fővárosa?",
-  "ru": "Какая столица Венгрии?",
-  "answer": "Budapest.",
-  "translation": "Будапешт.",
-  "wrong": [
-   "Debrecen.",
-   "Szeged."
-  ],
-  "writtenAliases": [
-   "Budapest a főváros"
-  ]
- },
- {
-  "id": 69,
-  "chapter": 6,
-  "hu": "Mekkora Magyarország területe?",
-  "ru": "Какова площадь Венгрии?",
-  "answer": "Körülbelül 93 000 km².",
-  "translation": "Около 93 000 км²."
- },
- {
-  "id": 70,
-  "chapter": 6,
-  "hu": "Mi Magyarország pénzneme?",
-  "ru": "Какая валюта в Венгрии?",
-  "answer": "A forint.",
-  "translation": "Форинт.",
-  "wrong": [
-   "Az euró.",
-   "A korona."
-  ],
-  "writtenAliases": [
-   "forint",
-   "magyar forint",
-   "a magyar forint"
-  ]
- },
- {
-  "id": 71,
-  "chapter": 6,
-  "hu": "Mi Magyarország legnagyobb tava?",
-  "ru": "Какое самое большое озеро Венгрии?",
-  "answer": "A Balaton.",
-  "translation": "Балатон.",
-  "wrong": [
-   "A Fertő tó.",
-   "A Velencei-tó."
-  ],
-  "writtenAliases": [
-   "Balaton",
-   "a Balaton-tó"
-  ]
- },
- {
-  "id": 72,
-  "chapter": 6,
-  "hu": "Nevezzen meg három vármegyét!",
-  "ru": "Назовите три медье Венгрии!",
-  "answer": "Bács-Kiskun, Pest, Csongrád-Csanád.",
-  "translation": "Бач-Кишкун, Пешт, Чонград-Чанад."
- },
- {
-  "id": 73,
-  "chapter": 6,
-  "hu": "Nevezzen meg három tájegységet!",
-  "ru": "Назовите три географических региона!",
-  "answer": "Alföld, Dunántúli-dombság, Északi-középhegység.",
-  "translation": "Альфёльд, Задунайские холмы, Северо-Венгерские горы."
- },
- {
-  "id": 74,
-  "chapter": 6,
-  "hu": "Nevezzen meg három szomszédos országot!",
-  "ru": "Назовите три соседние страны!",
-  "answer": "Ausztria, Szlovákia, Románia.",
-  "translation": "Австрия, Словакия, Румыния."
- },
- {
-  "id": 75,
-  "chapter": 6,
-  "hu": "Hány kerülete van Budapestnek?",
-  "ru": "Сколько районов в Будапеште?",
-  "answer": "23.",
-  "translation": "23.",
-  "wrong": [
-   "19.",
-   "21."
-  ],
-  "writtenAliases": [
-   "23 kerület",
-   "huszonhárom",
-   "huszonhárom kerület",
-   "23 kerülete van"
-  ]
- },
- {
-  "id": 76,
-  "chapter": 6,
-  "hu": "Mikor egyesült Pest, Buda és Óbuda?",
-  "ru": "Когда объединились Пешт, Буда и Обуда?",
-  "answer": "1873. november 17-én.",
-  "translation": "17 ноября 1873 года.",
-  "wrong": [
-   "1867. június 8-án.",
-   "1920. június 4-én."
-  ]
- },
- {
-  "id": 77,
-  "chapter": 6,
-  "hu": "Mikor csatlakozott Magyarország az EU-hoz?",
-  "ru": "Когда Венгрия вступила в ЕС?",
-  "answer": "2004. május 1-jén.",
-  "translation": "1 мая 2004 года.",
-  "wrong": [
-   "2007. december 21-én.",
-   "1990. január 1-jén."
-  ]
- },
- {
-  "id": 78,
-  "chapter": 6,
-  "hu": "Hány tagállama van az EU-nak?",
-  "ru": "Сколько государств в ЕС?",
-  "answer": "27.",
-  "translation": "27.",
-  "wrong": [
-   "19.",
-   "21."
-  ],
-  "writtenAliases": [
-   "huszonhét",
-   "27 tagállam",
-   "27 tagállama van"
-  ]
- },
- {
-  "id": 79,
-  "chapter": 6,
-  "hu": "Mikor csatlakozott Magyarország a schengeni övezethez?",
-  "ru": "Когда Венгрия присоединилась к Шенгенской зоне?",
-  "answer": "2007-ben.",
-  "translation": "В 2007 году.",
-  "wrong": [
-   "2004-ben.",
-   "1995-ben."
-  ],
-  "writtenAliases": [
-   "2007"
-  ]
- },
- {
-  "id": 80,
-  "chapter": 6,
-  "hu": "Ki képviseli Magyarországot az Európai Tanácsban?",
-  "ru": "Кто представляет Венгрию в Европейском совете?",
-  "answer": "A miniszterelnök.",
-  "translation": "Премьер-министр.",
-  "wrong": [
-   "A főpolgármester.",
-   "A házelnök."
-  ],
-  "writtenAliases": [
-   "miniszterelnök",
-   "a magyar miniszterelnök",
-   "Magyarország miniszterelnöke"
-  ]
- },
- {
-  "id": 81,
-  "chapter": 6,
-  "hu": "Melyek a legjelentősebb történelmi keresztény felekezetek?",
-  "ru": "Какие исторические христианские конфессии наиболее значимы?",
-  "answer": "Katolikus, református, evangélikus.",
-  "translation": "Католическая, реформатская, лютеранская."
- },
- {
-  "id": 82,
-  "chapter": 6,
-  "hu": "Melyik nem keresztény felekezet a négy közül: katolikus, református, buddhista vagy evangélikus?",
-  "ru": "Какая из четырёх традиций не относится к христианству: католическая, реформатская, буддийская или лютеранская?",
-  "answer": "A buddhista.",
-  "translation": "Буддийская."
- },
- {
-  "id": 83,
-  "chapter": 6,
-  "hu": "Mit jelent a hungarikum?",
-  "ru": "Что значит «хунгарикум»?",
-  "answer": "A Hungarikumok Gyűjteményébe felvett kiemelkedő magyar érték.",
-  "translation": "Выдающаяся венгерская ценность из официального реестра."
- },
- {
-  "id": 84,
-  "chapter": 6,
-  "hu": "Nevezzen meg két hungarikumot!",
-  "ru": "Назовите два хунгарикума!",
-  "answer": "Kalocsai és szegedi fűszerpaprika-őrlemény.",
-  "translation": "Молотая паприка из Калочи и Сегеда."
- },
- {
-  "id": 85,
-  "chapter": 6,
-  "hu": "Mely városok híresek a fűszerpaprikáról?",
-  "ru": "Какие города славятся паприкой?",
-  "answer": "Kalocsa és Szeged.",
-  "translation": "Калоча и Сегед.",
-  "wrong": [
-   "Buda és Óbuda.",
-   "Győr és Sopron."
-  ]
- },
- {
-  "id": 86,
-  "chapter": 6,
-  "hu": "Hol található a Magyar Állami Operaház?",
-  "ru": "Где находится Венгерский государственный оперный театр?",
-  "answer": "Budapesten, az Andrássy úton.",
-  "translation": "В Будапеште, на проспекте Андраши."
- },
- {
-  "id": 87,
-  "chapter": 6,
-  "hu": "Hol található a Budai Vár?",
-  "ru": "Где находится Будайская крепость?",
-  "answer": "Budapesten, a Várhegyen.",
-  "translation": "В Будапеште, на Замковой горе."
- },
- {
-  "id": 88,
-  "chapter": 3,
-  "hu": "Ki írta a Szigeti veszedelem című művet?",
-  "ru": "Кто написал «Сигетскую опасность»?",
-  "answer": "Zrínyi Miklós.",
-  "translation": "Миклош Зриньи."
- },
- {
-  "id": 89,
-  "chapter": 2,
-  "hu": "Ki alapította a magyar vármegyerendszert?",
-  "ru": "Кто основал систему комитатов в Венгрии?",
-  "answer": "I. (Szent) István.",
-  "translation": "Иштван I (Святой Иштван)."
- },
- {
-  "id": 90,
-  "chapter": 5,
-  "hu": "Biztosítja-e az Alaptörvény a békés gyülekezés jogát?",
-  "ru": "Гарантирует ли Основной закон право на мирные собрания?",
-  "answer": "Igen.",
-  "translation": "Да."
- },
- {
-  "id": 91,
-  "chapter": 3,
-  "hu": "Melyik században élt Ady Endre?",
-  "ru": "В каких веках жил Эндре Ади?",
-  "answer": "A XIX. és XX. században.",
-  "translation": "В XIX и XX веках."
- },
- {
-  "id": 92,
-  "chapter": 4,
-  "hu": "Mi a Kormány fő feladata?",
-  "ru": "Какова главная функция правительства?",
-  "answer": "A végrehajtó hatalom általános gyakorlása.",
-  "translation": "Осуществление исполнительной власти."
- },
- {
-  "id": 93,
-  "chapter": 6,
-  "hu": "Tagja-e Magyarország az Európai Uniónak?",
-  "ru": "Является ли Венгрия членом ЕС?",
-  "answer": "Igen.",
-  "translation": "Да."
- },
- {
-  "id": 94,
-  "chapter": 4,
-  "hu": "A 2026. őszi segédanyag szerint melyik minisztérium nevében szerepel a kultúra?",
-  "ru": "В названии какого министерства упоминается культура в пособии осени 2026 года?",
-  "answer": "Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium.",
-  "translation": "Министерство по вопросам общественных связей и культуры."
- },
- {
-  "id": 95,
-  "chapter": 4,
-  "hu": "Ki működteti az állami ellátórendszereket a vizsgaanyag szerint?",
-  "ru": "Кто, согласно пособию, обеспечивает работу государственных систем обслуживания населения?",
-  "answer": "A Kormány.",
-  "translation": "Правительство."
- },
- {
-  "id": 96,
-  "chapter": 3,
-  "hu": "Melyik művet írta Shakespeare?",
-  "ru": "Какое произведение написал Шекспир?",
-  "answer": "Például a Rómeó és Júliát.",
-  "translation": "Например, «Ромео и Джульетта»."
- },
- {
-  "id": 97,
-  "chapter": 1,
-  "hu": "Igaz-e, hogy a Szózat zenéjét Egressy Béni szerezte?",
-  "ru": "Верно ли, что музыку «Szózat» сочинил Бени Эгрешши?",
-  "answer": "Igaz.",
-  "translation": "Верно."
- },
- {
-  "id": 98,
-  "chapter": 3,
-  "hu": "Melyik mű dallama az Európai Unió himnusza?",
-  "ru": "Мелодия какого произведения является гимном ЕС?",
-  "answer": "Az Örömóda Beethoven IX. szimfóniájából.",
-  "translation": "«Ода к радости» из Девятой симфонии Бетховена."
- },
- {
-  "id": 99,
-  "chapter": 3,
-  "hu": "Igaz-e, hogy Jókai Mór írta a Bánk bán operát?",
-  "ru": "Правда ли, что Мор Йокаи написал оперу «Банк бан»?",
-  "answer": "Hamis. Erkel Ferenc szerezte.",
-  "translation": "Неверно. Её сочинил Ференц Эркель."
- },
- {
-  "id": 100,
-  "chapter": 3,
-  "hu": "Ki a két zeneszerző a négy név közül: Petőfi, Erkel, Jókai, Bartók?",
-  "ru": "Какие два имени из четырёх принадлежат композиторам: Петёфи, Эркель, Йокаи, Барток?",
-  "answer": "Erkel Ferenc és Bartók Béla.",
-  "translation": "Ференц Эркель и Бела Барток."
- },
- {
-  "id": 101,
-  "chapter": 5,
-  "hu": "Melyik szó hiányzik? Minden embernek joga van az élethez és az … méltósághoz.",
-  "ru": "Какое венгерское слово пропущено? Речь идёт о праве на жизнь и человеческое достоинство.",
-  "answer": "emberi",
-  "translation": "человеческий (в сочетании «человеческое достоинство»)",
-  "writtenAliases": []
- },
- {
-  "id": 102,
-  "chapter": 5,
-  "hu": "Melyik testület nyilvánította alkotmányellenesnek a halálbüntetést 1990-ben?",
-  "ru": "Какой орган признал смертную казнь неконституционной в 1990 году?",
-  "answer": "Az Alkotmánybíróság.",
-  "translation": "Конституционный суд.",
-  "wrong": [
-   "Az Európai Parlament.",
-   "A Magyar Tudományos Akadémia."
-  ],
-  "writtenAliases": [
-   "Alkotmánybíróság",
-   "a magyar Alkotmánybíróság"
-  ]
- },
- {
-  "id": 103,
-  "chapter": 4,
-  "hu": "Hogyan választják a köztársasági elnököt?",
-  "ru": "Как избирают президента?",
-  "answer": "Az Országgyűlés titkos szavazással.",
-  "translation": "Парламент тайным голосованием."
- },
- {
-  "id": 104,
-  "chapter": 5,
-  "hu": "Igaz-e, hogy minden embernek joga van az élethez és emberi méltósághoz?",
-  "ru": "Верно ли, что каждый имеет право на жизнь и человеческое достоинство?",
-  "answer": "Igaz.",
-  "translation": "Верно."
- },
- {
-  "id": 105,
-  "chapter": 2,
-  "hu": "Tagja volt-e az első felelős magyar kormánynak Kölcsey Ferenc vagy Erkel Ferenc?",
-  "ru": "Был ли Кёльчеи или Эркель членом первого ответственного венгерского правительства?",
-  "answer": "Egyikük sem.",
-  "translation": "Ни один из них."
- },
- {
-  "id": 106,
-  "chapter": 5,
-  "hu": "Nevezzen meg két második generációs jogot!",
-  "ru": "Назовите два права второго поколения!",
-  "answer": "Munkához és szociális biztonsághoz való jog.",
-  "translation": "Право на труд и социальное обеспечение."
- },
- {
-  "id": 107,
-  "chapter": 4,
-  "hu": "Milyen jogi szerepe van az Alaptörvénynek?",
-  "ru": "Каково юридическое положение Основного закона?",
-  "answer": "A legmagasabb szintű magyar jogi norma.",
-  "translation": "Правовая норма высшей юридической силы в Венгрии."
- },
- {
-  "id": 108,
-  "chapter": 1,
-  "hu": "Melyik évben írta Kölcsey a Himnuszt?",
-  "ru": "В каком году Кёльчеи написал гимн?",
-  "answer": "1823-ban.",
-  "translation": "В 1823 году.",
-  "wrong": [
-   "1836-ban.",
-   "1848-ban."
-  ],
-  "writtenAliases": [
-   "1823"
-  ]
- },
- {
-  "id": 109,
-  "chapter": 1,
-  "hu": "Mi van a magyar címer tetején?",
-  "ru": "Что венчает герб Венгрии?",
-  "answer": "A Szent Korona.",
-  "translation": "Святая корона.",
-  "wrong": [
-   "A koronázási kard.",
-   "A jogar."
-  ],
-  "writtenAliases": [
-   "Szent Korona"
-  ]
- },
- {
-  "id": 110,
-  "chapter": 2,
-  "hu": "Mikor írták alá a trianoni békeszerződést?",
-  "ru": "Когда подписали Трианонский мирный договор?",
-  "answer": "1920. június 4-én.",
-  "translation": "4 июня 1920 года.",
-  "wrong": [
-   "1918. november 11-én.",
-   "1867. június 8-án."
-  ]
- },
- {
-  "id": 111,
-  "chapter": 2,
-  "hu": "Ki vezette a forradalmi kormányt 1956-ban?",
-  "ru": "Кто возглавлял революционное правительство в 1956 году?",
-  "answer": "Nagy Imre.",
-  "translation": "Имре Надь.",
-  "wrong": [
-   "Kádár János.",
-   "Antall József."
-  ],
-  "writtenAliases": [
-   "Nagy Imrét",
-   "Imre Nagy"
-  ]
- },
- {
-  "id": 112,
-  "chapter": 2,
-  "hu": "Mikor volt a mohácsi csata, amelyben a magyar sereg vereséget szenvedett?",
-  "ru": "Когда состоялась битва при Мохаче, в которой венгерская армия потерпела поражение?",
-  "answer": "1526-ban.",
-  "translation": "В 1526 году.",
-  "wrong": [
-   "1456-ban.",
-   "1686-ban."
-  ],
-  "writtenAliases": [
-   "1526"
-  ]
- },
- {
-  "id": 113,
-  "chapter": 2,
-  "hu": "Melyik évben volt a kiegyezés?",
-  "ru": "В каком году было заключено австро-венгерское соглашение?",
-  "answer": "1867-ben.",
-  "translation": "В 1867 году.",
-  "wrong": [
-   "1848-ban.",
-   "1920-ban."
-  ],
-  "writtenAliases": [
-   "1867"
-  ]
- },
- {
-  "id": 114,
-  "chapter": 2,
-  "hu": "Mikor szállta meg Németország Magyarországot?",
-  "ru": "Когда Германия оккупировала Венгрию?",
-  "answer": "1944. március 19-én.",
-  "translation": "19 марта 1944 года.",
-  "wrong": [
-   "1939. szeptember 1-jén.",
-   "1941. június 27-én."
-  ]
- },
- {
-  "id": 115,
-  "chapter": 2,
-  "hu": "Ki vezette a honfoglaló törzseket?",
-  "ru": "Кто возглавлял племена в период обретения родины?",
-  "answer": "Árpád.",
-  "translation": "Арпад.",
-  "wrong": [
-   "Szent István.",
-   "Hunyadi János."
-  ],
-  "writtenAliases": [
-   "Árpád fejedelem",
-   "Árpád vezér"
-  ]
- },
- {
-  "id": 116,
-  "chapter": 3,
-  "hu": "Ki írta a Bánk bán című drámát?",
-  "ru": "Кто написал драму «Банк бан»?",
-  "answer": "Katona József.",
-  "translation": "Йожеф Катона.",
-  "wrong": [
-   "Erkel Ferenc.",
-   "Vörösmarty Mihály."
-  ],
-  "writtenAliases": [
-   "Katona",
-   "József Katona"
-  ]
- },
- {
-  "id": 117,
-  "chapter": 3,
-  "hu": "Ki szerezte A varázsfuvola zenéjét?",
-  "ru": "Кто написал музыку оперы «Волшебная флейта»?",
-  "answer": "Wolfgang Amadeus Mozart.",
-  "translation": "Вольфганг Амадей Моцарт.",
-  "wrong": [
-   "Ludwig van Beethoven.",
-   "Liszt Ferenc."
-  ],
-  "writtenAliases": [
-   "Mozart",
-   "W. A. Mozart"
-  ]
- },
- {
-  "id": 118,
-  "chapter": 3,
-  "hu": "Ki írta a Nemzeti dalt?",
-  "ru": "Кто написал «Национальную песню»?",
-  "answer": "Petőfi Sándor.",
-  "translation": "Шандор Петёфи.",
-  "wrong": [
-   "Kölcsey Ferenc.",
-   "Arany János."
-  ],
-  "writtenAliases": [
-   "Petőfi",
-   "Sándor Petőfi"
-  ]
- },
- {
-  "id": 119,
-  "chapter": 4,
-  "hu": "Kik választják az országgyűlési képviselőket?",
-  "ru": "Кто избирает депутатов венгерского парламента?",
-  "answer": "A választópolgárok.",
-  "translation": "Избиратели.",
-  "wrong": [
-   "A miniszterek.",
-   "A bírák."
-  ],
-  "writtenAliases": [
-   "választópolgárok",
-   "a választójoggal rendelkező polgárok"
-  ]
- },
- {
-  "id": 120,
-  "chapter": 4,
-  "hu": "Ki fogadja el a központi költségvetést?",
-  "ru": "Кто принимает государственный бюджет?",
-  "answer": "Az Országgyűlés.",
-  "translation": "Парламент.",
-  "wrong": [
-   "Az Alkotmánybíróság.",
-   "Az Európai Tanács."
-  ],
-  "writtenAliases": [
-   "Országgyűlés",
-   "a parlament",
-   "parlament"
-  ]
- },
- {
-  "id": 121,
-  "chapter": 4,
-  "hu": "Ki a miniszterelnök a 2026. őszi segédanyagban?",
-  "ru": "Кто назван премьер-министром в пособии осени 2026 года?",
-  "answer": "Magyar Péter.",
-  "translation": "Петер Мадьяр.",
-  "wrong": [
-   "Nagy Imre.",
-   "Antall József."
-  ],
-  "writtenAliases": [
-   "Péter Magyar"
-  ]
- },
- {
-  "id": 122,
-  "chapter": 4,
-  "hu": "Ki az államfő a 2026. őszi segédanyagban?",
-  "ru": "Кто назван главой государства в пособии осени 2026 года?",
-  "answer": "Baka András.",
-  "translation": "Андраш Бака.",
-  "wrong": [
-   "Göncz Árpád.",
-   "Antall József."
-  ],
-  "writtenAliases": [
-   "András Baka"
-  ]
- },
- {
-  "id": 123,
-  "chapter": 5,
-  "hu": "Melyik kötelesség segít fedezni a közös kiadásokat?",
-  "ru": "Какая обязанность помогает покрывать общественные расходы?",
-  "answer": "Az adófizetés.",
-  "translation": "Уплата налогов.",
-  "wrong": [
-   "A szabad vallásválasztás.",
-   "A véleménynyilvánítás."
-  ],
-  "writtenAliases": [
-   "adófizetés",
-   "az adófizetési kötelezettség",
-   "adófizetési kötelezettség"
-  ]
- },
- {
-  "id": 124,
-  "chapter": 5,
-  "hu": "Kinek kötelessége gondoskodni a kiskorú gyermekéről?",
-  "ru": "Кто обязан заботиться о своём несовершеннолетнем ребёнке?",
-  "answer": "A szülőnek.",
-  "translation": "Родитель.",
-  "wrong": [
-   "A szomszédnak.",
-   "A munkaadónak."
-  ],
-  "writtenAliases": [
-   "a szülőknek",
-   "szülőknek",
-   "szülőnek",
-   "a szülők kötelessége",
-   "a szülő kötelessége"
-  ]
- },
- {
-  "id": 125,
-  "chapter": 5,
-  "hu": "Mikor fogadták el Franciaországban az Emberi és polgári jogok nyilatkozatát?",
-  "ru": "Когда во Франции приняли Декларацию прав человека и гражданина?",
-  "answer": "1789-ben.",
-  "translation": "В 1789 году.",
-  "wrong": [
-   "1215-ben.",
-   "1950-ben."
-  ],
-  "writtenAliases": [
-   "1789"
-  ]
- },
- {
-  "id": 126,
-  "chapter": 5,
-  "hu": "Melyik szabadság jelenti azt, hogy szabadon választhatok vallást?",
-  "ru": "Какая свобода означает, что я могу сам выбирать религию?",
-  "answer": "A vallásszabadság.",
-  "translation": "Свобода вероисповедания.",
-  "wrong": [
-   "A gyülekezési szabadság.",
-   "A sajtószabadság."
-  ],
-  "writtenAliases": [
-   "vallásszabadság",
-   "vallás szabadsága",
-   "a vallás szabadsága"
-  ]
- },
- {
-  "id": 127,
-  "chapter": 6,
-  "hu": "Melyik folyó két partján fekszik Budapest?",
-  "ru": "На берегах какой реки стоит Будапешт?",
-  "answer": "A Duna két partján.",
-  "translation": "На берегах Дуная.",
-  "wrong": [
-   "A Tisza két partján.",
-   "A Dráva két partján."
-  ]
- },
- {
-  "id": 128,
-  "chapter": 6,
-  "hu": "Hol tartják a busójárást?",
-  "ru": "В каком городе проходит праздник бушояраш?",
-  "answer": "Mohácson.",
-  "translation": "В Мохаче.",
-  "wrong": [
-   "Hollókőn.",
-   "Esztergomban."
-  ],
-  "writtenAliases": [
-   "Mohács",
-   "Mohács városában"
-  ]
- },
- {
-  "id": 129,
-  "chapter": 6,
-  "hu": "Hány vármegye van Magyarországon?",
-  "ru": "Сколько комитатов в Венгрии?",
-  "answer": "19.",
-  "translation": "19.",
-  "wrong": [
-   "23.",
-   "27."
-  ],
-  "writtenAliases": [
-   "19 vármegye",
-   "tizenkilenc",
-   "tizenkilenc vármegye"
-  ]
- },
- {
-  "id": 130,
-  "chapter": 1,
-  "hu": "Melyik mű kezdődik így: „Isten, áldd meg a magyart”?",
-  "ru": "Какое произведение начинается словами «Isten, áldd meg a magyart»?",
-  "answer": "A Himnusz.",
-  "translation": "Гимн Венгрии.",
-  "wrong": [
-   "A Szózat.",
-   "A Nemzeti dal."
-  ],
-  "writtenAliases": [
-   "Himnusz"
-  ]
- },
- {
-  "id": 131,
-  "chapter": 1,
-  "hu": "Melyik mai szlovák főváros volt régen magyar koronázóváros?",
-  "ru": "Какая нынешняя столица Словакии была местом коронации венгерских монархов?",
-  "answer": "Pozsony (Bratislava).",
-  "translation": "Пожонь (Братислава).",
-  "wrong": [
-   "Buda.",
-   "Esztergom."
-  ]
- },
- {
-  "id": 132,
-  "chapter": 2,
-  "hu": "Mi történt Nagy Imrével 1958-ban?",
-  "ru": "Что произошло с Имре Надем в 1958 году?",
-  "answer": "Kivégezték.",
-  "translation": "Его казнили.",
-  "wrong": [
-   "Miniszterelnök lett.",
-   "Újratemették."
-  ],
-  "writtenAliases": [
-   "Kivégezték Nagy Imrét",
-   "Halálra ítélték és kivégezték"
-  ]
- },
- {
-  "id": 133,
-  "chapter": 2,
-  "hu": "Mikor vezette II. Rákóczi Ferenc a szabadságharcot?",
-  "ru": "В какие годы Ференц II Ракоци возглавлял освободительную борьбу?",
-  "answer": "1703–1711 között.",
-  "translation": "В 1703–1711 годах.",
-  "wrong": [
-   "1848–1849 között.",
-   "1825–1848 között."
-  ],
-  "writtenAliases": [
-   "1703–1711",
-   "1703-tól 1711-ig"
-  ]
- },
- {
-  "id": 134,
-  "chapter": 3,
-  "hu": "Ki szerezte A hattyúk tava című balett zenéjét?",
-  "ru": "Кто написал музыку балета «Лебединое озеро»?",
-  "answer": "Pjotr Iljics Csajkovszkij.",
-  "translation": "Пётр Ильич Чайковский.",
-  "wrong": [
-   "Wolfgang Amadeus Mozart.",
-   "Ludwig van Beethoven."
-  ],
-  "writtenAliases": [
-   "Csajkovszkij",
-   "P. I. Csajkovszkij"
-  ]
- }
+  {
+    "id": 1,
+    "chapter": 1,
+    "hu": "Milyen színekből áll a magyar zászló felülről lefelé?",
+    "ru": "Какие цвета у венгерского флага сверху вниз?",
+    "answer": "Piros, fehér, zöld.",
+    "translation": "Красный, белый, зелёный.",
+    "wrong": [
+      "Zöld, fehér, piros.",
+      "Fehér, piros, zöld."
+    ]
+  },
+  {
+    "id": 2,
+    "chapter": 1,
+    "hu": "Mit jelképez a piros szín a zászlón?",
+    "ru": "Что символизирует красный цвет флага?",
+    "answer": "Az erőt.",
+    "translation": "Силу.",
+    "wrong": [
+      "A hűséget.",
+      "A reményt."
+    ],
+    "writtenAliases": [
+      "erő",
+      "erőt",
+      "az erő"
+    ]
+  },
+  {
+    "id": 3,
+    "chapter": 1,
+    "hu": "Mit jelképez a fehér szín?",
+    "ru": "Что символизирует белый цвет?",
+    "answer": "A hűséget.",
+    "translation": "Верность.",
+    "wrong": [
+      "Az erőt.",
+      "A reményt."
+    ],
+    "writtenAliases": [
+      "hűség",
+      "hűséget",
+      "a hűség"
+    ]
+  },
+  {
+    "id": 4,
+    "chapter": 1,
+    "hu": "Mit jelképez a zöld szín?",
+    "ru": "Что символизирует зелёный цвет?",
+    "answer": "A reményt.",
+    "translation": "Надежду.",
+    "wrong": [
+      "Az erőt.",
+      "A hűséget."
+    ],
+    "writtenAliases": [
+      "remény",
+      "reményt",
+      "a remény"
+    ]
+  },
+  {
+    "id": 5,
+    "chapter": 1,
+    "hu": "A címert nézve melyik oldalon vannak a vörös és ezüst sávok?",
+    "ru": "С какой стороны зритель видит красные и серебряные полосы на гербе?",
+    "answer": "A néző bal oldalán.",
+    "translation": "Слева от зрителя."
+  },
+  {
+    "id": 6,
+    "chapter": 1,
+    "hu": "Mit látsz a címer jobb oldalán, ha szemből nézed?",
+    "ru": "Что видно справа на гербе, если смотреть на него прямо?",
+    "answer": "Zöld hármas halmot, aranykoronát és ezüst kettős keresztet.",
+    "translation": "Три зелёных холма, золотую корону и серебряный двойной крест."
+  },
+  {
+    "id": 7,
+    "chapter": 1,
+    "hu": "Hol látható a Szent Korona?",
+    "ru": "Где можно увидеть Святую корону?",
+    "answer": "A budapesti Országházban.",
+    "translation": "В здании венгерского парламента в Будапеште.",
+    "wrong": [
+      "A Magyar Állami Operaházban.",
+      "A Nemzeti Színházban."
+    ],
+    "writtenAliases": [
+      "Országház",
+      "Országházban",
+      "az Országházban",
+      "Parlamentben",
+      "a Parlamentben",
+      "a magyar Parlamentben",
+      "Budapesten az Országházban"
+    ]
+  },
+  {
+    "id": 8,
+    "chapter": 1,
+    "hu": "Nevezzen meg három koronázási jelvényt a koronán kívül!",
+    "ru": "Назовите три коронационные регалии кроме короны!",
+    "answer": "Jogar, országalma, koronázási kard.",
+    "translation": "Скипетр, держава, коронационный меч."
+  },
+  {
+    "id": 9,
+    "chapter": 1,
+    "hu": "Mikor vonják fel a nemzeti lobogót ünnepélyesen az Országház előtt?",
+    "ru": "Когда торжественно поднимают флаг перед парламентом?",
+    "answer": "A nemzeti ünnepeken.",
+    "translation": "В дни национальных праздников."
+  },
+  {
+    "id": 10,
+    "chapter": 2,
+    "hu": "Ki volt az első keresztény magyar király?",
+    "ru": "Кто был первым христианским королём Венгрии?",
+    "answer": "I. (Szent) István.",
+    "translation": "Иштван I (Святой Иштван).",
+    "wrong": [
+      "IV. Béla.",
+      "Hunyadi Mátyás."
+    ],
+    "writtenAliases": [
+      "Szent István",
+      "I. István",
+      "István király",
+      "Első István",
+      "Szent István király"
+    ]
+  },
+  {
+    "id": 11,
+    "chapter": 2,
+    "hu": "A vizsga segédanyaga szerint mikor koronázták meg Szent Istvánt?",
+    "ru": "Когда, согласно экзаменационному пособию, короновали Иштвана Святого?",
+    "answer": "1001. január 1-jén.",
+    "translation": "1 января 1001 года."
+  },
+  {
+    "id": 12,
+    "chapter": 2,
+    "hu": "Hány egyházmegyét alapított Szent István?",
+    "ru": "Сколько епархий основал Святой Иштван?",
+    "answer": "Tízet.",
+    "translation": "Десять.",
+    "writtenAliases": [
+      "10",
+      "tíz",
+      "10-et",
+      "10 egyházmegyét",
+      "tíz egyházmegyét"
+    ]
+  },
+  {
+    "id": 13,
+    "chapter": 2,
+    "hu": "Melyik vallást vette fel az ország Szent István idején?",
+    "ru": "Какую религию приняла страна при Святом Иштване?",
+    "answer": "A nyugati kereszténységet.",
+    "translation": "Западное христианство."
+  },
+  {
+    "id": 14,
+    "chapter": 2,
+    "hu": "Hová érkeztek a magyarok 895–896-ban?",
+    "ru": "Куда пришли венгры в 895–896 годах?",
+    "answer": "A Kárpát-medencébe.",
+    "translation": "В Карпатский бассейн.",
+    "wrong": [
+      "A Pireneusi-félszigetre.",
+      "A Skandináv-félszigetre."
+    ]
+  },
+  {
+    "id": 15,
+    "chapter": 2,
+    "hu": "Ki adta ki az Aranybullát?",
+    "ru": "Кто издал Золотую буллу?",
+    "answer": "II. András király 1222-ben.",
+    "translation": "Король Андраш II в 1222 году.",
+    "wrong": [
+      "IV. Béla 1242-ben.",
+      "Hunyadi Mátyás 1458-ban."
+    ],
+    "writtenAliases": [
+      "II. András",
+      "II. András király",
+      "Második András",
+      "II. Endre"
+    ]
+  },
+  {
+    "id": 16,
+    "chapter": 2,
+    "hu": "Kiknek a jogait foglalta össze az Aranybulla?",
+    "ru": "Чьи права закрепляла Золотая булла?",
+    "answer": "Elsősorban a királyi szerviensek jogait.",
+    "translation": "Прежде всего права королевских служилых людей."
+  },
+  {
+    "id": 17,
+    "chapter": 1,
+    "hu": "Mit ünneplünk március 15-én?",
+    "ru": "Что празднуют 15 марта?",
+    "answer": "Az 1848-as forradalom kezdetét.",
+    "translation": "Начало революции 1848 года."
+  },
+  {
+    "id": 18,
+    "chapter": 1,
+    "hu": "Mit ünneplünk augusztus 20-án?",
+    "ru": "Что празднуют 20 августа?",
+    "answer": "Az államalapítást és Szent Istvánt.",
+    "translation": "Основание государства и день Святого Иштвана.",
+    "wrong": [
+      "Az 1956-os forradalom kezdetét.",
+      "Az 1848-as forradalom kezdetét."
+    ]
+  },
+  {
+    "id": 19,
+    "chapter": 1,
+    "hu": "Mit ünneplünk október 23-án?",
+    "ru": "Что празднуют 23 октября?",
+    "answer": "Az 1956-os forradalom kezdetét.",
+    "translation": "Начало революции 1956 года."
+  },
+  {
+    "id": 20,
+    "chapter": 2,
+    "hu": "Melyik uralkodó alatt virágzott a reneszánsz Magyarországon?",
+    "ru": "При каком правителе расцвёл Ренессанс в Венгрии?",
+    "answer": "Hunyadi Mátyás alatt.",
+    "translation": "При Матьяше Хуньяди.",
+    "wrong": [
+      "Szent László alatt.",
+      "II. András alatt."
+    ]
+  },
+  {
+    "id": 21,
+    "chapter": 2,
+    "hu": "Melyik uralkodóház ellen lázadtak fel 1848-ban?",
+    "ru": "Против какой династии восстали в 1848 году?",
+    "answer": "A Habsburg-ház ellen.",
+    "translation": "Против Габсбургов."
+  },
+  {
+    "id": 22,
+    "chapter": 2,
+    "hu": "Ki tette le a fegyvert Világosnál 1849. augusztus 13-án?",
+    "ru": "Кто сложил оружие у Вилагоша 13 августа 1849 года?",
+    "answer": "Görgei Artúr.",
+    "translation": "Артур Гёргеи.",
+    "wrong": [
+      "Batthyány Lajos.",
+      "Deák Ferenc."
+    ],
+    "writtenAliases": [
+      "Görgey Artúr",
+      "Görgei",
+      "Görgey"
+    ]
+  },
+  {
+    "id": 23,
+    "chapter": 2,
+    "hu": "Ki volt Batthyány Lajos?",
+    "ru": "Кем был Лайош Баттьяни?",
+    "answer": "Az első felelős magyar kormány miniszterelnöke.",
+    "translation": "Глава первого венгерского правительства, ответственного перед парламентом."
+  },
+  {
+    "id": 24,
+    "chapter": 2,
+    "hu": "Mi történt 1849. október 6-án?",
+    "ru": "Что произошло 6 октября 1849 года?",
+    "answer": "Kivégezték az aradi tizenhármakat és Batthyány Lajost.",
+    "translation": "Казнили тринадцать офицеров в Араде и Лайоша Баттьяни."
+  },
+  {
+    "id": 25,
+    "chapter": 2,
+    "hu": "Ki volt Antall József?",
+    "ru": "Кем был Йожеф Анталл?",
+    "answer": "Az 1990-es szabad választások után ő lett a miniszterelnök.",
+    "translation": "После свободных выборов 1990 года он стал премьер-министром."
+  },
+  {
+    "id": 26,
+    "chapter": 2,
+    "hu": "Kit választott köztársasági elnökké az Országgyűlés 1990-ben?",
+    "ru": "Кого парламент избрал президентом в 1990 году?",
+    "answer": "Göncz Árpád.",
+    "translation": "Арпад Гёнц.",
+    "writtenAliases": [
+      "Göncz Árpádot",
+      "Göncz"
+    ]
+  },
+  {
+    "id": 27,
+    "chapter": 2,
+    "hu": "Mi miatt néptelenedtek el nagy területek a középkorban?",
+    "ru": "Почему опустели большие территории в Средние века?",
+    "answer": "A tatárjárás miatt.",
+    "translation": "Из-за монгольского нашествия."
+  },
+  {
+    "id": 28,
+    "chapter": 2,
+    "hu": "Nevezzen meg két jelentős Árpád-házi királyt Szent István után!",
+    "ru": "Назовите двух выдающихся королей династии Арпадов после Иштвана!",
+    "answer": "Szent László és Könyves Kálmán.",
+    "translation": "Святой Ласло и Кальман Книжник."
+  },
+  {
+    "id": 29,
+    "chapter": 2,
+    "hu": "Mi kapcsolódik Széchenyi István nevéhez?",
+    "ru": "Что связано с именем Иштвана Сечени?",
+    "answer": "A Lánchíd építésének kezdeményezése.",
+    "translation": "Инициатива строительства Цепного моста."
+  },
+  {
+    "id": 30,
+    "chapter": 1,
+    "hu": "Ki írta a Himnusz szövegét?",
+    "ru": "Кто написал текст гимна Венгрии?",
+    "answer": "Kölcsey Ferenc.",
+    "translation": "Ференц Кёльчеи.",
+    "wrong": [
+      "Petőfi Sándor.",
+      "Vörösmarty Mihály."
+    ],
+    "writtenAliases": [
+      "Kölcsey",
+      "Ferenc Kölcsey"
+    ]
+  },
+  {
+    "id": 31,
+    "chapter": 1,
+    "hu": "Ki szerezte a Himnusz zenéjét?",
+    "ru": "Кто написал музыку гимна Венгрии?",
+    "answer": "Erkel Ferenc.",
+    "translation": "Ференц Эркель.",
+    "wrong": [
+      "Liszt Ferenc.",
+      "Egressy Béni."
+    ],
+    "writtenAliases": [
+      "Erkel",
+      "Ferenc Erkel"
+    ]
+  },
+  {
+    "id": 32,
+    "chapter": 1,
+    "hu": "Ki írta a Szózat szövegét?",
+    "ru": "Кто написал текст «Szózat»?",
+    "answer": "Vörösmarty Mihály.",
+    "translation": "Михай Вёрёшмарти.",
+    "wrong": [
+      "Kölcsey Ferenc.",
+      "Arany János."
+    ],
+    "writtenAliases": [
+      "Vörösmarty",
+      "Mihály Vörösmarty"
+    ]
+  },
+  {
+    "id": 33,
+    "chapter": 1,
+    "hu": "Ki szerezte a Szózat zenéjét?",
+    "ru": "Кто написал музыку «Szózat»?",
+    "answer": "Egressy Béni.",
+    "translation": "Бени Эгрешши.",
+    "wrong": [
+      "Erkel Ferenc.",
+      "Kodály Zoltán."
+    ],
+    "writtenAliases": [
+      "Egressy",
+      "Béni Egressy"
+    ]
+  },
+  {
+    "id": 34,
+    "chapter": 1,
+    "hu": "Mikor írta Vörösmarty a Szózatot?",
+    "ru": "Когда Вёрёшмарти написал «Szózat»?",
+    "answer": "1836-ban.",
+    "translation": "В 1836 году.",
+    "writtenAliases": [
+      "1836"
+    ]
+  },
+  {
+    "id": 35,
+    "chapter": 3,
+    "hu": "Ki volt a nyelvújítás vezéralakja?",
+    "ru": "Кто возглавлял обновление венгерского языка?",
+    "answer": "Kazinczy Ferenc.",
+    "translation": "Ференц Казинци.",
+    "wrong": [
+      "Petőfi Sándor.",
+      "Madách Imre."
+    ],
+    "writtenAliases": [
+      "Kazinczy",
+      "Ferenc Kazinczy"
+    ]
+  },
+  {
+    "id": 36,
+    "chapter": 3,
+    "hu": "Melyik században élt Petőfi Sándor?",
+    "ru": "В каком веке жил Шандор Петефи?",
+    "answer": "A XIX. században.",
+    "translation": "В XIX веке."
+  },
+  {
+    "id": 37,
+    "chapter": 3,
+    "hu": "Ki írta Az ember tragédiáját?",
+    "ru": "Кто написал «Трагедию человека»?",
+    "answer": "Madách Imre.",
+    "translation": "Имре Мадач.",
+    "wrong": [
+      "Jókai Mór.",
+      "Arany János."
+    ],
+    "writtenAliases": [
+      "Madách",
+      "Imre Madách"
+    ]
+  },
+  {
+    "id": 38,
+    "chapter": 3,
+    "hu": "Milyen nemzetiségű volt Shakespeare?",
+    "ru": "Какой национальности был Шекспир?",
+    "answer": "Angol.",
+    "translation": "Англичанин.",
+    "writtenAliases": [
+      "angol volt",
+      "angol nemzetiségű"
+    ]
+  },
+  {
+    "id": 39,
+    "chapter": 3,
+    "hu": "Ki írta az Elbocsátó, szép üzenet című verset?",
+    "ru": "Кто написал «Elbocsátó, szép üzenet»?",
+    "answer": "Ady Endre.",
+    "translation": "Эндре Ади.",
+    "wrong": [
+      "József Attila.",
+      "Radnóti Miklós."
+    ],
+    "writtenAliases": [
+      "Ady",
+      "Endre Ady"
+    ]
+  },
+  {
+    "id": 40,
+    "chapter": 3,
+    "hu": "Ki szerezte a Bánk bán operát?",
+    "ru": "Кто написал оперу «Банк бан»?",
+    "answer": "Erkel Ferenc.",
+    "translation": "Ференц Эркель.",
+    "wrong": [
+      "Katona József.",
+      "Bartók Béla."
+    ],
+    "writtenAliases": [
+      "Erkel",
+      "Ferenc Erkel"
+    ]
+  },
+  {
+    "id": 41,
+    "chapter": 3,
+    "hu": "Ki szerezte A kékszakállú herceg vára operát?",
+    "ru": "Кто написал оперу «Замок герцога Синяя Борода»?",
+    "answer": "Bartók Béla.",
+    "translation": "Бела Барток.",
+    "wrong": [
+      "Kodály Zoltán.",
+      "Erkel Ferenc."
+    ],
+    "writtenAliases": [
+      "Bartók",
+      "Béla Bartók"
+    ]
+  },
+  {
+    "id": 42,
+    "chapter": 3,
+    "hu": "Ki szerezte a Háry János című daljátékot?",
+    "ru": "Кто написал «Хари Янош»?",
+    "answer": "Kodály Zoltán.",
+    "translation": "Золтан Кодай.",
+    "wrong": [
+      "Bartók Béla.",
+      "Liszt Ferenc."
+    ],
+    "writtenAliases": [
+      "Kodály",
+      "Zoltán Kodály"
+    ]
+  },
+  {
+    "id": 43,
+    "chapter": 3,
+    "hu": "Ki szerezte a Magyar rapszódiákat?",
+    "ru": "Кто написал «Венгерские рапсодии»?",
+    "answer": "Liszt Ferenc.",
+    "translation": "Ференц Лист.",
+    "wrong": [
+      "Erkel Ferenc.",
+      "Kodály Zoltán."
+    ],
+    "writtenAliases": [
+      "Liszt",
+      "Ferenc Liszt",
+      "Franz Liszt"
+    ]
+  },
+  {
+    "id": 44,
+    "chapter": 3,
+    "hu": "Ki a magyar népzenekutatás két híres képviselője?",
+    "ru": "Назовите двух известных исследователей венгерской народной музыки.",
+    "answer": "Bartók Béla és Kodály Zoltán.",
+    "translation": "Бела Барток и Золтан Кодай."
+  },
+  {
+    "id": 45,
+    "chapter": 3,
+    "hu": "Ki szerezte az EU-himnuszként használt dallamot?",
+    "ru": "Кто сочинил мелодию гимна ЕС?",
+    "answer": "Ludwig van Beethoven.",
+    "translation": "Людвиг ван Бетховен.",
+    "wrong": [
+      "Wolfgang Amadeus Mozart.",
+      "Pjotr Iljics Csajkovszkij."
+    ],
+    "writtenAliases": [
+      "Beethoven",
+      "L. van Beethoven"
+    ]
+  },
+  {
+    "id": 46,
+    "chapter": 4,
+    "hu": "Mi Magyarország államformája?",
+    "ru": "Какова форма правления Венгрии?",
+    "answer": "Köztársaság.",
+    "translation": "Республика.",
+    "writtenAliases": [
+      "A köztársaság"
+    ]
+  },
+  {
+    "id": 47,
+    "chapter": 4,
+    "hu": "Hogy nevezik Magyarország alkotmányát?",
+    "ru": "Как называется конституция Венгрии?",
+    "answer": "Alaptörvény.",
+    "translation": "Основной закон.",
+    "wrong": [
+      "Aranybulla.",
+      "Költségvetési törvény."
+    ],
+    "writtenAliases": [
+      "Magyarország Alaptörvénye",
+      "Alaptörvénynek",
+      "Alaptörvénynek nevezik"
+    ]
+  },
+  {
+    "id": 48,
+    "chapter": 4,
+    "hu": "Mikor lépett hatályba az Alaptörvény?",
+    "ru": "Когда вступил в силу Основной закон?",
+    "answer": "2012. január 1-jén.",
+    "translation": "1 января 2012 года.",
+    "wrong": [
+      "2011. április 18-án.",
+      "1990. január 1-jén."
+    ]
+  },
+  {
+    "id": 49,
+    "chapter": 4,
+    "hu": "Hány képviselője van az Országgyűlésnek?",
+    "ru": "Сколько депутатов в венгерском парламенте?",
+    "answer": "199 képviselő.",
+    "translation": "199 депутатов.",
+    "wrong": [
+      "99 képviselő.",
+      "299 képviselő."
+    ],
+    "writtenAliases": [
+      "199",
+      "199 fő",
+      "199 képviselője van",
+      "százkilencvenkilenc"
+    ]
+  },
+  {
+    "id": 50,
+    "chapter": 4,
+    "hu": "Hány évre választják az országgyűlési képviselőket?",
+    "ru": "На какой срок избирают депутатов парламента?",
+    "answer": "Négy évre.",
+    "translation": "На четыре года.",
+    "wrong": [
+      "Öt évre.",
+      "Hat évre."
+    ],
+    "writtenAliases": [
+      "4",
+      "négy",
+      "4 év",
+      "4 évre",
+      "négy év"
+    ]
+  },
+  {
+    "id": 51,
+    "chapter": 4,
+    "hu": "Ki választja a miniszterelnököt?",
+    "ru": "Кто избирает премьер-министра?",
+    "answer": "Az Országgyűlés.",
+    "translation": "Парламент.",
+    "wrong": [
+      "A köztársasági elnök egyedül.",
+      "Az Európai Parlament."
+    ],
+    "writtenAliases": [
+      "Országgyűlés",
+      "a parlament",
+      "parlament"
+    ]
+  },
+  {
+    "id": 52,
+    "chapter": 4,
+    "hu": "Kik a Kormány tagjai?",
+    "ru": "Кто входит в правительство?",
+    "answer": "A miniszterelnök és a miniszterek.",
+    "translation": "Премьер-министр и министры.",
+    "wrong": [
+      "A polgármesterek és a bírák.",
+      "Az államfő és a képviselők."
+    ]
+  },
+  {
+    "id": 53,
+    "chapter": 4,
+    "hu": "Ki választja a köztársasági elnököt?",
+    "ru": "Кто избирает президента?",
+    "answer": "Az Országgyűlés.",
+    "translation": "Парламент.",
+    "wrong": [
+      "Az Európai Tanács.",
+      "A Kormány."
+    ],
+    "writtenAliases": [
+      "Országgyűlés",
+      "a parlament",
+      "parlament"
+    ]
+  },
+  {
+    "id": 54,
+    "chapter": 4,
+    "hu": "Hány évre választják a köztársasági elnököt?",
+    "ru": "На сколько лет избирают президента?",
+    "answer": "Öt évre.",
+    "translation": "На пять лет.",
+    "wrong": [
+      "Négy évre.",
+      "Hét évre."
+    ],
+    "writtenAliases": [
+      "5",
+      "öt",
+      "öt év",
+      "5 év",
+      "5 évre"
+    ]
+  },
+  {
+    "id": 55,
+    "chapter": 4,
+    "hu": "Hányszor választható újra a köztársasági elnök?",
+    "ru": "Сколько раз можно переизбрать президента?",
+    "answer": "Legfeljebb egyszer.",
+    "translation": "Не более одного раза.",
+    "writtenAliases": [
+      "egyszer",
+      "egy alkalommal",
+      "legfeljebb egy alkalommal",
+      "1 alkalommal"
+    ]
+  },
+  {
+    "id": 56,
+    "chapter": 4,
+    "hu": "Mit fejez ki a köztársasági elnök?",
+    "ru": "Что олицетворяет президент?",
+    "answer": "A nemzet egységét.",
+    "translation": "Единство нации."
+  },
+  {
+    "id": 57,
+    "chapter": 4,
+    "hu": "Ki a Magyar Honvédség főparancsnoka?",
+    "ru": "Кто главнокомандующий Вооружёнными силами Венгрии?",
+    "answer": "A köztársasági elnök.",
+    "translation": "Президент республики.",
+    "wrong": [
+      "A házelnök.",
+      "Az igazságügyi miniszter."
+    ],
+    "writtenAliases": [
+      "köztársasági elnök",
+      "az államfő",
+      "államfő"
+    ]
+  },
+  {
+    "id": 58,
+    "chapter": 4,
+    "hu": "Minisztérium-e az Alkotmánybíróság, a Kúria vagy az ügyészség?",
+    "ru": "Являются ли Конституционный суд, Курия или прокуратура министерствами?",
+    "answer": "Nem.",
+    "translation": "Нет."
+  },
+  {
+    "id": 59,
+    "chapter": 5,
+    "hu": "Mit jelent a jogegyenlőség?",
+    "ru": "Что означает равенство прав?",
+    "answer": "Minden ember egyenlő a törvény előtt.",
+    "translation": "Все люди равны перед законом.",
+    "wrong": [
+      "Mindenkinek ugyanaz a munkája.",
+      "Mindenki ugyanannyi adót fizet."
+    ]
+  },
+  {
+    "id": 60,
+    "chapter": 5,
+    "hu": "A segédanyag szerint melyik generációhoz tartozik az élethez való jog?",
+    "ru": "К какому поколению относится право на жизнь?",
+    "answer": "Az elsőbe.",
+    "translation": "К первому.",
+    "wrong": [
+      "A másodikba.",
+      "A harmadikba."
+    ],
+    "writtenAliases": [
+      "első",
+      "első generáció",
+      "az első generációhoz",
+      "első generációhoz",
+      "az elsőhöz",
+      "1",
+      "1. generáció",
+      "elsőbe"
+    ]
+  },
+  {
+    "id": 61,
+    "chapter": 5,
+    "hu": "A segédanyag szerint melyik generációhoz tartozik a munkához való jog?",
+    "ru": "К какому поколению относится право на труд?",
+    "answer": "A másodikba.",
+    "translation": "Ко второму.",
+    "wrong": [
+      "Az elsőbe.",
+      "A harmadikba."
+    ],
+    "writtenAliases": [
+      "második",
+      "második generáció",
+      "a második generációhoz",
+      "második generációhoz",
+      "a másodikhoz",
+      "2",
+      "2. generáció",
+      "másodikba"
+    ]
+  },
+  {
+    "id": 62,
+    "chapter": 5,
+    "hu": "A segédanyag szerint melyik generációhoz tartozik az egészséges környezethez való jog?",
+    "ru": "К какому поколению относится право на здоровую среду?",
+    "answer": "A harmadikba.",
+    "translation": "К третьему.",
+    "wrong": [
+      "Az elsőbe.",
+      "A másodikba."
+    ],
+    "writtenAliases": [
+      "harmadik",
+      "harmadik generáció",
+      "a harmadik generációhoz",
+      "harmadik generációhoz",
+      "a harmadikhoz",
+      "3",
+      "3. generáció",
+      "harmadikba"
+    ]
+  },
+  {
+    "id": 63,
+    "chapter": 5,
+    "hu": "A segédanyag szerint melyik generációhoz tartozik a vallásszabadság?",
+    "ru": "К какому поколению относится свобода вероисповедания?",
+    "answer": "Az elsőbe.",
+    "translation": "К первому.",
+    "wrong": [
+      "A másodikba.",
+      "A harmadikba."
+    ],
+    "writtenAliases": [
+      "első",
+      "első generáció",
+      "az első generációhoz",
+      "első generációhoz",
+      "az elsőhöz",
+      "1",
+      "1. generáció",
+      "elsőbe"
+    ]
+  },
+  {
+    "id": 64,
+    "chapter": 5,
+    "hu": "Alapjog-e a személyes adatok védelme?",
+    "ru": "Является ли защита персональных данных основным правом?",
+    "answer": "Igen.",
+    "translation": "Да."
+  },
+  {
+    "id": 65,
+    "chapter": 5,
+    "hu": "Alapjog-e a tisztességes eljáráshoz való jog?",
+    "ru": "Является ли право на справедливое разбирательство основным правом?",
+    "answer": "Igen.",
+    "translation": "Да."
+  },
+  {
+    "id": 66,
+    "chapter": 5,
+    "hu": "Alkotmányellenes-e a halálbüntetés?",
+    "ru": "Противоречит ли смертная казнь Конституции?",
+    "answer": "Igen, 1990-ben alkotmányellenesnek nyilvánították.",
+    "translation": "Да, в 1990 году признана неконституционной."
+  },
+  {
+    "id": 67,
+    "chapter": 5,
+    "hu": "Melyik emberi jogi dokumentumot fogadták el Franciaországban 1789-ben?",
+    "ru": "Какой документ о правах человека был принят во Франции в 1789 году?",
+    "answer": "Az Emberi és Polgári Jogok Nyilatkozatát.",
+    "translation": "Декларацию прав человека и гражданина.",
+    "wrong": [
+      "Az angol Magna Cartát.",
+      "A magyar Aranybullát."
+    ]
+  },
+  {
+    "id": 68,
+    "chapter": 6,
+    "hu": "Mi Magyarország fővárosa?",
+    "ru": "Какая столица Венгрии?",
+    "answer": "Budapest.",
+    "translation": "Будапешт.",
+    "wrong": [
+      "Debrecen.",
+      "Szeged."
+    ],
+    "writtenAliases": [
+      "Budapest a főváros"
+    ]
+  },
+  {
+    "id": 69,
+    "chapter": 6,
+    "hu": "Mekkora Magyarország területe?",
+    "ru": "Какова площадь Венгрии?",
+    "answer": "Körülbelül 93 000 km².",
+    "translation": "Около 93 000 км²."
+  },
+  {
+    "id": 70,
+    "chapter": 6,
+    "hu": "Mi Magyarország pénzneme?",
+    "ru": "Какая валюта в Венгрии?",
+    "answer": "A forint.",
+    "translation": "Форинт.",
+    "wrong": [
+      "Az euró.",
+      "A korona."
+    ],
+    "writtenAliases": [
+      "forint",
+      "magyar forint",
+      "a magyar forint"
+    ]
+  },
+  {
+    "id": 71,
+    "chapter": 6,
+    "hu": "Mi Magyarország legnagyobb tava?",
+    "ru": "Какое самое большое озеро Венгрии?",
+    "answer": "A Balaton.",
+    "translation": "Балатон.",
+    "wrong": [
+      "A Fertő tó.",
+      "A Velencei-tó."
+    ],
+    "writtenAliases": [
+      "Balaton",
+      "a Balaton-tó"
+    ]
+  },
+  {
+    "id": 72,
+    "chapter": 6,
+    "hu": "Nevezzen meg három vármegyét!",
+    "ru": "Назовите три медье Венгрии!",
+    "answer": "Bács-Kiskun, Pest, Csongrád-Csanád.",
+    "translation": "Бач-Кишкун, Пешт, Чонград-Чанад."
+  },
+  {
+    "id": 73,
+    "chapter": 6,
+    "hu": "Nevezzen meg három tájegységet!",
+    "ru": "Назовите три географических региона!",
+    "answer": "Alföld, Dunántúli-dombság, Északi-középhegység.",
+    "translation": "Альфёльд, Задунайские холмы, Северо-Венгерские горы."
+  },
+  {
+    "id": 74,
+    "chapter": 6,
+    "hu": "Nevezzen meg három szomszédos országot!",
+    "ru": "Назовите три соседние страны!",
+    "answer": "Ausztria, Szlovákia, Románia.",
+    "translation": "Австрия, Словакия, Румыния."
+  },
+  {
+    "id": 75,
+    "chapter": 6,
+    "hu": "Hány kerülete van Budapestnek?",
+    "ru": "Сколько районов в Будапеште?",
+    "answer": "23.",
+    "translation": "23.",
+    "wrong": [
+      "19.",
+      "21."
+    ],
+    "writtenAliases": [
+      "23 kerület",
+      "huszonhárom",
+      "huszonhárom kerület",
+      "23 kerülete van"
+    ]
+  },
+  {
+    "id": 76,
+    "chapter": 6,
+    "hu": "Mikor egyesült Pest, Buda és Óbuda?",
+    "ru": "Когда объединились Пешт, Буда и Обуда?",
+    "answer": "1873. november 17-én.",
+    "translation": "17 ноября 1873 года.",
+    "wrong": [
+      "1867. június 8-án.",
+      "1920. június 4-én."
+    ]
+  },
+  {
+    "id": 77,
+    "chapter": 6,
+    "hu": "Mikor csatlakozott Magyarország az EU-hoz?",
+    "ru": "Когда Венгрия вступила в ЕС?",
+    "answer": "2004. május 1-jén.",
+    "translation": "1 мая 2004 года.",
+    "wrong": [
+      "2007. december 21-én.",
+      "1990. január 1-jén."
+    ]
+  },
+  {
+    "id": 78,
+    "chapter": 6,
+    "hu": "Hány tagállama van az EU-nak?",
+    "ru": "Сколько государств в ЕС?",
+    "answer": "27.",
+    "translation": "27.",
+    "wrong": [
+      "19.",
+      "21."
+    ],
+    "writtenAliases": [
+      "huszonhét",
+      "27 tagállam",
+      "27 tagállama van"
+    ]
+  },
+  {
+    "id": 79,
+    "chapter": 6,
+    "hu": "Mikor csatlakozott Magyarország a schengeni övezethez?",
+    "ru": "Когда Венгрия присоединилась к Шенгенской зоне?",
+    "answer": "2007-ben.",
+    "translation": "В 2007 году.",
+    "wrong": [
+      "2004-ben.",
+      "1995-ben."
+    ],
+    "writtenAliases": [
+      "2007"
+    ]
+  },
+  {
+    "id": 80,
+    "chapter": 6,
+    "hu": "Ki képviseli Magyarországot az Európai Tanácsban?",
+    "ru": "Кто представляет Венгрию в Европейском совете?",
+    "answer": "A miniszterelnök.",
+    "translation": "Премьер-министр.",
+    "wrong": [
+      "A főpolgármester.",
+      "A házelnök."
+    ],
+    "writtenAliases": [
+      "miniszterelnök",
+      "a magyar miniszterelnök",
+      "Magyarország miniszterelnöke"
+    ]
+  },
+  {
+    "id": 81,
+    "chapter": 6,
+    "hu": "Melyek a legjelentősebb történelmi keresztény felekezetek?",
+    "ru": "Какие исторические христианские конфессии наиболее значимы?",
+    "answer": "Katolikus, református, evangélikus.",
+    "translation": "Католическая, реформатская, лютеранская."
+  },
+  {
+    "id": 82,
+    "chapter": 6,
+    "hu": "Melyik nem keresztény felekezet a négy közül: katolikus, református, buddhista vagy evangélikus?",
+    "ru": "Какая из четырёх традиций не относится к христианству: католическая, реформатская, буддийская или лютеранская?",
+    "answer": "A buddhista.",
+    "translation": "Буддийская."
+  },
+  {
+    "id": 83,
+    "chapter": 6,
+    "hu": "Mit jelent a hungarikum?",
+    "ru": "Что значит «хунгарикум»?",
+    "answer": "A Hungarikumok Gyűjteményébe felvett kiemelkedő magyar érték.",
+    "translation": "Выдающаяся венгерская ценность из официального реестра."
+  },
+  {
+    "id": 84,
+    "chapter": 6,
+    "hu": "Nevezzen meg két hungarikumot!",
+    "ru": "Назовите два хунгарикума!",
+    "answer": "Kalocsai és szegedi fűszerpaprika-őrlemény.",
+    "translation": "Молотая паприка из Калочи и Сегеда."
+  },
+  {
+    "id": 85,
+    "chapter": 6,
+    "hu": "Mely városok híresek a fűszerpaprikáról?",
+    "ru": "Какие города славятся паприкой?",
+    "answer": "Kalocsa és Szeged.",
+    "translation": "Калоча и Сегед.",
+    "wrong": [
+      "Buda és Óbuda.",
+      "Győr és Sopron."
+    ]
+  },
+  {
+    "id": 86,
+    "chapter": 6,
+    "hu": "Hol található a Magyar Állami Operaház?",
+    "ru": "Где находится Венгерский государственный оперный театр?",
+    "answer": "Budapesten, az Andrássy úton.",
+    "translation": "В Будапеште, на проспекте Андраши."
+  },
+  {
+    "id": 87,
+    "chapter": 6,
+    "hu": "Hol található a Budai Vár?",
+    "ru": "Где находится Будайская крепость?",
+    "answer": "Budapesten, a Várhegyen.",
+    "translation": "В Будапеште, на Замковой горе."
+  },
+  {
+    "id": 88,
+    "chapter": 3,
+    "hu": "Ki írta a Szigeti veszedelem című művet?",
+    "ru": "Кто написал «Сигетскую опасность»?",
+    "answer": "Zrínyi Miklós.",
+    "translation": "Миклош Зриньи."
+  },
+  {
+    "id": 89,
+    "chapter": 2,
+    "hu": "Ki alapította a magyar vármegyerendszert?",
+    "ru": "Кто основал систему комитатов в Венгрии?",
+    "answer": "I. (Szent) István.",
+    "translation": "Иштван I (Святой Иштван)."
+  },
+  {
+    "id": 90,
+    "chapter": 5,
+    "hu": "Biztosítja-e az Alaptörvény a békés gyülekezés jogát?",
+    "ru": "Гарантирует ли Основной закон право на мирные собрания?",
+    "answer": "Igen.",
+    "translation": "Да."
+  },
+  {
+    "id": 91,
+    "chapter": 3,
+    "hu": "Melyik században élt Ady Endre?",
+    "ru": "В каких веках жил Эндре Ади?",
+    "answer": "A XIX. és XX. században.",
+    "translation": "В XIX и XX веках."
+  },
+  {
+    "id": 92,
+    "chapter": 4,
+    "hu": "Mi a Kormány fő feladata?",
+    "ru": "Какова главная функция правительства?",
+    "answer": "A végrehajtó hatalom általános gyakorlása.",
+    "translation": "Осуществление исполнительной власти."
+  },
+  {
+    "id": 93,
+    "chapter": 6,
+    "hu": "Tagja-e Magyarország az Európai Uniónak?",
+    "ru": "Является ли Венгрия членом ЕС?",
+    "answer": "Igen.",
+    "translation": "Да."
+  },
+  {
+    "id": 94,
+    "chapter": 4,
+    "hu": "A 2026. őszi segédanyag szerint melyik minisztérium nevében szerepel a kultúra?",
+    "ru": "В названии какого министерства упоминается культура в пособии осени 2026 года?",
+    "answer": "Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium.",
+    "translation": "Министерство по вопросам общественных связей и культуры."
+  },
+  {
+    "id": 95,
+    "chapter": 4,
+    "hu": "Ki működteti az állami ellátórendszereket a vizsgaanyag szerint?",
+    "ru": "Кто, согласно пособию, обеспечивает работу государственных систем обслуживания населения?",
+    "answer": "A Kormány.",
+    "translation": "Правительство."
+  },
+  {
+    "id": 96,
+    "chapter": 3,
+    "hu": "Melyik művet írta Shakespeare?",
+    "ru": "Какое произведение написал Шекспир?",
+    "answer": "Például a Rómeó és Júliát.",
+    "translation": "Например, «Ромео и Джульетта»."
+  },
+  {
+    "id": 97,
+    "chapter": 1,
+    "hu": "Igaz-e, hogy a Szózat zenéjét Egressy Béni szerezte?",
+    "ru": "Верно ли, что музыку «Szózat» сочинил Бени Эгрешши?",
+    "answer": "Igaz.",
+    "translation": "Верно."
+  },
+  {
+    "id": 98,
+    "chapter": 3,
+    "hu": "Melyik mű dallama az Európai Unió himnusza?",
+    "ru": "Мелодия какого произведения является гимном ЕС?",
+    "answer": "Az Örömóda Beethoven IX. szimfóniájából.",
+    "translation": "«Ода к радости» из Девятой симфонии Бетховена."
+  },
+  {
+    "id": 99,
+    "chapter": 3,
+    "hu": "Igaz-e, hogy Jókai Mór írta a Bánk bán operát?",
+    "ru": "Правда ли, что Мор Йокаи написал оперу «Банк бан»?",
+    "answer": "Hamis. Erkel Ferenc szerezte.",
+    "translation": "Неверно. Её сочинил Ференц Эркель."
+  },
+  {
+    "id": 100,
+    "chapter": 3,
+    "hu": "Ki a két zeneszerző a négy név közül: Petőfi, Erkel, Jókai, Bartók?",
+    "ru": "Какие два имени из четырёх принадлежат композиторам: Петёфи, Эркель, Йокаи, Барток?",
+    "answer": "Erkel Ferenc és Bartók Béla.",
+    "translation": "Ференц Эркель и Бела Барток."
+  },
+  {
+    "id": 101,
+    "chapter": 5,
+    "hu": "Melyik szó hiányzik? Minden embernek joga van az élethez és az … méltósághoz.",
+    "ru": "Какое венгерское слово пропущено? Речь идёт о праве на жизнь и человеческое достоинство.",
+    "answer": "emberi",
+    "translation": "человеческий (в сочетании «человеческое достоинство»)",
+    "writtenAliases": []
+  },
+  {
+    "id": 102,
+    "chapter": 5,
+    "hu": "Melyik testület nyilvánította alkotmányellenesnek a halálbüntetést 1990-ben?",
+    "ru": "Какой орган признал смертную казнь неконституционной в 1990 году?",
+    "answer": "Az Alkotmánybíróság.",
+    "translation": "Конституционный суд.",
+    "wrong": [
+      "Az Európai Parlament.",
+      "A Magyar Tudományos Akadémia."
+    ],
+    "writtenAliases": [
+      "Alkotmánybíróság",
+      "a magyar Alkotmánybíróság"
+    ]
+  },
+  {
+    "id": 103,
+    "chapter": 4,
+    "hu": "Hogyan választják a köztársasági elnököt?",
+    "ru": "Как избирают президента?",
+    "answer": "Az Országgyűlés titkos szavazással.",
+    "translation": "Парламент тайным голосованием."
+  },
+  {
+    "id": 104,
+    "chapter": 5,
+    "hu": "Igaz-e, hogy minden embernek joga van az élethez és emberi méltósághoz?",
+    "ru": "Верно ли, что каждый имеет право на жизнь и человеческое достоинство?",
+    "answer": "Igaz.",
+    "translation": "Верно."
+  },
+  {
+    "id": 105,
+    "chapter": 2,
+    "hu": "Tagja volt-e az első felelős magyar kormánynak Kölcsey Ferenc vagy Erkel Ferenc?",
+    "ru": "Был ли Кёльчеи или Эркель членом первого ответственного венгерского правительства?",
+    "answer": "Egyikük sem.",
+    "translation": "Ни один из них."
+  },
+  {
+    "id": 106,
+    "chapter": 5,
+    "hu": "Nevezzen meg két második generációs jogot!",
+    "ru": "Назовите два права второго поколения!",
+    "answer": "Munkához és szociális biztonsághoz való jog.",
+    "translation": "Право на труд и социальное обеспечение."
+  },
+  {
+    "id": 107,
+    "chapter": 4,
+    "hu": "Milyen jogi szerepe van az Alaptörvénynek?",
+    "ru": "Каково юридическое положение Основного закона?",
+    "answer": "A legmagasabb szintű magyar jogi norma.",
+    "translation": "Правовая норма высшей юридической силы в Венгрии."
+  },
+  {
+    "id": 108,
+    "chapter": 1,
+    "hu": "Melyik évben írta Kölcsey a Himnuszt?",
+    "ru": "В каком году Кёльчеи написал гимн?",
+    "answer": "1823-ban.",
+    "translation": "В 1823 году.",
+    "wrong": [
+      "1836-ban.",
+      "1848-ban."
+    ],
+    "writtenAliases": [
+      "1823"
+    ]
+  },
+  {
+    "id": 109,
+    "chapter": 1,
+    "hu": "Mi van a magyar címer tetején?",
+    "ru": "Что венчает герб Венгрии?",
+    "answer": "A Szent Korona.",
+    "translation": "Святая корона.",
+    "wrong": [
+      "A koronázási kard.",
+      "A jogar."
+    ],
+    "writtenAliases": [
+      "Szent Korona"
+    ]
+  },
+  {
+    "id": 110,
+    "chapter": 2,
+    "hu": "Mikor írták alá a trianoni békeszerződést?",
+    "ru": "Когда подписали Трианонский мирный договор?",
+    "answer": "1920. június 4-én.",
+    "translation": "4 июня 1920 года.",
+    "wrong": [
+      "1918. november 11-én.",
+      "1867. június 8-án."
+    ]
+  },
+  {
+    "id": 111,
+    "chapter": 2,
+    "hu": "Ki vezette a forradalmi kormányt 1956-ban?",
+    "ru": "Кто возглавлял революционное правительство в 1956 году?",
+    "answer": "Nagy Imre.",
+    "translation": "Имре Надь.",
+    "wrong": [
+      "Kádár János.",
+      "Antall József."
+    ],
+    "writtenAliases": [
+      "Nagy Imrét",
+      "Imre Nagy"
+    ]
+  },
+  {
+    "id": 112,
+    "chapter": 2,
+    "hu": "Mikor volt a mohácsi csata, amelyben a magyar sereg vereséget szenvedett?",
+    "ru": "Когда состоялась битва при Мохаче, в которой венгерская армия потерпела поражение?",
+    "answer": "1526-ban.",
+    "translation": "В 1526 году.",
+    "wrong": [
+      "1456-ban.",
+      "1686-ban."
+    ],
+    "writtenAliases": [
+      "1526"
+    ]
+  },
+  {
+    "id": 113,
+    "chapter": 2,
+    "hu": "Melyik évben volt a kiegyezés?",
+    "ru": "В каком году было заключено австро-венгерское соглашение?",
+    "answer": "1867-ben.",
+    "translation": "В 1867 году.",
+    "wrong": [
+      "1848-ban.",
+      "1920-ban."
+    ],
+    "writtenAliases": [
+      "1867"
+    ]
+  },
+  {
+    "id": 114,
+    "chapter": 2,
+    "hu": "Mikor szállta meg Németország Magyarországot?",
+    "ru": "Когда Германия оккупировала Венгрию?",
+    "answer": "1944. március 19-én.",
+    "translation": "19 марта 1944 года.",
+    "wrong": [
+      "1939. szeptember 1-jén.",
+      "1941. június 27-én."
+    ]
+  },
+  {
+    "id": 115,
+    "chapter": 2,
+    "hu": "Ki vezette a honfoglaló törzseket?",
+    "ru": "Кто возглавлял племена в период обретения родины?",
+    "answer": "Árpád.",
+    "translation": "Арпад.",
+    "wrong": [
+      "Szent István.",
+      "Hunyadi János."
+    ],
+    "writtenAliases": [
+      "Árpád fejedelem",
+      "Árpád vezér"
+    ]
+  },
+  {
+    "id": 116,
+    "chapter": 3,
+    "hu": "Ki írta a Bánk bán című drámát?",
+    "ru": "Кто написал драму «Банк бан»?",
+    "answer": "Katona József.",
+    "translation": "Йожеф Катона.",
+    "wrong": [
+      "Erkel Ferenc.",
+      "Vörösmarty Mihály."
+    ],
+    "writtenAliases": [
+      "Katona",
+      "József Katona"
+    ]
+  },
+  {
+    "id": 117,
+    "chapter": 3,
+    "hu": "Ki szerezte A varázsfuvola zenéjét?",
+    "ru": "Кто написал музыку оперы «Волшебная флейта»?",
+    "answer": "Wolfgang Amadeus Mozart.",
+    "translation": "Вольфганг Амадей Моцарт.",
+    "wrong": [
+      "Ludwig van Beethoven.",
+      "Liszt Ferenc."
+    ],
+    "writtenAliases": [
+      "Mozart",
+      "W. A. Mozart"
+    ]
+  },
+  {
+    "id": 118,
+    "chapter": 3,
+    "hu": "Ki írta a Nemzeti dalt?",
+    "ru": "Кто написал «Национальную песню»?",
+    "answer": "Petőfi Sándor.",
+    "translation": "Шандор Петёфи.",
+    "wrong": [
+      "Kölcsey Ferenc.",
+      "Arany János."
+    ],
+    "writtenAliases": [
+      "Petőfi",
+      "Sándor Petőfi"
+    ]
+  },
+  {
+    "id": 119,
+    "chapter": 4,
+    "hu": "Kik választják az országgyűlési képviselőket?",
+    "ru": "Кто избирает депутатов венгерского парламента?",
+    "answer": "A választópolgárok.",
+    "translation": "Избиратели.",
+    "wrong": [
+      "A miniszterek.",
+      "A bírák."
+    ],
+    "writtenAliases": [
+      "választópolgárok",
+      "a választójoggal rendelkező polgárok"
+    ]
+  },
+  {
+    "id": 120,
+    "chapter": 4,
+    "hu": "Ki fogadja el a központi költségvetést?",
+    "ru": "Кто принимает государственный бюджет?",
+    "answer": "Az Országgyűlés.",
+    "translation": "Парламент.",
+    "wrong": [
+      "Az Alkotmánybíróság.",
+      "Az Európai Tanács."
+    ],
+    "writtenAliases": [
+      "Országgyűlés",
+      "a parlament",
+      "parlament"
+    ]
+  },
+  {
+    "id": 121,
+    "chapter": 4,
+    "hu": "Ki a miniszterelnök a 2026. őszi segédanyagban?",
+    "ru": "Кто назван премьер-министром в пособии осени 2026 года?",
+    "answer": "Magyar Péter.",
+    "translation": "Петер Мадьяр.",
+    "wrong": [
+      "Nagy Imre.",
+      "Antall József."
+    ],
+    "writtenAliases": [
+      "Péter Magyar"
+    ]
+  },
+  {
+    "id": 122,
+    "chapter": 4,
+    "hu": "Ki az államfő a 2026. őszi segédanyagban?",
+    "ru": "Кто назван главой государства в пособии осени 2026 года?",
+    "answer": "Baka András.",
+    "translation": "Андраш Бака.",
+    "wrong": [
+      "Göncz Árpád.",
+      "Antall József."
+    ],
+    "writtenAliases": [
+      "András Baka"
+    ]
+  },
+  {
+    "id": 123,
+    "chapter": 5,
+    "hu": "Melyik kötelesség segít fedezni a közös kiadásokat?",
+    "ru": "Какая обязанность помогает покрывать общественные расходы?",
+    "answer": "Az adófizetés.",
+    "translation": "Уплата налогов.",
+    "wrong": [
+      "A szabad vallásválasztás.",
+      "A véleménynyilvánítás."
+    ],
+    "writtenAliases": [
+      "adófizetés",
+      "az adófizetési kötelezettség",
+      "adófizetési kötelezettség"
+    ]
+  },
+  {
+    "id": 124,
+    "chapter": 5,
+    "hu": "Kinek kötelessége gondoskodni a kiskorú gyermekéről?",
+    "ru": "Кто обязан заботиться о своём несовершеннолетнем ребёнке?",
+    "answer": "A szülőnek.",
+    "translation": "Родитель.",
+    "wrong": [
+      "A szomszédnak.",
+      "A munkaadónak."
+    ],
+    "writtenAliases": [
+      "a szülőknek",
+      "szülőknek",
+      "szülőnek",
+      "a szülők kötelessége",
+      "a szülő kötelessége"
+    ]
+  },
+  {
+    "id": 125,
+    "chapter": 5,
+    "hu": "Mikor fogadták el Franciaországban az Emberi és polgári jogok nyilatkozatát?",
+    "ru": "Когда во Франции приняли Декларацию прав человека и гражданина?",
+    "answer": "1789-ben.",
+    "translation": "В 1789 году.",
+    "wrong": [
+      "1215-ben.",
+      "1950-ben."
+    ],
+    "writtenAliases": [
+      "1789"
+    ]
+  },
+  {
+    "id": 126,
+    "chapter": 5,
+    "hu": "Melyik szabadság jelenti azt, hogy szabadon választhatok vallást?",
+    "ru": "Какая свобода означает, что я могу сам выбирать религию?",
+    "answer": "A vallásszabadság.",
+    "translation": "Свобода вероисповедания.",
+    "wrong": [
+      "A gyülekezési szabadság.",
+      "A sajtószabadság."
+    ],
+    "writtenAliases": [
+      "vallásszabadság",
+      "vallás szabadsága",
+      "a vallás szabadsága"
+    ]
+  },
+  {
+    "id": 127,
+    "chapter": 6,
+    "hu": "Melyik folyó két partján fekszik Budapest?",
+    "ru": "На берегах какой реки стоит Будапешт?",
+    "answer": "A Duna két partján.",
+    "translation": "На берегах Дуная.",
+    "wrong": [
+      "A Tisza két partján.",
+      "A Dráva két partján."
+    ]
+  },
+  {
+    "id": 128,
+    "chapter": 6,
+    "hu": "Hol tartják a busójárást?",
+    "ru": "В каком городе проходит праздник бушояраш?",
+    "answer": "Mohácson.",
+    "translation": "В Мохаче.",
+    "wrong": [
+      "Hollókőn.",
+      "Esztergomban."
+    ],
+    "writtenAliases": [
+      "Mohács",
+      "Mohács városában"
+    ]
+  },
+  {
+    "id": 129,
+    "chapter": 6,
+    "hu": "Hány vármegye van Magyarországon?",
+    "ru": "Сколько комитатов в Венгрии?",
+    "answer": "19.",
+    "translation": "19.",
+    "wrong": [
+      "23.",
+      "27."
+    ],
+    "writtenAliases": [
+      "19 vármegye",
+      "tizenkilenc",
+      "tizenkilenc vármegye"
+    ]
+  },
+  {
+    "id": 130,
+    "chapter": 1,
+    "hu": "Melyik mű kezdődik így: „Isten, áldd meg a magyart”?",
+    "ru": "Какое произведение начинается словами «Isten, áldd meg a magyart»?",
+    "answer": "A Himnusz.",
+    "translation": "Гимн Венгрии.",
+    "wrong": [
+      "A Szózat.",
+      "A Nemzeti dal."
+    ],
+    "writtenAliases": [
+      "Himnusz"
+    ]
+  },
+  {
+    "id": 131,
+    "chapter": 1,
+    "hu": "Melyik mai szlovák főváros volt régen magyar koronázóváros?",
+    "ru": "Какая нынешняя столица Словакии была местом коронации венгерских монархов?",
+    "answer": "Pozsony (Bratislava).",
+    "translation": "Пожонь (Братислава).",
+    "wrong": [
+      "Buda.",
+      "Esztergom."
+    ]
+  },
+  {
+    "id": 132,
+    "chapter": 2,
+    "hu": "Mi történt Nagy Imrével 1958-ban?",
+    "ru": "Что произошло с Имре Надем в 1958 году?",
+    "answer": "Kivégezték.",
+    "translation": "Его казнили.",
+    "wrong": [
+      "Miniszterelnök lett.",
+      "Újratemették."
+    ],
+    "writtenAliases": [
+      "Kivégezték Nagy Imrét",
+      "Halálra ítélték és kivégezték"
+    ]
+  },
+  {
+    "id": 133,
+    "chapter": 2,
+    "hu": "Mikor vezette II. Rákóczi Ferenc a szabadságharcot?",
+    "ru": "В какие годы Ференц II Ракоци возглавлял освободительную борьбу?",
+    "answer": "1703–1711 között.",
+    "translation": "В 1703–1711 годах.",
+    "wrong": [
+      "1848–1849 között.",
+      "1825–1848 között."
+    ],
+    "writtenAliases": [
+      "1703–1711",
+      "1703-tól 1711-ig"
+    ]
+  },
+  {
+    "id": 134,
+    "chapter": 3,
+    "hu": "Ki szerezte A hattyúk tava című balett zenéjét?",
+    "ru": "Кто написал музыку балета «Лебединое озеро»?",
+    "answer": "Pjotr Iljics Csajkovszkij.",
+    "translation": "Пётр Ильич Чайковский.",
+    "wrong": [
+      "Wolfgang Amadeus Mozart.",
+      "Ludwig van Beethoven."
+    ],
+    "writtenAliases": [
+      "Csajkovszkij",
+      "P. I. Csajkovszkij"
+    ]
+  },
+  {
+    "id": 135,
+    "chapter": 1,
+    "hu": "Melyek Magyarország négy fő nemzeti jelképei?",
+    "ru": "Назовите четыре главных национальных символа Венгрии.",
+    "answer": "A zászló, a címer, a Himnusz és a Szent Korona.",
+    "translation": "Флаг, герб, гимн и Святая корона."
+  },
+  {
+    "id": 136,
+    "chapter": 1,
+    "hu": "Hány sávból áll a címer vörös-ezüst mezője?",
+    "ru": "Сколько полос в красно-серебряном поле герба?",
+    "answer": "Nyolc sávból.",
+    "translation": "Восемь полос.",
+    "wrong": [
+      "Hét sávból.",
+      "Három sávból."
+    ]
+  },
+  {
+    "id": 137,
+    "chapter": 1,
+    "hu": "Hol őrzik a koronázási palástot?",
+    "ru": "Где хранится коронационная мантия?",
+    "answer": "A Magyar Nemzeti Múzeumban.",
+    "translation": "В Венгерском национальном музее.",
+    "wrong": [
+      "Az Országházban.",
+      "Az Operaházban."
+    ]
+  },
+  {
+    "id": 138,
+    "chapter": 1,
+    "hu": "Melyik ünnepen tartják a Szent Jobb-körmenetet?",
+    "ru": "В какой праздник проходит шествие со Святой десницей?",
+    "answer": "Augusztus 20-án.",
+    "translation": "20 августа.",
+    "wrong": [
+      "Március 15-én.",
+      "Október 23-án."
+    ]
+  },
+  {
+    "id": 139,
+    "chapter": 1,
+    "hu": "Melyik három nemzeti ünnepünk van?",
+    "ru": "Назовите три национальных праздника Венгрии.",
+    "answer": "Március 15., augusztus 20., október 23.",
+    "translation": "15 марта, 20 августа, 23 октября."
+  },
+  {
+    "id": 140,
+    "chapter": 1,
+    "hu": "Hogyan kezdődik a Szózat?",
+    "ru": "Как начинается стихотворение «Воззвание»?",
+    "answer": "Hazádnak rendületlenül légy híve, ó magyar.",
+    "translation": "Будь неизменно верен своей родине, о венгр."
+  },
+  {
+    "id": 141,
+    "chapter": 2,
+    "hu": "Mikor adták ki az Aranybullát?",
+    "ru": "Когда была издана Золотая булла?",
+    "answer": "1222-ben.",
+    "translation": "В 1222 году.",
+    "wrong": [
+      "1241-ben.",
+      "1301-ben."
+    ]
+  },
+  {
+    "id": 142,
+    "chapter": 2,
+    "hu": "Mikor volt a tatárjárás Magyarországon?",
+    "ru": "Когда произошло монгольское нашествие на Венгрию?",
+    "answer": "1241–1242-ben.",
+    "translation": "В 1241–1242 годах.",
+    "wrong": [
+      "1456-ban.",
+      "1526-ban."
+    ]
+  },
+  {
+    "id": 143,
+    "chapter": 2,
+    "hu": "Ki volt a második honalapító?",
+    "ru": "Кого называют вторым основателем государства?",
+    "answer": "IV. Béla.",
+    "translation": "Бела IV.",
+    "wrong": [
+      "II. András.",
+      "Hunyadi Mátyás."
+    ]
+  },
+  {
+    "id": 144,
+    "chapter": 2,
+    "hu": "Miért nevezik IV. Bélát második honalapítónak?",
+    "ru": "Почему Белу IV называют вторым основателем государства?",
+    "answer": "Mert a tatárjárás után újjáépítette az országot.",
+    "translation": "Потому что он восстановил страну после монгольского нашествия."
+  },
+  {
+    "id": 145,
+    "chapter": 2,
+    "hu": "Mikor halt ki az Árpád-ház?",
+    "ru": "Когда пресеклась династия Арпадов?",
+    "answer": "1301-ben.",
+    "translation": "В 1301 году.",
+    "wrong": [
+      "1222-ben.",
+      "1456-ban."
+    ]
+  },
+  {
+    "id": 146,
+    "chapter": 2,
+    "hu": "Mikor volt a nándorfehérvári diadal?",
+    "ru": "Когда произошла победа под Белградом?",
+    "answer": "1456-ban.",
+    "translation": "В 1456 году.",
+    "wrong": [
+      "1526-ban.",
+      "1686-ban."
+    ]
+  },
+  {
+    "id": 147,
+    "chapter": 2,
+    "hu": "Ki vezette a nándorfehérvári diadal magyar seregét?",
+    "ru": "Кто возглавлял венгерское войско при победе под Белградом?",
+    "answer": "Hunyadi János.",
+    "translation": "Янош Хуньяди.",
+    "wrong": [
+      "Hunyadi Mátyás.",
+      "II. Rákóczi Ferenc."
+    ]
+  },
+  {
+    "id": 148,
+    "chapter": 2,
+    "hu": "Mikor uralkodott Hunyadi Mátyás?",
+    "ru": "Когда правил Матьяш Хуньяди?",
+    "answer": "1458–1490 között.",
+    "translation": "В 1458–1490 годах.",
+    "wrong": [
+      "1301–1342 között.",
+      "1703–1711 között."
+    ]
+  },
+  {
+    "id": 149,
+    "chapter": 2,
+    "hu": "Mikor foglalták el a törökök Budát?",
+    "ru": "Когда османы захватили Буду?",
+    "answer": "1541-ben.",
+    "translation": "В 1541 году.",
+    "wrong": [
+      "1456-ban.",
+      "1686-ban."
+    ]
+  },
+  {
+    "id": 150,
+    "chapter": 2,
+    "hu": "Hány részre szakadt Magyarország 1541 után?",
+    "ru": "На сколько частей распалась Венгрия после 1541 года?",
+    "answer": "Három részre.",
+    "translation": "На три части.",
+    "wrong": [
+      "Két részre.",
+      "Négy részre."
+    ]
+  },
+  {
+    "id": 151,
+    "chapter": 2,
+    "hu": "Mikor foglalták vissza Budát a törököktől?",
+    "ru": "Когда Буду освободили от османского владычества?",
+    "answer": "1686-ban.",
+    "translation": "В 1686 году.",
+    "wrong": [
+      "1541-ben.",
+      "1848-ban."
+    ]
+  },
+  {
+    "id": 152,
+    "chapter": 2,
+    "hu": "Melyik vár ostroma volt híres 1552-ben?",
+    "ru": "Осада какой крепости прославилась в 1552 году?",
+    "answer": "Eger váráé.",
+    "translation": "Крепости Эгер.",
+    "wrong": [
+      "Buda váráé.",
+      "Visegrád váráé."
+    ]
+  },
+  {
+    "id": 153,
+    "chapter": 2,
+    "hu": "Ki vezette a Rákóczi-szabadságharcot?",
+    "ru": "Кто возглавил освободительную борьбу Ракоци?",
+    "answer": "II. Rákóczi Ferenc.",
+    "translation": "Ференц II Ракоци.",
+    "wrong": [
+      "Kossuth Lajos.",
+      "Deák Ferenc."
+    ]
+  },
+  {
+    "id": 154,
+    "chapter": 2,
+    "hu": "Mikor volt a reformkor?",
+    "ru": "Когда была эпоха реформ?",
+    "answer": "1825–1848 között.",
+    "translation": "В 1825–1848 годах.",
+    "wrong": [
+      "1703–1711 között.",
+      "1867–1918 között."
+    ]
+  },
+  {
+    "id": 155,
+    "chapter": 2,
+    "hu": "Mi volt a reformkor egyik fontos célja?",
+    "ru": "Какова была одна из важных целей эпохи реформ?",
+    "answer": "A magyar nyelv hivatalossá tétele.",
+    "translation": "Придание венгерскому языку официального статуса."
+  },
+  {
+    "id": 156,
+    "chapter": 2,
+    "hu": "Kit nevezünk a legnagyobb magyarnak?",
+    "ru": "Кого называют величайшим венгром?",
+    "answer": "Széchenyi Istvánt.",
+    "translation": "Иштвана Сеченьи.",
+    "wrong": [
+      "Deák Ferencet.",
+      "Batthyány Lajost."
+    ]
+  },
+  {
+    "id": 157,
+    "chapter": 2,
+    "hu": "Hol gyűltek össze a márciusi ifjak?",
+    "ru": "Где собралась мартовская молодёжь?",
+    "answer": "A Pilvax kávéházban.",
+    "translation": "В кафе «Пильвакс».",
+    "wrong": [
+      "Az Országházban.",
+      "Az Operaházban."
+    ]
+  },
+  {
+    "id": 158,
+    "chapter": 2,
+    "hu": "Hol nyomtatták ki a tizenkét pontot 1848-ban?",
+    "ru": "Где напечатали двенадцать пунктов в 1848 году?",
+    "answer": "A Landerer és Heckenast nyomdában.",
+    "translation": "В типографии Ландерера и Хекенаста."
+  },
+  {
+    "id": 159,
+    "chapter": 2,
+    "hu": "Ki volt az első magyar kormány pénzügyminisztere?",
+    "ru": "Кто был министром финансов первого ответственного правительства?",
+    "answer": "Kossuth Lajos.",
+    "translation": "Лайош Кошут.",
+    "wrong": [
+      "Deák Ferenc.",
+      "Petőfi Sándor."
+    ]
+  },
+  {
+    "id": 160,
+    "chapter": 2,
+    "hu": "Kit nevezünk a haza bölcsének?",
+    "ru": "Кого называют мудрецом отечества?",
+    "answer": "Deák Ferencet.",
+    "translation": "Ференца Деака.",
+    "wrong": [
+      "Széchenyi Istvánt.",
+      "Arany Jánost."
+    ]
+  },
+  {
+    "id": 161,
+    "chapter": 2,
+    "hu": "Mikor tört ki az első világháború?",
+    "ru": "Когда началась Первая мировая война?",
+    "answer": "1914-ben.",
+    "translation": "В 1914 году.",
+    "wrong": [
+      "1918-ban.",
+      "1939-ben."
+    ]
+  },
+  {
+    "id": 162,
+    "chapter": 2,
+    "hu": "Mi volt az első világháború közvetlen előzménye?",
+    "ru": "Что стало непосредственным поводом к Первой мировой войне?",
+    "answer": "Ferenc Ferdinánd meggyilkolása.",
+    "translation": "Убийство Франца Фердинанда."
+  },
+  {
+    "id": 163,
+    "chapter": 2,
+    "hu": "Melyik szövetséghez tartozott az Osztrák–Magyar Monarchia az első világháborúban?",
+    "ru": "К какому блоку принадлежала Австро-Венгрия в Первой мировой войне?",
+    "answer": "A központi hatalmakhoz.",
+    "translation": "К Центральным державам.",
+    "wrong": [
+      "Az antanthoz.",
+      "A Varsói Szerződéshez."
+    ]
+  },
+  {
+    "id": 164,
+    "chapter": 2,
+    "hu": "Területének mekkora részét veszítette el Magyarország Trianon után?",
+    "ru": "Какую часть территории потеряла Венгрия после Трианона?",
+    "answer": "Körülbelül kétharmadát.",
+    "translation": "Около двух третей.",
+    "wrong": [
+      "Egytizedét.",
+      "Egynegyedét."
+    ]
+  },
+  {
+    "id": 165,
+    "chapter": 2,
+    "hu": "Mikor volt a második világháború?",
+    "ru": "Когда была Вторая мировая война?",
+    "answer": "1939–1945 között.",
+    "translation": "В 1939–1945 годах.",
+    "wrong": [
+      "1914–1918 között.",
+      "1956–1960 között."
+    ]
+  },
+  {
+    "id": 166,
+    "chapter": 2,
+    "hu": "Mikor lépett Magyarország hadba a Szovjetunió ellen a második világháborúban?",
+    "ru": "Когда Венгрия вступила в войну против СССР во Второй мировой войне?",
+    "answer": "1941-ben.",
+    "translation": "В 1941 году.",
+    "wrong": [
+      "1939-ben.",
+      "1945-ben."
+    ]
+  },
+  {
+    "id": 167,
+    "chapter": 2,
+    "hu": "Mi volt az 1956-os forradalom egyik jelképe?",
+    "ru": "Какой символ был у революции 1956 года?",
+    "answer": "A lyukas zászló.",
+    "translation": "Флаг с отверстием.",
+    "wrong": [
+      "A Szent Korona.",
+      "A koronázási palást."
+    ]
+  },
+  {
+    "id": 168,
+    "chapter": 2,
+    "hu": "Melyik ország hadserege verte le az 1956-os forradalmat?",
+    "ru": "Армия какой страны подавила революцию 1956 года?",
+    "answer": "A Szovjetunió hadserege.",
+    "translation": "Армия СССР.",
+    "wrong": [
+      "Ausztria hadserege.",
+      "Olaszország hadserege."
+    ]
+  },
+  {
+    "id": 169,
+    "chapter": 2,
+    "hu": "Mikor voltak az első szabad országgyűlési választások a rendszerváltáskor?",
+    "ru": "Когда прошли первые свободные парламентские выборы при смене режима?",
+    "answer": "1990-ben.",
+    "translation": "В 1990 году.",
+    "wrong": [
+      "1980-ban.",
+      "2004-ben."
+    ]
+  },
+  {
+    "id": 170,
+    "chapter": 2,
+    "hu": "Mikor vonultak ki az utolsó szovjet csapatok Magyarországról?",
+    "ru": "Когда последние советские войска покинули Венгрию?",
+    "answer": "1991-ben.",
+    "translation": "В 1991 году.",
+    "wrong": [
+      "1956-ban.",
+      "2004-ben."
+    ]
+  },
+  {
+    "id": 171,
+    "chapter": 3,
+    "hu": "Ki írta a Nem tudhatom című verset?",
+    "ru": "Кто написал стихотворение «Nem tudhatom»?",
+    "answer": "Radnóti Miklós.",
+    "translation": "Миклош Радноти.",
+    "wrong": [
+      "József Attila.",
+      "Ady Endre."
+    ]
+  },
+  {
+    "id": 172,
+    "chapter": 3,
+    "hu": "Ki írta a Tiszta szívvel című verset?",
+    "ru": "Кто написал стихотворение «Tiszta szívvel»?",
+    "answer": "József Attila.",
+    "translation": "Аттила Йожеф.",
+    "wrong": [
+      "Radnóti Miklós.",
+      "Arany János."
+    ]
+  },
+  {
+    "id": 173,
+    "chapter": 4,
+    "hu": "Mi az Országgyűlés fő feladata?",
+    "ru": "Какова главная задача Государственного собрания?",
+    "answer": "A törvényalkotás.",
+    "translation": "Принятие законов.",
+    "wrong": [
+      "A bíráskodás.",
+      "A honvédség irányítása."
+    ]
+  },
+  {
+    "id": 174,
+    "chapter": 4,
+    "hu": "Mikor fogadták el Magyarország Alaptörvényét?",
+    "ru": "Когда приняли Основной закон Венгрии?",
+    "answer": "2011-ben.",
+    "translation": "В 2011 году.",
+    "wrong": [
+      "1990-ben.",
+      "2004-ben."
+    ]
+  },
+  {
+    "id": 175,
+    "chapter": 4,
+    "hu": "Ki vezeti a Kormányt?",
+    "ru": "Кто возглавляет правительство?",
+    "answer": "A miniszterelnök.",
+    "translation": "Премьер-министр.",
+    "wrong": [
+      "A köztársasági elnök.",
+      "A Kúria elnöke."
+    ]
+  },
+  {
+    "id": 176,
+    "chapter": 5,
+    "hu": "Mikor nyilvánították alkotmányellenesnek a halálbüntetést Magyarországon?",
+    "ru": "Когда смертную казнь признали неконституционной в Венгрии?",
+    "answer": "1990-ben.",
+    "translation": "В 1990 году.",
+    "wrong": [
+      "2004-ben.",
+      "2012-ben."
+    ]
+  },
+  {
+    "id": 177,
+    "chapter": 5,
+    "hu": "Melyik generációhoz tartozik az oktatáshoz való jog?",
+    "ru": "К какому поколению прав относится право на образование?",
+    "answer": "A második generációhoz.",
+    "translation": "Ко второму поколению.",
+    "wrong": [
+      "Az első generációhoz.",
+      "A harmadik generációhoz."
+    ]
+  },
+  {
+    "id": 178,
+    "chapter": 5,
+    "hu": "Melyik generációhoz tartozik a békés gyülekezés joga?",
+    "ru": "К какому поколению прав относится свобода мирных собраний?",
+    "answer": "Az első generációhoz.",
+    "translation": "К первому поколению.",
+    "wrong": [
+      "A második generációhoz.",
+      "A harmadik generációhoz."
+    ]
+  },
+  {
+    "id": 179,
+    "chapter": 6,
+    "hu": "Melyik hét országgal határos Magyarország?",
+    "ru": "С какими семью странами граничит Венгрия?",
+    "answer": "Ausztria, Szlovákia, Ukrajna, Románia, Szerbia, Horvátország és Szlovénia.",
+    "translation": "Австрия, Словакия, Украина, Румыния, Сербия, Хорватия и Словения."
+  },
+  {
+    "id": 180,
+    "chapter": 6,
+    "hu": "Melyik három város egyesítésével jött létre Budapest?",
+    "ru": "Какие три города объединились в Будапешт?",
+    "answer": "Buda, Pest és Óbuda.",
+    "translation": "Буда, Пешт и Обуда."
+  },
+  {
+    "id": 181,
+    "chapter": 6,
+    "hu": "Hány csillag van az Európai Unió zászlaján?",
+    "ru": "Сколько звёзд на флаге ЕС?",
+    "answer": "Tizenkettő.",
+    "translation": "Двенадцать.",
+    "wrong": [
+      "Huszonhét.",
+      "Huszonegy."
+    ]
+  },
+  {
+    "id": 182,
+    "chapter": 6,
+    "hu": "Mi Magyarország hivatalos nyelve?",
+    "ru": "Какой официальный язык Венгрии?",
+    "answer": "A magyar.",
+    "translation": "Венгерский.",
+    "wrong": [
+      "A német.",
+      "A latin."
+    ]
+  },
+  {
+    "id": 183,
+    "chapter": 6,
+    "hu": "Milyen étel a Pick téliszalámi?",
+    "ru": "Что такое зимняя салями Pick?",
+    "answer": "Hungarikum, húskészítmény.",
+    "translation": "Хунгарикум, мясное изделие."
+  },
+  {
+    "id": 184,
+    "chapter": 6,
+    "hu": "Mi a schengeni övezet egyik előnye?",
+    "ru": "Какое преимущество даёт Шенгенская зона?",
+    "answer": "A belső határokon általában nincs határellenőrzés.",
+    "translation": "На внутренних границах обычно нет пограничного контроля."
+  }
 ]
