@@ -1,4 +1,4 @@
-import {writingPractice} from './written.js';
+import {writingPractice} from './written.js?v=20261124-2';
 const app = document.querySelector('#app');
 const PDF = 'https://kormanyhivatalok.hu/sites/default/files/2026-09/kiv_segedanyag_bfkh_honlapra_aug.pdf';
 const INFO = 'https://kormanyhivatalok.hu/sites/default/files/2025-01/magyar-kulturalis-ismereti-vizsga-tajekoztato.pdf';
@@ -130,7 +130,9 @@ function render(){
 }
 try {
   [course,cards]=await Promise.all(['course.json','cards.json'].map(async name=>{
-    const res=await fetch(new URL(name,import.meta.url)); if(!res.ok)throw Error(name); return res.json();
+    const url=new URL(name,import.meta.url);
+    url.search=new URL(import.meta.url).search;
+    const res=await fetch(url); if(!res.ok)throw Error(name); return res.json();
   }));
   window.addEventListener('hashchange',render);render();
 } catch {
