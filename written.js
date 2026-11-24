@@ -5,7 +5,7 @@ export function writingPractice({holder, c, chapters, cards, save, persist, esc,
   const pool=cards.filter(q=>(!c||q.chapter===c.id)&&(paper||Array.isArray(q.writtenAliases)));
   const byId=new Map(pool.map(q=>[q.id,q]));
   const back=final?link('#/','← Все темы','breadcrumb'):'';
-  const title=paper?'Письмо от руки':final?'Итоговая письменная работа':'Письменный тест по теме';
+  const title=paper?'Письменная работа на экране':final?'Итоговая письменная работа':'Письменный тест по теме';
   let state=save.sessions[key];
   const valid=s=>s && Array.isArray(s.ids) && s.ids.length===n && new Set(s.ids).size===n && s.ids.every(id=>byId.has(id)) && Array.isArray(s.entries) && s.entries.length===n && s.entries.every(x=>typeof x==='string') && Number.isInteger(s.at) && s.at>=0 && s.at<=n && s.overrides && typeof s.overrides==='object';
   const remember=()=>{save.sessions[key]=state;persist();};
@@ -19,10 +19,10 @@ export function writingPractice({holder, c, chapters, cards, save, persist, esc,
     remember();draw();
   }
   function question(i){return byId.get(state.ids[i]);}
-  function auto(i){const q=question(i);return [q.answer,...q.writtenAliases].some(x=>normal(x)===normal(state.entries[i]));}
+  function auto(i){const q=question(i);return [q.answer,...(q.writtenAliases||[])].some(x=>normal(x)===normal(state.entries[i]));}
   function reviewItem(i){
     const q=question(i),recognized=auto(i);
-    return '<div class="passage"><h3>'+hu(q.hu)+'</h3><p>'+esc(q.ru)+'</p><p>Ваш ответ: '+hu(state.entries[i])+'</p><p>Образец: <strong>'+hu(q.answer)+'</strong><br>'+esc(q.translation)+'</p><p>'+(recognized?'✓ Ответ совпал с образцом.':state.overrides[i]?'✓ Вы засчитали свой вариант.':'Проверьте смысл: формулировка отличается от образца.')+'</p>'+(!recognized?btn('override-'+i,state.overrides[i]?'Отменить самозачёт':'Мой ответ верен по смыслу'):'')+'</div>';
+    return '<div class="passage"><h3>'+hu(q.hu)+'</h3><p>'+esc(q.ru)+'</p><p>Ваш ответ: '+hu(state.entries[i])+'</p><p>Образец: <strong>'+hu(q.answer)+'</strong><br>'+esc(q.translation)+'</p><p>'+(recognized?'✓ Ответ совпал с образцом.':state.overrides[i]?'✓ Вы засчитали свой вариант.':'Проверьте смысл: формулировка отличается от образца.')+'</p>'+(!recognized&&state.entries[i].trim()?btn('override-'+i,state.overrides[i]?'Отменить самозачёт':'Мой ответ верен по смыслу'):'')+'</div>';
   }
   function wireOverride(i){bind('override-'+i,()=>{state.overrides[i]=!state.overrides[i];remember();draw();});}
   function results(){
@@ -32,8 +32,11 @@ export function writingPractice({holder, c, chapters, cards, save, persist, esc,
     state.ids.forEach((_,i)=>wireOverride(i));bind('again-written',begin);
   }
   function sheet(){
-    holder.innerHTML=back+'<section class="pane"><p class="eyebrow">'+title+'</p><h2>Бланк для письма от руки</h2><p>Распечатайте бланк или запишите ответы в тетради по номерам. Заполняйте по-венгерски. После работы откройте ключ и сравните ответы.</p><div class="actions">'+btn('print-sheet','Распечатать бланк',true)+btn('sheet-key',state.showKey?'Скрыть ключ':'Показать ключ для проверки')+btn('new-sheet','Новый бланк')+'</div><div class="paper-sheet"><h2 lang="hu">Magyar kulturális ismeretek</h2><p lang="hu">'+(c?esc(c.hu):'Összesítő írásbeli gyakorlás')+' · Név: ____________________</p>'+state.ids.map((_,i)=>'<section class="paper-q"><h3>'+hu((i+1)+'. '+question(i).hu)+'</h3><div class="ruled" aria-hidden="true"></div></section>').join('')+'</div>'+(state.showKey?'<div class="paper-key"><h2>Ключ к этому бланку</h2>'+state.ids.map((_,i)=>'<div class="passage"><strong>'+(i+1)+'. '+hu(question(i).answer)+'</strong><p>'+esc(question(i).translation)+'</p></div>').join('')+'</div>':'')+'</section>';
-    bind('print-sheet',()=>window.print());bind('sheet-key',()=>{state.showKey=!state.showKey;remember();draw();if(state.showKey)holder.querySelector('.paper-key').scrollIntoView();});bind('new-sheet',begin);
+    if(state.at===n){results();return;}
+    holder.innerHTML=back+'<section class="pane"><h2>Письменная работа</h2><p>Введите ответы по-венгерски прямо под вопросами. Печатать бланк не нужно. После завершения вы увидите образцы ответов.</p><form id="screen-sheet"><div class="paper-sheet"><h2 lang="hu">Magyar kulturális ismeretek</h2>'+state.ids.map((_,i)=>'<section class="paper-q"><h3><label for="entry-'+i+'">'+hu((i+1)+'. '+question(i).hu)+'</label></h3><textarea id="entry-'+i+'" data-entry="'+i+'" lang="hu" rows="2" maxlength="1000" placeholder="Írd ide a válaszodat!">'+esc(state.entries[i])+'</textarea></section>').join('')+'</div><div class="actions"><button type="submit" class="primary">Проверить ответы</button>'+btn('new-sheet','Новый вариант')+'</div></form></section>';
+    holder.querySelectorAll('[data-entry]').forEach(input=>input.oninput=()=>{state.entries[Number(input.dataset.entry)]=input.value;remember();});
+    el('screen-sheet').onsubmit=e=>{e.preventDefault();state.at=n;remember();draw();holder.querySelector('h2')?.scrollIntoView({block:'start'});};
+    bind('new-sheet',()=>{if(state.entries.some(x=>x.trim())&&!window.confirm('Начать новый вариант? Введённые ответы будут удалены.'))return;begin();});
   }
   function draw(){
     if(paper){sheet();return;} if(state.at===n){results();return;}
